@@ -53,6 +53,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
           pnpm install
+          pnpm run build
           pnpm run package
 
       - name: Publish to NPM
