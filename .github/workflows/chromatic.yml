@@ -40,9 +40,6 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install && pnpm run build
-        env:
-          VITE_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          VITE_SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
 
         # 👇 Adds Chromatic as a step in the workflow
       - name: Publish to Chromatic

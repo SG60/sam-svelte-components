@@ -21,9 +21,6 @@ jobs:
           cache-dependency-path: ./pnpm-lock.yaml
 
       - name: Install and Build 🔧
-        env:
-          VITE_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          VITE_SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
         run: |
           pnpm install
           pnpm run build
