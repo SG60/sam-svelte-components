@@ -3,7 +3,10 @@ on:
   release:
     types: [created]
 jobs:
+  ci:
+    uses: sg60/sam-svelte-components/.github/workflows/ci.yml@main
   build-and-deploy-pages:
+    needs: ci
     concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
     runs-on: ubuntu-latest
     steps:
@@ -31,6 +34,7 @@ jobs:
           folder: ./build # The folder the action should deploy.
 
   build-and-push-package:
+    needs: ci
     runs-on: ubuntu-latest
     permissions:
       contents: read
