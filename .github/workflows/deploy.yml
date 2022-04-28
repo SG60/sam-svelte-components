@@ -46,6 +46,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16.x'
+          scope: '@SG60'
           registry-url: 'https://npm.pkg.github.com'
           cache: 'pnpm'
           cache-dependency-path: ./pnpm-lock.yaml
