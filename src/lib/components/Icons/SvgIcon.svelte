@@ -2,11 +2,11 @@
 	import type { iconInfo } from './icons';
 	export let icon: iconInfo;
 	export let title = icon.title;
-	export let size: string = '1rem';
+	export let size = '1rem';
 	// export let inline: boolean = true;
 	export let focusable: 'true' | 'false' = 'false';
 	export let color = '';
-	let extraClasses: string = '';
+	let extraClasses = '';
 	export { extraClasses as class };
 </script>
 
