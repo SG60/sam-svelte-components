@@ -10,7 +10,6 @@ specifiers:
   '@storybook/addon-svelte-csf': ^2.0.3
   '@storybook/builder-vite': ^0.1.30
   '@storybook/svelte': ^6.5.0-beta.1
-  '@sveltejs/adapter-static': 1.0.0-next.29
   '@sveltejs/kit': next
   '@tailwindcss/forms': ^0.5.0
   '@types/cookie': ^0.5.0
@@ -42,7 +41,6 @@ devDependencies:
   '@storybook/addon-svelte-csf': 2.0.3_3382d564ee534d0c7376d748605292fb
   '@storybook/builder-vite': 0.1.30_typescript@4.6.3
   '@storybook/svelte': 6.5.0-beta.1_40a4b90d968b807ae6eb07561ed9bb06
-  '@sveltejs/adapter-static': 1.0.0-next.29
   '@sveltejs/kit': 1.0.0-next.324_svelte@3.47.0
   '@tailwindcss/forms': 0.5.0_tailwindcss@3.0.24
   '@types/cookie': 0.5.1
@@ -3351,12 +3349,6 @@ packages:
       react-dom: 16.14.0_react@16.14.0
       regenerator-runtime: 0.13.9
       resolve-from: 5.0.0
-    dev: true
-
-  /@sveltejs/adapter-static/1.0.0-next.29:
-    resolution: {integrity: sha512-0hjGnfT3BRyoHnzJ2w0/xL+xICRpKneDTm45ZzggiRrc0r71WJfF6toGeg8N4QUQnj8EJ3Itm453gsS1kt7VUQ==}
-    dependencies:
-      tiny-glob: 0.2.9
     dev: true
 
   /@sveltejs/kit/1.0.0-next.324_svelte@3.47.0:
@@ -7105,10 +7097,6 @@ packages:
       define-properties: 1.1.4
     dev: true
 
-  /globalyzer/0.1.0:
-    resolution: {integrity: sha512-40oNTM9UfG6aBmuKxk/giHn5nQ8RVz/SS4Ir6zgzOv9/qC3kKZ9v4etGTcJbEl/NyVQH7FGU7d+X1egr57Md2Q==}
-    dev: true
-
   /globby/11.1.0:
     resolution: {integrity: sha512-jhIXaOzy1sb8IyocaruWSn1TjmnBVs8Ayhcy83rmxNJ8q2uWKCAj3CnJY+KpGSXCueAPc0i05kVvVKtP1t9S3g==}
     engines: {node: '>=10'}
@@ -7133,10 +7121,6 @@ packages:
       ignore: 4.0.6
       pify: 4.0.1
       slash: 2.0.0
-    dev: true
-
-  /globrex/0.1.2:
-    resolution: {integrity: sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==}
     dev: true
 
   /graceful-fs/4.2.10:
@@ -11067,13 +11051,6 @@ packages:
     engines: {node: '>=0.6.0'}
     dependencies:
       setimmediate: 1.0.5
-    dev: true
-
-  /tiny-glob/0.2.9:
-    resolution: {integrity: sha512-g/55ssRPUjShh+xkfx9UPDXqhckHEsHr4Vd9zX55oSdGZc/MD0m3sferOkwWtp98bv+kcVfEHtRJgBVJzelrzg==}
-    dependencies:
-      globalyzer: 0.1.0
-      globrex: 0.1.2
     dev: true
 
   /tmpl/1.0.5:
