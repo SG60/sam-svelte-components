@@ -8,12 +8,14 @@ A collection of Svelte components, published to a Storybook.
 
 ## Tech
 
-Using [SvelteKit](https://kit.svelte.dev/)
+Using [SvelteKit](https://kit.svelte.dev/).
+
+[packaging info](https://kit.svelte.dev/docs/packaging)
 
 ## Components
 
-- [Storybook](https://main--624b77e5c13ef5003a283a87.chromatic.com)
-- [Chromatic](https://chromatic.com/library?appId=624b77e5c13ef5003a283a87&branch=main)
+- [Storybook](https://main--626adf4e901217004a2c4a77.chromatic.com)
+- [Chromatic](https://chromatic.com/library?appId=626adf4e901217004a2c4a77)
 
 <br>
 
