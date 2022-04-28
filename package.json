@@ -50,6 +50,6 @@
 		"@fontsource/fira-mono": "^4.5.7",
 		"@lukeed/uuid": "^2.0.0",
 		"@supabase/supabase-js": "^1.32.2",
-		"cookie": "^0.4.1"
+		"cookie": "0.5.0"
 	}
 }
