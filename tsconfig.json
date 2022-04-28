@@ -2,6 +2,7 @@
 	"compilerOptions": {
 		"strict": true,
 		"importHelpers": true,
+		"forceConsistentCasingInFileNames": true,
 		"paths": {
 			"$components/*": [
 				"src/lib/components/*"
