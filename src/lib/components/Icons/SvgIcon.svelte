@@ -1,0 +1,27 @@
+<script lang="ts">
+	import type { iconInfo } from './icons';
+	export let icon: iconInfo;
+	export let title = icon.title;
+	export let size: string = '1rem';
+	// export let inline: boolean = true;
+	export let focusable: 'true' | 'false' = 'false';
+	export let color = '';
+	let extraClasses: string = '';
+	export { extraClasses as class };
+</script>
+
+<svg
+	class={extraClasses}
+	width={size}
+	height={size}
+	viewBox="0 0 {icon.viewBox} {icon.viewBox}"
+	{focusable}
+	style:color
+>
+	{#if title}
+		<title>{title}</title>
+	{/if}
+	<g>
+		{@html icon.svg}
+	</g>
+</svg>

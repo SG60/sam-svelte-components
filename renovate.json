@@ -1,0 +1,10 @@
+{
+	"extends": [
+		"config:js-app",
+		"group:linters",
+		"group:recommended",
+		"group:monorepos",
+		":automergeLinters",
+		":automergeTesters"
+	]
+}
