@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Meta, Story } from '@storybook/addon-svelte-csf';
 
-	import Counter from '$components/Counter.svelte';
+	import Counter from '$lib/Counter.svelte';
 </script>
 
 <Meta title="Counter" component={Counter} />

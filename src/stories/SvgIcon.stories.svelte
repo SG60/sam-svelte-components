@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
-	import SvgIcon from '$components/Icons/SvgIcon.svelte';
-	import '$components/Icons/icons';
-	import * as icons from '$components/Icons/icons';
+	import SvgIcon from '$lib/Icons/SvgIcon.svelte';
+	import '$lib/Icons/icons';
+	import * as icons from '$lib/Icons/icons';
 </script>
 
 <Meta

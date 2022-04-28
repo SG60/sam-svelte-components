@@ -4,8 +4,8 @@
 
 <script lang="ts">
 	// import { base } from '$app/paths';
-	import SvgIcon from '$components/Icons/SvgIcon.svelte';
-	import { notionLogo, calendar, update } from '$components/Icons/icons';
+	import SvgIcon from '$lib/Icons/SvgIcon.svelte';
+	import { notionLogo, calendar, update } from '$lib/Icons/icons';
 </script>
 
 <svelte:head>

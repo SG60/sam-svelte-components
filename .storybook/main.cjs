@@ -29,7 +29,6 @@ module.exports = {
 				alias: {
 					$lib: path.resolve('./src/lib'),
 					$app: path.resolve('node_modules/@sveltejs/kit/assets/app'),
-					$components: path.resolve('./src/lib/components'),
 					$utils: path.resolve('./src/lib/utils')
 				}
 			}
