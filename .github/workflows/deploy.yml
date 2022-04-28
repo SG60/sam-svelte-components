@@ -1,8 +1,7 @@
 name: Build and Deploy
 on:
-  push:
-    branches:
-      - main
+  release:
+    types: [created]
 jobs:
   build-and-deploy-pages:
     concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
@@ -56,5 +55,6 @@ jobs:
           pnpm run build
           pnpm run package
 
-      - name: Publish to NPM
-        run: npm publish ./package
+      - run: npm publish ./package
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
