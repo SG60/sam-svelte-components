@@ -1,6 +1,13 @@
 {
 	"name": "sam-svelte-components",
 	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/sg60/sam-svelte-components.git"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
