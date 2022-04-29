@@ -8,7 +8,7 @@ specifiers:
   '@storybook/addon-links': 6.5.0-beta.1
   '@storybook/addon-storysource': 6.5.0-beta.1
   '@storybook/addon-svelte-csf': 2.0.3
-  '@storybook/builder-vite': 0.1.30
+  '@storybook/builder-vite': 0.1.32
   '@storybook/svelte': 6.5.0-beta.1
   '@sveltejs/adapter-static': 1.0.0-next.29
   '@sveltejs/kit': next
@@ -41,7 +41,7 @@ devDependencies:
   '@storybook/addon-links': 6.5.0-beta.1
   '@storybook/addon-storysource': 6.5.0-beta.1
   '@storybook/addon-svelte-csf': 2.0.3_3382d564ee534d0c7376d748605292fb
-  '@storybook/builder-vite': 0.1.30_typescript@4.6.4
+  '@storybook/builder-vite': 0.1.32_typescript@4.6.4
   '@storybook/svelte': 6.5.0-beta.1_fe6ce689ab9854ed6a40f6c22679c812
   '@sveltejs/adapter-static': 1.0.0-next.29
   '@sveltejs/kit': 1.0.0-next.324_svelte@3.47.0
@@ -2377,8 +2377,8 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /@storybook/builder-vite/0.1.30_typescript@4.6.4:
-    resolution: {integrity: sha512-6Qf7IVZxEg3l18xXm0iqsGyG/T0ixeE8gU8zAo2u8wuEYCGNsQrnbu6it8BOXTJFk3gLPPETvxGszVIP56gRtA==}
+  /@storybook/builder-vite/0.1.32_typescript@4.6.4:
+    resolution: {integrity: sha512-/5dF4PNOIfgIdusKCt/8h7ZKzwkhwTpZsjM6IMgGxbv1J4OMy4JaOABL+rIssPGLjTHDmv3nvCm9ei6JkLSFzg==}
     peerDependencies:
       '@storybook/core-common': ^6.4.3
       vite: '>=2.6.7'
