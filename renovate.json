@@ -6,5 +6,15 @@
 		"group:monorepos",
 		":automergeLinters",
 		":automergeTesters"
-	]
+	],
+	"hostRules": [
+		{
+			"matchHost": "https://npm.pkg.github.com/",
+			"hostType": "npm",
+			"encrypted": {
+				"token": "wcFMA/xDdHCJBTolAQ/9GkEcQRkIuo9fyNyMzA5kr/xzZEduBG5qcvjEDIdj7Udyp+zLCoCsLsDGGBgYL3HxcZuFzO9oBnB7BQkb1Ylltg3msIlBmlP54pH8sKKgHLEg/6oS+wNzcQE2ybro2PMiR82sCTONeYqiUNhT8ZjnitQIO67j8pgSSQHKLWh8Ilwu7F7Q9XIpLx3+8+RLeg+D0r+HnvdrNzJccrWpSiIaXG2tfN0HDfV2Cu1ANDBDdbKpTPXQ+2TewVy4hITRb3I3wEoo4Cpy9YE44J6UyMcApqMM60HM85tj9a2w9B7tOYAMocSAywMXKyHCQNc426/De7KNFkl0M4xLl/YsZQocRfdRRAym5ZgU5wCZV/9dR2/u1jtsnRLTQHglimCdZ6Rkz9X4vojav6xVM4zNY+N5E2rPsGIGMxAdflLLQGCGEOdvTeQl3QZuSomNG6aPMkerQbi6bwfoKrJKzZXA3aT4gaAMG+O188MJvwuHuhVCTqTY2Oh/e9mhgbi2U0iiO6eRCFGqnox7AdOgSgubN9klR0q6UZnthMVQW4xsZjLoEH+5JSRYQdV5R+vWDAoWibNVGxZRnHTqqT8I9OlMJallfCEtHoaj5eaBlK5tGz8p+g5MMjiSPJym0F3kJhXNnvdPzUMmkBFDPzDcoAMQ7p25Tfniwax1iExjm4cbAdRj18/ScwHetobvQ0sWPEsJgtFWHsWfSs/qx6qop07pNBIcFVc4bsxuAMpURAoSp7Z/y/bDKvFFB5RTmQgqoAMC5EaIhdwuQbD/kMBoCmfwspbtnvmiyDn+p8PJOXpAhB0Hv5SHRg1oTudHhB8SA2mXT8Bx0dOtkP4"
+			}
+		}
+	],
+	"npmrc": "@sg60:registry=https://npm.pkg.github.com/"
 }
