@@ -1,6 +1,6 @@
 {
 	"extends": [
-		"config:js-app",
+		"config:js-lib",
 		"group:linters",
 		"group:recommended",
 		"group:monorepos",
