@@ -21,7 +21,7 @@ specifiers:
   '@storybook/theming': '>=6.5.0-beta.2'
   '@sveltejs/adapter-static': 1.0.0-next.29
   '@sveltejs/kit': next
-  '@tailwindcss/forms': 0.5.0
+  '@tailwindcss/forms': 0.5.1
   '@types/cookie': 0.5.1
   '@typescript-eslint/eslint-plugin': 5.22.0
   '@typescript-eslint/parser': 5.22.0
@@ -67,7 +67,7 @@ devDependencies:
   '@storybook/theming': 6.5.0-beta.2_wcqkhtmu7mswc6yz4uyexck3ty
   '@sveltejs/adapter-static': 1.0.0-next.29
   '@sveltejs/kit': 1.0.0-next.324_svelte@3.48.0
-  '@tailwindcss/forms': 0.5.0_tailwindcss@3.0.24
+  '@tailwindcss/forms': 0.5.1_tailwindcss@3.0.24
   '@types/cookie': 0.5.1
   '@typescript-eslint/eslint-plugin': 5.22.0_lnjlwhtxjffjmj5o7dnwvwyqxq
   '@typescript-eslint/parser': 5.22.0_t725usgvqspm5woeqpaxbfp2qu
@@ -3356,8 +3356,8 @@ packages:
       - supports-color
     dev: true
 
-  /@tailwindcss/forms/0.5.0_tailwindcss@3.0.24:
-    resolution: {integrity: sha512-KzWugryEBFkmoaYcBE18rs6gthWCFHHO7cAZm2/hv3hwD67AzwP7udSCa22E7R1+CEJL/FfhYsJWrc0b1aeSzw==}
+  /@tailwindcss/forms/0.5.1_tailwindcss@3.0.24:
+    resolution: {integrity: sha512-QSwsFORnC2BAP0lRzQkz1pw+EzIiiPdk4e27vGQjyXkwJPeC7iLIRVndJzf9CJVbcrrIcirb/TfxF3gRTyFEVA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
     dependencies:
