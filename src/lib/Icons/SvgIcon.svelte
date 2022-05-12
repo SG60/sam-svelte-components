@@ -3,7 +3,6 @@
 	export let icon: iconInfo;
 	export let title = icon.title;
 	export let size = '1rem';
-	// export let inline: boolean = true;
 	export let focusable: 'true' | 'false' = 'false';
 	export let color = '';
 	let extraClasses = '';
@@ -14,9 +13,10 @@
 	class={extraClasses}
 	width={size}
 	height={size}
-	viewBox="0 0 {icon.viewBox} {icon.viewBox}"
+	viewBox="0 0 {icon.viewBox[0]} {icon.viewBox[1]}"
 	{focusable}
 	style:color
+	style:fill={color}
 >
 	{#if title}
 		<title>{title}</title>
