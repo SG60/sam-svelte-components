@@ -36,7 +36,7 @@ specifiers:
   react: '>=16.13.1 <17.0.0 || >=17.0.0 <18.0.0'
   react-dom: '>=16.8.0 <17.0.0 || >=17.0.0 <18.0.0'
   svelte: 3.48.0
-  svelte-check: 2.7.0
+  svelte-check: 2.7.1
   svelte-loader: 3.1.2
   svelte-preprocess: 4.10.6
   svelte2tsx: 0.5.9
@@ -66,7 +66,7 @@ devDependencies:
   '@storybook/svelte': 6.5.0-beta.2_5inu4l6b2xafto3nrjwi6pypbi
   '@storybook/theming': 6.5.0-beta.2_wcqkhtmu7mswc6yz4uyexck3ty
   '@sveltejs/adapter-static': 1.0.0-next.30
-  '@sveltejs/kit': 1.0.0-next.328_svelte@3.48.0
+  '@sveltejs/kit': 1.0.0-next.330_svelte@3.48.0
   '@tailwindcss/forms': 0.5.1_tailwindcss@3.0.24
   '@types/cookie': 0.5.1
   '@typescript-eslint/eslint-plugin': 5.23.0_c63nfttrfhylg3zmgcxfslaw44
@@ -82,7 +82,7 @@ devDependencies:
   react: 16.14.0
   react-dom: 16.14.0_react@16.14.0
   svelte: 3.48.0
-  svelte-check: 2.7.0_oxdccrw5grvnvjy7k3rbnwju4i
+  svelte-check: 2.7.1_oxdccrw5grvnvjy7k3rbnwju4i
   svelte-loader: 3.1.2_svelte@3.48.0
   svelte-preprocess: 4.10.6_okt3hoc5uzu5ez25fila7udwvq
   svelte2tsx: 0.5.9_wwvk7nlptlrqo2czohjtk6eiqm
@@ -3321,8 +3321,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.328_svelte@3.48.0:
-    resolution: {integrity: sha512-L1RJ7wwLkOgo7aE+JiYppJEtVsSIpGPfgBZtjrS3J0avXVYUSTy+AfXbvjFJxTdk94uuCcTLUk/0vVODFm+Khg==}
+  /@sveltejs/kit/1.0.0-next.330_svelte@3.48.0:
+    resolution: {integrity: sha512-Wb95D5tOF8BViZuikqzZLAcupdS7TpXtadNPgpEOxKowmkrW8xjRrrfVdPIkNOLqAP1V+gKInmQ/gFYmnv5EjA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -11083,18 +11083,18 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.7.0_oxdccrw5grvnvjy7k3rbnwju4i:
-    resolution: {integrity: sha512-GrvG24j0+i8AOm0k0KyJ6Dqc+TAR2yzB7rtS4nljHStunVxCTr/1KYlv4EsOeoqtHLzeWMOd5D2O6nDdP/yw4A==}
+  /svelte-check/2.7.1_oxdccrw5grvnvjy7k3rbnwju4i:
+    resolution: {integrity: sha512-vHVu2+SQ6ibt77iTQaq2oiOjBgGL48qqcg0ZdEOsP5pPOjgeyR9QbnaEdzdBs9nsVYBc/42haKtzb2uFqS8GVw==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
     dependencies:
+      '@jridgewell/trace-mapping': 0.3.9
       chokidar: 3.5.3
       fast-glob: 3.2.11
       import-fresh: 3.3.0
       picocolors: 1.0.0
       sade: 1.8.1
-      source-map: 0.7.3
       svelte: 3.48.0
       svelte-preprocess: 4.10.6_okt3hoc5uzu5ez25fila7udwvq
       typescript: 4.6.4
