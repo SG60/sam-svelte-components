@@ -39,7 +39,7 @@ specifiers:
   svelte-check: 2.7.0
   svelte-loader: 3.1.2
   svelte-preprocess: 4.10.6
-  svelte2tsx: 0.5.9
+  svelte2tsx: 0.5.10
   tailwindcss: 3.0.24
   tslib: 2.4.0
   typescript: 4.6.4
@@ -66,7 +66,7 @@ devDependencies:
   '@storybook/svelte': 6.5.0-beta.2_5inu4l6b2xafto3nrjwi6pypbi
   '@storybook/theming': 6.5.0-beta.2_wcqkhtmu7mswc6yz4uyexck3ty
   '@sveltejs/adapter-static': 1.0.0-next.30
-  '@sveltejs/kit': 1.0.0-next.328_svelte@3.48.0
+  '@sveltejs/kit': 1.0.0-next.330_svelte@3.48.0
   '@tailwindcss/forms': 0.5.1_tailwindcss@3.0.24
   '@types/cookie': 0.5.1
   '@typescript-eslint/eslint-plugin': 5.23.0_c63nfttrfhylg3zmgcxfslaw44
@@ -85,7 +85,7 @@ devDependencies:
   svelte-check: 2.7.0_oxdccrw5grvnvjy7k3rbnwju4i
   svelte-loader: 3.1.2_svelte@3.48.0
   svelte-preprocess: 4.10.6_okt3hoc5uzu5ez25fila7udwvq
-  svelte2tsx: 0.5.9_wwvk7nlptlrqo2czohjtk6eiqm
+  svelte2tsx: 0.5.10_wwvk7nlptlrqo2czohjtk6eiqm
   tailwindcss: 3.0.24
   tslib: 2.4.0
   typescript: 4.6.4
@@ -3321,8 +3321,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.328_svelte@3.48.0:
-    resolution: {integrity: sha512-L1RJ7wwLkOgo7aE+JiYppJEtVsSIpGPfgBZtjrS3J0avXVYUSTy+AfXbvjFJxTdk94uuCcTLUk/0vVODFm+Khg==}
+  /@sveltejs/kit/1.0.0-next.330_svelte@3.48.0:
+    resolution: {integrity: sha512-Wb95D5tOF8BViZuikqzZLAcupdS7TpXtadNPgpEOxKowmkrW8xjRrrfVdPIkNOLqAP1V+gKInmQ/gFYmnv5EjA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -11193,8 +11193,8 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /svelte2tsx/0.5.9_wwvk7nlptlrqo2czohjtk6eiqm:
-    resolution: {integrity: sha512-xTDASjlh+rKo4QRhTRYSH87sS7fRoyX67xhGIMPKa3FYqftRHRmMes6nVgEskiuhBovslNHYYpMMg5YM5n/STg==}
+  /svelte2tsx/0.5.10_wwvk7nlptlrqo2czohjtk6eiqm:
+    resolution: {integrity: sha512-nokQ0HTTWMcNX6tLrDLiOmJCuqjKZU9nCZ6/mVuCL3nusXdbp+9nv69VG2pCy7uQC66kV4Ls+j0WfvvJuGVnkg==}
     peerDependencies:
       svelte: ^3.24
       typescript: ^4.1.2
