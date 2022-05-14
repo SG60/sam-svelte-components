@@ -7,6 +7,12 @@
 		":automergeLinters",
 		":automergeTesters"
 	],
+	"packageRules": [
+		{
+			"matchPackagePatterns": ["^svelte","^@sveltejs/"],
+			"groupName": "Svelte Repos"
+		}
+	],
 	"hostRules": [
 		{
 			"matchHost": "https://npm.pkg.github.com/",
