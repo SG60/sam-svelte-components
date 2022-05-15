@@ -9,8 +9,13 @@
 	],
 	"packageRules": [
 		{
-			"matchPackagePatterns": ["^svelte","^@sveltejs/"],
-			"groupName": "Svelte Repos"
+			"matchPackagePatterns": ["^@sveltejs/"],
+			"groupName": "SvelteKit monorepo"
+		},
+		{
+			"matchPackageNames": ["svelte-check", "svelte2tsx"],
+			"groupName": "Svelte Lint",
+			"automerge": true
 		}
 	],
 	"hostRules": [
