@@ -5,7 +5,8 @@
 		"group:recommended",
 		"group:monorepos",
 		":automergeLinters",
-		":automergeTesters"
+		":automergeTesters",
+		":preserveSemverRanges"
 	],
 	"packageRules": [
 		{
