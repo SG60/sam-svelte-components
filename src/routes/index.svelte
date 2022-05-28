@@ -14,7 +14,7 @@
 
 <section>
 	<h1>
-		<div class="welcome">Synchronise Notion & GCal</div>
+		<div class="welcome">Sam's Svelte Components!</div>
 	</h1>
 	<div class="flex flex-row items-center">
 		<SvgIcon class="mx-[0.8rem]" size="200px" icon={notionLogo} />
