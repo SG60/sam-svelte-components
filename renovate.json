@@ -5,7 +5,7 @@
 		"group:recommended",
 		"group:monorepos",
 		":automergeLinters",
-		":automergeTesters",
+		":automergeTesters"
 	],
 	"rangeStrategy": "auto",
 	"packageRules": [
