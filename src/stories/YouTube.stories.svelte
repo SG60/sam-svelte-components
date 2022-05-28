@@ -17,4 +17,9 @@
 <Template let:args><YouTube {...args} /></Template>
 
 <Story name="default" args={{ id: 'dByckr7h1Zk' }} />
-<Story name="autoplay" args={{ id: 'dByckr7h1Zk', autoplay: true }} />
+
+<Story
+	name="autoplay"
+	args={{ id: 'dByckr7h1Zk', autoplay: true }}
+	parameters={{ chromatic: { disableSnapshot: true } }}
+/>
