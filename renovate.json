@@ -6,8 +6,8 @@
 		"group:monorepos",
 		":automergeLinters",
 		":automergeTesters",
-		":preserveSemverRanges"
 	],
+	"rangeStrategy": "auto",
 	"packageRules": [
 		{
 			"matchPackagePatterns": ["^@sveltejs/"],
