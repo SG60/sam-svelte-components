@@ -16,7 +16,7 @@
 	viewBox="0 0 {icon.viewBox[0]} {icon.viewBox[1]}"
 	{focusable}
 	style:color
-	style:fill={color}
+	style:fill="currentColor"
 >
 	{#if title}
 		<title>{title}</title>
