@@ -7,7 +7,7 @@ specifiers:
   '@storybook/addon-essentials': 6.5.0-beta.2
   '@storybook/addon-links': 6.5.0-beta.2
   '@storybook/addon-storysource': 6.5.0-beta.2
-  '@storybook/addon-svelte-csf': 2.0.3
+  '@storybook/addon-svelte-csf': 2.0.4
   '@storybook/addons': 6.5.0-beta.2
   '@storybook/api': 6.5.0-beta.2
   '@storybook/builder-vite': 0.1.35
@@ -54,7 +54,7 @@ devDependencies:
   '@storybook/addon-essentials': 6.5.0-beta.2_6flnpicdkwahhr37evoc7nwtoa
   '@storybook/addon-links': 6.5.0-beta.2_wcqkhtmu7mswc6yz4uyexck3ty
   '@storybook/addon-storysource': 6.5.0-beta.2_wcqkhtmu7mswc6yz4uyexck3ty
-  '@storybook/addon-svelte-csf': 2.0.3_v632hdvs6azoqj4f65i4mkgtxe
+  '@storybook/addon-svelte-csf': 2.0.4_bnxtvwt5jczw6lvek5xg4lrvdu
   '@storybook/addons': 6.5.0-beta.2_wcqkhtmu7mswc6yz4uyexck3ty
   '@storybook/api': 6.5.0-beta.2_wcqkhtmu7mswc6yz4uyexck3ty
   '@storybook/builder-vite': 0.1.35_zrtsrpooeosxuj5f635zszwq44
@@ -2225,8 +2225,8 @@ packages:
       regenerator-runtime: 0.13.9
     dev: true
 
-  /@storybook/addon-svelte-csf/2.0.3_v632hdvs6azoqj4f65i4mkgtxe:
-    resolution: {integrity: sha512-4cSYmcUnfFIyrMA6PGPsVcF70vxzuCbICbazL5BSpZquzkRikYoYEDSAwlZ0V3yGKfaw1oHg2X7Ob72xec7OeA==}
+  /@storybook/addon-svelte-csf/2.0.4_bnxtvwt5jczw6lvek5xg4lrvdu:
+    resolution: {integrity: sha512-W6+v5cHsbfG2pHdndB3YEReq+BSmQr+QUjEv6J1/Z5OwcRoE7TgeOI4J0qTW12xfO3E/NNu0AFr3nCS2G3fw2Q==}
     peerDependencies:
       '@storybook/addons': '>=6.4.20'
       '@storybook/api': '>=6.4.20'
@@ -2236,15 +2236,9 @@ packages:
       '@storybook/core-events': '>=6.4.20'
       '@storybook/svelte': '>=6.4.20'
       '@storybook/theming': '>=6.4.20'
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
       svelte: ^3.46.6
       svelte-loader: ^3.1.2
     peerDependenciesMeta:
-      react:
-        optional: true
-      react-dom:
-        optional: true
       svelte:
         optional: true
     dependencies:
@@ -2256,8 +2250,6 @@ packages:
       '@storybook/core-events': 6.5.0-beta.2
       '@storybook/svelte': 6.5.0-beta.2_3gwk4bmhhwix26zje7rsrnocje
       '@storybook/theming': 6.5.0-beta.2_wcqkhtmu7mswc6yz4uyexck3ty
-      react: 16.14.0
-      react-dom: 16.14.0_react@16.14.0
       svelte: 3.48.0
       svelte-loader: 3.1.2_svelte@3.48.0
       ts-dedent: 2.2.0
