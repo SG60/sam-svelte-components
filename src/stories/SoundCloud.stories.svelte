@@ -4,10 +4,9 @@
 </script>
 
 <Meta
-	title="SoundCloud Embed"
+	title="Embeds/SoundCloud"
 	component={SoundCloud}
 	argTypes={{
-		// trackId: { control: 'text', defaultValue: '1202071039' },
 		title: { control: 'text' },
 		url: { control: 'text' },
 		height: { control: 'select', options: [166, 300, 450, 600] },
