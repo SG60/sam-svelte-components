@@ -1,7 +1,7 @@
 <script type="ts">
 	export let url: string;
 	export let title = 'SoundCloud Player';
-	export let height: 166 | 300 | 450 | 600 = 166;
+	export let height: number = 166;
 	export let color = '4f6cec';
 </script>
 

@@ -9,7 +9,7 @@
 	argTypes={{
 		title: { control: 'text' },
 		url: { control: 'text' },
-		height: { control: 'select', options: [166, 300, 450, 600] },
+		height: { control: 'number', defaultValue: 166 },
 		color: { control: 'text', defaultValue: '4f6cec' }
 	}}
 />
