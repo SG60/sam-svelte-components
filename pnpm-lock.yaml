@@ -37,10 +37,10 @@ specifiers:
   react: '>=16.13.1 <17.0.0 || >=17.0.0 <18.0.0'
   react-dom: '>=16.8.0 <17.0.0 || >=17.0.0 <18.0.0'
   svelte: ^3.48.0
-  svelte-check: ^2.7.0
+  svelte-check: 2.7.1
   svelte-loader: ^3.1.2
   svelte-preprocess: ^4.10.6
-  svelte2tsx: ^0.5.9
+  svelte2tsx: 0.5.10
   tailwindcss: ^3.0.24
   tslib: ^2.4.0
   typescript: ^4.6.4
@@ -84,10 +84,10 @@ devDependencies:
   react: 16.14.0
   react-dom: 16.14.0_react@16.14.0
   svelte: 3.48.0
-  svelte-check: 2.7.0_oxdccrw5grvnvjy7k3rbnwju4i
+  svelte-check: 2.7.1_oxdccrw5grvnvjy7k3rbnwju4i
   svelte-loader: 3.1.2_svelte@3.48.0
   svelte-preprocess: 4.10.6_okt3hoc5uzu5ez25fila7udwvq
-  svelte2tsx: 0.5.9_wwvk7nlptlrqo2czohjtk6eiqm
+  svelte2tsx: 0.5.10_wwvk7nlptlrqo2czohjtk6eiqm
   tailwindcss: 3.0.24
   tslib: 2.4.0
   typescript: 4.6.4
@@ -5550,7 +5550,7 @@ packages:
     dev: true
 
   /dedent-js/1.0.1:
-    resolution: {integrity: sha1-vuX7fJ5yfYXf+iRZDRDsGrElUwU=}
+    resolution: {integrity: sha512-OUepMozQULMLUmhxS95Vudo0jb0UchLimi3+pQ2plj61Fcy8axbP9hbiD4Sz6DPqn6XG3kfmziVfQ1rSys5AJQ==}
     dev: true
 
   /deep-is/0.1.4:
@@ -6847,7 +6847,7 @@ packages:
     optional: true
 
   /fill-range/4.0.0:
-    resolution: {integrity: sha1-1USBHUKPmOsGpj3EAtJAPDKMOPc=}
+    resolution: {integrity: sha512-VcpLTWqWDiTerugjj8e3+esbg+skS3M9e54UuR3iCeIDMXCLTsAH8hTSzDQU/X6/6t3eYkOKoZSef2PlU6U1XQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       extend-shallow: 2.0.1
@@ -11112,18 +11112,18 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.7.0_oxdccrw5grvnvjy7k3rbnwju4i:
-    resolution: {integrity: sha512-GrvG24j0+i8AOm0k0KyJ6Dqc+TAR2yzB7rtS4nljHStunVxCTr/1KYlv4EsOeoqtHLzeWMOd5D2O6nDdP/yw4A==}
+  /svelte-check/2.7.1_oxdccrw5grvnvjy7k3rbnwju4i:
+    resolution: {integrity: sha512-vHVu2+SQ6ibt77iTQaq2oiOjBgGL48qqcg0ZdEOsP5pPOjgeyR9QbnaEdzdBs9nsVYBc/42haKtzb2uFqS8GVw==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
     dependencies:
+      '@jridgewell/trace-mapping': 0.3.9
       chokidar: 3.5.3
       fast-glob: 3.2.11
       import-fresh: 3.3.0
       picocolors: 1.0.0
       sade: 1.8.1
-      source-map: 0.7.3
       svelte: 3.48.0
       svelte-preprocess: 4.10.6_okt3hoc5uzu5ez25fila7udwvq
       typescript: 4.6.4
@@ -11222,8 +11222,8 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /svelte2tsx/0.5.9_wwvk7nlptlrqo2czohjtk6eiqm:
-    resolution: {integrity: sha512-xTDASjlh+rKo4QRhTRYSH87sS7fRoyX67xhGIMPKa3FYqftRHRmMes6nVgEskiuhBovslNHYYpMMg5YM5n/STg==}
+  /svelte2tsx/0.5.10_wwvk7nlptlrqo2czohjtk6eiqm:
+    resolution: {integrity: sha512-nokQ0HTTWMcNX6tLrDLiOmJCuqjKZU9nCZ6/mVuCL3nusXdbp+9nv69VG2pCy7uQC66kV4Ls+j0WfvvJuGVnkg==}
     peerDependencies:
       svelte: ^3.24
       typescript: ^4.1.2
