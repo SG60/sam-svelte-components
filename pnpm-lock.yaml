@@ -32,7 +32,7 @@ specifiers:
   eslint-plugin-storybook: 0.5.12
   eslint-plugin-svelte3: 4.0.0
   postcss: 8.4.14
-  prettier: 2.6.2
+  prettier: 2.7.1
   prettier-plugin-svelte: 2.7.0
   react: 16.14.0
   react-dom: 16.14.0
@@ -79,8 +79,8 @@ devDependencies:
   eslint-plugin-storybook: 0.5.12_ud6rd4xtew5bv4yhvkvu24pzm4
   eslint-plugin-svelte3: 4.0.0_3aft6623ti3qaietkx5ojwfh2e
   postcss: 8.4.14
-  prettier: 2.6.2
-  prettier-plugin-svelte: 2.7.0_kkjbqzpydplecjtkxrgomroeru
+  prettier: 2.7.1
+  prettier-plugin-svelte: 2.7.0_nakrehnrzdf7fdea5k3a4dfy4m
   react: 16.14.0
   react-dom: 16.14.0_react@16.14.0
   svelte: 3.48.0
@@ -9617,13 +9617,13 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-svelte/2.7.0_kkjbqzpydplecjtkxrgomroeru:
+  /prettier-plugin-svelte/2.7.0_nakrehnrzdf7fdea5k3a4dfy4m:
     resolution: {integrity: sha512-fQhhZICprZot2IqEyoiUYLTRdumULGRvw0o4dzl5jt0jfzVWdGqeYW27QTWAeXhoupEZJULmNoH3ueJwUWFLIA==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
     dependencies:
-      prettier: 2.6.2
+      prettier: 2.7.1
       svelte: 3.48.0
     dev: true
 
@@ -9633,8 +9633,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier/2.6.2:
-    resolution: {integrity: sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==}
+  /prettier/2.7.1:
+    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
