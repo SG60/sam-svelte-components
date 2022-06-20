@@ -1,7 +1,7 @@
 name: Build and Deploy
 on:
   release:
-    types: [created]
+    types: [published]
 jobs:
   ci:
     uses: sg60/sam-svelte-components/.github/workflows/ci.yml@main
