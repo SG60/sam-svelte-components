@@ -16,9 +16,14 @@
 
 <Template let:args><SoundCloud {...args} /></Template>
 
-<Story name="default" args={{ url: 'https://soundcloud.com/samgreening/frames' }} />
+<Story
+	name="track"
+	args={{ url: 'https://soundcloud.com/samgreening/frames' }}
+	parameters={{ chromatic: { disableSnapshot: true } }}
+/>
 
 <Story
 	name="playlist"
 	args={{ url: 'https://soundcloud.com/samgreening/sets/edward-thomas-songs', height: 300 }}
+	parameters={{ chromatic: { disableSnapshot: true } }}
 />
