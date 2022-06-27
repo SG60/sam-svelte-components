@@ -20,7 +20,7 @@ specifiers:
   '@storybook/svelte': 6.5.9
   '@storybook/theming': 6.5.9
   '@sveltejs/adapter-static': 1.0.0-next.34
-  '@sveltejs/kit': 1.0.0-next.354
+  '@sveltejs/kit': 1.0.0-next.355
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.49
   '@tailwindcss/forms': 0.5.2
   '@types/cookie': 0.5.1
@@ -67,7 +67,7 @@ devDependencies:
   '@storybook/svelte': 6.5.9_i6rrjnpy2e55fqlbxv5x4dbh4q
   '@storybook/theming': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
   '@sveltejs/adapter-static': 1.0.0-next.34
-  '@sveltejs/kit': 1.0.0-next.354_svelte@3.48.0
+  '@sveltejs/kit': 1.0.0-next.355_svelte@3.48.0
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.49_svelte@3.48.0+vite@2.9.13
   '@tailwindcss/forms': 0.5.2_tailwindcss@3.1.4
   '@types/cookie': 0.5.1
@@ -3071,8 +3071,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.354_svelte@3.48.0:
-    resolution: {integrity: sha512-dTfFT0c3sxztFpiw6H4bQnPd+PtHgEZG6j6ssT9sWLONfzUgWRX0S7H/WoPEjr7u65o2HNazoj8jmEq3ZTwb9g==}
+  /@sveltejs/kit/1.0.0-next.355_svelte@3.48.0:
+    resolution: {integrity: sha512-4M+BZL/kKgw5tMRkAYcpg38hxMX80iz6H9+nv2v6VzvKhD4Pw6zatzMs2D6PCT2uBHnrKGrUCheBBcK8kZdWKg==}
     engines: {node: '>=16.7'}
     hasBin: true
     peerDependencies:
