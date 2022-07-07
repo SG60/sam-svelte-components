@@ -10,7 +10,7 @@ specifiers:
   '@storybook/addon-svelte-csf': 2.0.4
   '@storybook/addons': 6.5.9
   '@storybook/api': 6.5.9
-  '@storybook/builder-vite': 0.1.38
+  '@storybook/builder-vite': 0.1.39
   '@storybook/client-api': 6.5.9
   '@storybook/client-logger': 6.5.9
   '@storybook/components': 6.5.9
@@ -57,7 +57,7 @@ devDependencies:
   '@storybook/addon-svelte-csf': 2.0.4_d5di6k7whrokzcaddddcmt7hda
   '@storybook/addons': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
   '@storybook/api': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
-  '@storybook/builder-vite': 0.1.38_wwfpo43b3xq6rvj6ynpu24aaam
+  '@storybook/builder-vite': 0.1.39_wwfpo43b3xq6rvj6ynpu24aaam
   '@storybook/client-api': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
   '@storybook/client-logger': 6.5.9
   '@storybook/components': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
@@ -2252,8 +2252,8 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /@storybook/builder-vite/0.1.38_wwfpo43b3xq6rvj6ynpu24aaam:
-    resolution: {integrity: sha512-aCBuVP3phWGpT4548dCjSWC9X4TOhzVOt+jq8BVbzZ/Cyou8UFN45Z5kMxtpVsVnJEQ0abC/BdkRuRtGEL/vJQ==}
+  /@storybook/builder-vite/0.1.39_wwfpo43b3xq6rvj6ynpu24aaam:
+    resolution: {integrity: sha512-lLRbB2Ut8/LT0U/D6hVu+gyalMzMNyhDAm04ik6FuNASn/roBML5G1NTvzt4zrsYTNpZoeCic7IKpe1NHsSfhQ==}
     peerDependencies:
       '@storybook/core-common': '>=6.4.3 || >=6.5.0-alpha.0'
       '@storybook/mdx2-csf': ^0.0.3
