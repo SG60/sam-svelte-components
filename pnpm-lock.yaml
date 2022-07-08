@@ -44,7 +44,7 @@ specifiers:
   tailwindcss: 3.1.5
   tslib: 2.4.0
   typescript: 4.7.4
-  vite: 2.9.13
+  vite: 2.9.14
   webpack: 5.73.0
 
 devDependencies:
@@ -57,7 +57,7 @@ devDependencies:
   '@storybook/addon-svelte-csf': 2.0.5_d5di6k7whrokzcaddddcmt7hda
   '@storybook/addons': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
   '@storybook/api': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
-  '@storybook/builder-vite': 0.1.39_wwfpo43b3xq6rvj6ynpu24aaam
+  '@storybook/builder-vite': 0.1.39_jjdjdt7ekln7esodhgekrmncuq
   '@storybook/client-api': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
   '@storybook/client-logger': 6.5.9
   '@storybook/components': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
@@ -67,8 +67,8 @@ devDependencies:
   '@storybook/svelte': 6.5.9_ip5fop4oparpvgq5a2ftyse7ki
   '@storybook/theming': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
   '@sveltejs/adapter-static': 1.0.0-next.34
-  '@sveltejs/kit': 1.0.0-next.361_svelte@3.48.0+vite@2.9.13
-  '@sveltejs/vite-plugin-svelte': 1.0.0-next.49_svelte@3.48.0+vite@2.9.13
+  '@sveltejs/kit': 1.0.0-next.361_svelte@3.48.0+vite@2.9.14
+  '@sveltejs/vite-plugin-svelte': 1.0.0-next.49_svelte@3.48.0+vite@2.9.14
   '@tailwindcss/forms': 0.5.2_tailwindcss@3.1.5
   '@types/cookie': 0.5.1
   '@typescript-eslint/eslint-plugin': 5.30.5_6zdoc3rn4mpiddqwhppni2mnnm
@@ -91,7 +91,7 @@ devDependencies:
   tailwindcss: 3.1.5
   tslib: 2.4.0
   typescript: 4.7.4
-  vite: 2.9.13
+  vite: 2.9.14
   webpack: 5.73.0
 
 packages:
@@ -1607,7 +1607,7 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@joshwooding/vite-plugin-react-docgen-typescript/0.0.4_hcbhbela4dsabngu7n2naeo4la:
+  /@joshwooding/vite-plugin-react-docgen-typescript/0.0.4_lahzunkvacnqvhsxgkxtoghzza:
     resolution: {integrity: sha512-ezL7SU//1OV4Oyt/zQ3CsX8uLujVEYUHuULkqgcW6wOuQfRnvgkn99HZtLWwS257GmZVwszGQzhL7VE3PbMAYw==}
     peerDependencies:
       typescript: '>= 4.3.x'
@@ -1618,7 +1618,7 @@ packages:
       magic-string: 0.26.2
       react-docgen-typescript: 2.2.2_typescript@4.7.4
       typescript: 4.7.4
-      vite: 2.9.13
+      vite: 2.9.14
     dev: true
 
   /@jridgewell/gen-mapping/0.1.1:
@@ -2252,7 +2252,7 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /@storybook/builder-vite/0.1.39_wwfpo43b3xq6rvj6ynpu24aaam:
+  /@storybook/builder-vite/0.1.39_jjdjdt7ekln7esodhgekrmncuq:
     resolution: {integrity: sha512-lLRbB2Ut8/LT0U/D6hVu+gyalMzMNyhDAm04ik6FuNASn/roBML5G1NTvzt4zrsYTNpZoeCic7IKpe1NHsSfhQ==}
     peerDependencies:
       '@storybook/core-common': '>=6.4.3 || >=6.5.0-alpha.0'
@@ -2263,7 +2263,7 @@ packages:
       '@storybook/mdx2-csf':
         optional: true
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.0.4_hcbhbela4dsabngu7n2naeo4la
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.0.4_lahzunkvacnqvhsxgkxtoghzza
       '@storybook/core-common': 6.5.9_z6by3662bjvh4pt3mevfnp2bzu
       '@storybook/mdx1-csf': 0.0.4_v2wnvfwwhgapxbqqkw3slx2zde
       '@storybook/node-logger': 6.5.9
@@ -2277,7 +2277,7 @@ packages:
       react-docgen: 6.0.0-alpha.2
       slash: 3.0.0
       sveltedoc-parser: 4.2.1
-      vite: 2.9.13
+      vite: 2.9.14
     transitivePeerDependencies:
       - '@babel/core'
       - react
@@ -3089,7 +3089,7 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.361_svelte@3.48.0+vite@2.9.13:
+  /@sveltejs/kit/1.0.0-next.361_svelte@3.48.0+vite@2.9.14:
     resolution: {integrity: sha512-F5hvtNIakMqRpVg4kXQWNRnGTpud+N5HsY/Z6SWXndZUEwc2jDYDGq7ytzJp3Ep4+ZbA6yS5YbHiLdZcTMBgWQ==}
     engines: {node: '>=16.9'}
     hasBin: true
@@ -3097,17 +3097,17 @@ packages:
       svelte: ^3.44.0
       vite: ^2.9.10
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 1.0.0-next.49_svelte@3.48.0+vite@2.9.13
+      '@sveltejs/vite-plugin-svelte': 1.0.0-next.49_svelte@3.48.0+vite@2.9.14
       chokidar: 3.5.3
       sade: 1.8.1
       svelte: 3.48.0
-      vite: 2.9.13
+      vite: 2.9.14
     transitivePeerDependencies:
       - diff-match-patch
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.49_svelte@3.48.0+vite@2.9.13:
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.49_svelte@3.48.0+vite@2.9.14:
     resolution: {integrity: sha512-AKh0Ka8EDgidnxWUs8Hh2iZLZovkETkefO99XxZ4sW4WGJ7VFeBx5kH/NIIGlaNHLcrIvK3CK0HkZwC3Cici0A==}
     engines: {node: ^14.13.1 || >= 16}
     peerDependencies:
@@ -3125,7 +3125,7 @@ packages:
       magic-string: 0.26.2
       svelte: 3.48.0
       svelte-hmr: 0.14.12_svelte@3.48.0
-      vite: 2.9.13
+      vite: 2.9.14
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3554,7 +3554,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.16.7_@babel+core@7.18.6
       '@rollup/pluginutils': 4.2.1
       react-refresh: 0.12.0
-      resolve: 1.22.0
+      resolve: 1.22.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -9609,7 +9609,7 @@ packages:
       estree-to-babel: 3.2.1
       neo-async: 2.6.2
       node-dir: 0.1.17
-      resolve: 1.22.0
+      resolve: 1.22.1
       strip-indent: 3.0.0
     transitivePeerDependencies:
       - supports-color
@@ -9969,15 +9969,6 @@ packages:
   /resolve-url/0.2.1:
     resolution: {integrity: sha512-ZuF55hVUQaaczgOIwqWzkEcEidmlD/xl44x1UZnhOXcYuFN2S6+rcxpG+C1N3So0wvNI3DmJICUFfu2SxhBmvg==}
     deprecated: https://github.com/lydell/resolve-url#deprecated
-    dev: true
-
-  /resolve/1.22.0:
-    resolution: {integrity: sha512-Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw==}
-    hasBin: true
-    dependencies:
-      is-core-module: 2.9.0
-      path-parse: 1.0.7
-      supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
   /resolve/1.22.1:
@@ -11530,8 +11521,8 @@ packages:
       vfile-message: 2.0.4
     dev: true
 
-  /vite/2.9.13:
-    resolution: {integrity: sha512-AsOBAaT0AD7Mhe8DuK+/kE4aWYFMx/i0ZNi98hJclxb4e0OhQcZYUrvLjIaQ8e59Ui7txcvKMiJC1yftqpQoDw==}
+  /vite/2.9.14:
+    resolution: {integrity: sha512-P/UCjSpSMcE54r4mPak55hWAZPlyfS369svib/gpmz8/01L822lMPOJ/RYW6tLCe1RPvMvOsJ17erf55bKp4Hw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
@@ -11548,7 +11539,7 @@ packages:
     dependencies:
       esbuild: 0.14.38
       postcss: 8.4.14
-      resolve: 1.22.0
+      resolve: 1.22.1
       rollup: 2.70.2
     optionalDependencies:
       fsevents: 2.3.2
