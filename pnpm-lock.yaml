@@ -7,7 +7,7 @@ specifiers:
   '@storybook/addon-essentials': 6.5.9
   '@storybook/addon-links': 6.5.9
   '@storybook/addon-storysource': 6.5.9
-  '@storybook/addon-svelte-csf': 2.0.5
+  '@storybook/addon-svelte-csf': 2.0.6
   '@storybook/addons': 6.5.9
   '@storybook/api': 6.5.9
   '@storybook/builder-vite': 0.1.39
@@ -53,7 +53,7 @@ devDependencies:
   '@storybook/addon-essentials': 6.5.9_fuzlwjoxpcwd6qpyd5jqnp3u2u
   '@storybook/addon-links': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
   '@storybook/addon-storysource': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
-  '@storybook/addon-svelte-csf': 2.0.5_ninkcjsx375oaexnicym6gptam
+  '@storybook/addon-svelte-csf': 2.0.6_3yriknnyu7vebsp22jt4f57l2i
   '@storybook/addons': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
   '@storybook/api': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
   '@storybook/builder-vite': 0.1.39_7l3vo5tb2p2poeczr6kz5nw3ga
@@ -2124,31 +2124,17 @@ packages:
       regenerator-runtime: 0.13.9
     dev: true
 
-  /@storybook/addon-svelte-csf/2.0.5_ninkcjsx375oaexnicym6gptam:
-    resolution: {integrity: sha512-7Yg3mujRwSCURB6+CUXk6bfbeARMTdax+zt7Nw25MTGz9/zDXC0LTbISvAg+d21Qs8zzDWY/52ww0sG3j1Pj8A==}
+  /@storybook/addon-svelte-csf/2.0.6_3yriknnyu7vebsp22jt4f57l2i:
+    resolution: {integrity: sha512-QOLjWDVrky5gWOh2jbFgUW5WKBkkRXrmpgfGGisllA3dsQRyr/MepHG2wnBMZaNYd/WXmbAVajZL+6a1d4+fpQ==}
     peerDependencies:
-      '@storybook/addons': '>=6.4.20'
-      '@storybook/api': '>=6.4.20'
-      '@storybook/client-api': '>=6.4.20'
-      '@storybook/client-logger': '>=6.4.20'
-      '@storybook/components': '>=6.4.20'
-      '@storybook/core-events': '>=6.4.20'
       '@storybook/svelte': '>=6.4.20'
-      '@storybook/theming': '>=6.4.20'
       svelte: ^3.46.6
       svelte-loader: ^3.1.2
     peerDependenciesMeta:
       svelte-loader:
         optional: true
     dependencies:
-      '@storybook/addons': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
-      '@storybook/api': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
-      '@storybook/client-api': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
-      '@storybook/client-logger': 6.5.9
-      '@storybook/components': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
-      '@storybook/core-events': 6.5.9
       '@storybook/svelte': 6.5.9_zbnmnilvwgeikkheb66vezgwdu
-      '@storybook/theming': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
       svelte: 3.49.0
       svelte-loader: 3.1.3_svelte@3.49.0
       ts-dedent: 2.2.0
