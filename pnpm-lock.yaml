@@ -12,8 +12,8 @@ specifiers:
   '@storybook/core-common': 6.5.9
   '@storybook/node-logger': 6.5.9
   '@storybook/svelte': 6.5.9
-  '@sveltejs/adapter-static': 1.0.0-next.35
-  '@sveltejs/kit': 1.0.0-next.373
+  '@sveltejs/adapter-static': 1.0.0-next.37
+  '@sveltejs/kit': 1.0.0-next.379
   '@tailwindcss/forms': 0.5.2
   '@types/cookie': 0.5.1
   '@typescript-eslint/eslint-plugin': 5.30.7
@@ -51,8 +51,8 @@ devDependencies:
   '@storybook/core-common': 6.5.9_kun6vrprgc6jzilvx5k7u55qj4
   '@storybook/node-logger': 6.5.9
   '@storybook/svelte': 6.5.9_zbnmnilvwgeikkheb66vezgwdu
-  '@sveltejs/adapter-static': 1.0.0-next.35
-  '@sveltejs/kit': 1.0.0-next.373_svelte@3.49.0+vite@3.0.2
+  '@sveltejs/adapter-static': 1.0.0-next.37
+  '@sveltejs/kit': 1.0.0-next.379_svelte@3.49.0+vite@3.0.2
   '@tailwindcss/forms': 0.5.2_tailwindcss@3.1.6
   '@types/cookie': 0.5.1
   '@typescript-eslint/eslint-plugin': 5.30.7_6wltbjakwuqm7awqswigmiuhd4
@@ -3053,14 +3053,14 @@ packages:
       resolve-from: 5.0.0
     dev: true
 
-  /@sveltejs/adapter-static/1.0.0-next.35:
-    resolution: {integrity: sha512-iIg5nCMJF2/s/Y7zmy9pzp+U3YDBL6OQKmwfJm2H3Afde/XlhOuNlSO6K//hxmLmvrd7Oh6Kb0MLhwVKp0cuUA==}
+  /@sveltejs/adapter-static/1.0.0-next.37:
+    resolution: {integrity: sha512-BDFkx4CGAd6pG4e3+zYjy/eM9UDbhkRgXqavUzCO5oT8xXao5TeprY1AIbdzjMTmFjsWdeSXE9TbIsT0iikpyQ==}
     dependencies:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.373_svelte@3.49.0+vite@3.0.2:
-    resolution: {integrity: sha512-xkxZyPYFzKQ3HZCt/HIVLbLVpR2TeTvhri+BuWLAUZVazaUHwhKQhkzAcljWX+8m7Ca4WdHpD4t3VeaIhXFMPA==}
+  /@sveltejs/kit/1.0.0-next.379_svelte@3.49.0+vite@3.0.2:
+    resolution: {integrity: sha512-mhy0GW4KUJ3tq6mDMF0fs/B6Nh2oJM6ZAA2fwilTOdqzhKD3f2WJLH9RXx1Z5/8eodFeQsURTPRn5a0r3QAZew==}
     engines: {node: '>=16.9'}
     hasBin: true
     peerDependencies:
