@@ -8,7 +8,7 @@ specifiers:
   '@storybook/addon-links': 6.5.9
   '@storybook/addon-storysource': 6.5.9
   '@storybook/addon-svelte-csf': 2.0.6
-  '@storybook/builder-vite': 0.2.0
+  '@storybook/builder-vite': 0.2.2
   '@storybook/core-common': 6.5.9
   '@storybook/node-logger': 6.5.9
   '@storybook/svelte': 6.5.9
@@ -47,7 +47,7 @@ devDependencies:
   '@storybook/addon-links': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
   '@storybook/addon-storysource': 6.5.9_wcqkhtmu7mswc6yz4uyexck3ty
   '@storybook/addon-svelte-csf': 2.0.6_3yriknnyu7vebsp22jt4f57l2i
-  '@storybook/builder-vite': 0.2.0_3t2lmxfh6rxo6bbap5zivdifom
+  '@storybook/builder-vite': 0.2.2_frz2jn5sj74mxhsxc7rklbdd3m
   '@storybook/core-common': 6.5.9_kun6vrprgc6jzilvx5k7u55qj4
   '@storybook/node-logger': 6.5.9
   '@storybook/svelte': 6.5.9_zbnmnilvwgeikkheb66vezgwdu
@@ -1591,12 +1591,13 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@joshwooding/vite-plugin-react-docgen-typescript/0.0.4_re5xqwicseixxbvc3sotnuaea4:
-    resolution: {integrity: sha512-ezL7SU//1OV4Oyt/zQ3CsX8uLujVEYUHuULkqgcW6wOuQfRnvgkn99HZtLWwS257GmZVwszGQzhL7VE3PbMAYw==}
+  /@joshwooding/vite-plugin-react-docgen-typescript/0.0.5_re5xqwicseixxbvc3sotnuaea4:
+    resolution: {integrity: sha512-HwAEj/vAP1+hzBfIv9DTCyg+1O0/LG48Up7j1RmJ+pFwjb/wRxzUBco4LqKFKe7SZ0M6IyASNh1oKP3yHnJElA==}
     peerDependencies:
       typescript: '>= 4.3.x'
       vite: '>2.0.0-0'
     dependencies:
+      '@rollup/pluginutils': 4.2.1
       glob: 7.2.0
       glob-promise: 4.2.2_glob@7.2.0
       magic-string: 0.26.2
@@ -2222,18 +2223,17 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /@storybook/builder-vite/0.2.0_3t2lmxfh6rxo6bbap5zivdifom:
-    resolution: {integrity: sha512-sh6oCqkAnXgo+4bBI3UZ/b2T7LbRePjBnjUJNmHK3CkycnZbXJFQyr1ESzwd1vOpHTSkWbRhDEsV8fl8HbL0iA==}
+  /@storybook/builder-vite/0.2.2_frz2jn5sj74mxhsxc7rklbdd3m:
+    resolution: {integrity: sha512-kFY/Rbk+Bu5KmXOCP8CMxp6gfbNGGyNZwikWZe21NHcrVzwHg/aTs+MR37maRqlWcpJvTZmbkKMHak0+vDqpvw==}
     peerDependencies:
-      '@storybook/core-common': '>=6.4.3 || >=6.5.0-alpha.0'
       '@storybook/mdx2-csf': ^0.0.3
-      '@storybook/node-logger': '>=6.4.3 || >=6.5.0-alpha.0'
-      vite: '>=3.0.0-alpha || >= 3.0.0'
+      vite: '>= 3.0.0'
     peerDependenciesMeta:
       '@storybook/mdx2-csf':
         optional: true
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.0.4_re5xqwicseixxbvc3sotnuaea4
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.0.5_re5xqwicseixxbvc3sotnuaea4
+      '@rollup/pluginutils': 4.2.1
       '@storybook/core-common': 6.5.9_kun6vrprgc6jzilvx5k7u55qj4
       '@storybook/mdx1-csf': 0.0.4_2q23rwrxfvzgao7mmje45l4ory
       '@storybook/node-logger': 6.5.9
@@ -2250,10 +2250,14 @@ packages:
       vite: 3.0.4
     transitivePeerDependencies:
       - '@babel/core'
+      - eslint
       - react
       - react-dom
       - supports-color
       - typescript
+      - vue-template-compiler
+      - webpack-cli
+      - webpack-command
     dev: true
 
   /@storybook/builder-webpack4/6.5.9_kun6vrprgc6jzilvx5k7u55qj4:
@@ -8067,7 +8071,7 @@ packages:
     dev: true
 
   /lodash.uniq/4.5.0:
-    resolution: {integrity: sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=}
+    resolution: {integrity: sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==}
     dev: true
 
   /lodash/4.17.21:
@@ -11109,7 +11113,7 @@ packages:
     dev: true
 
   /trim/0.0.1:
-    resolution: {integrity: sha1-WFhUf2spB1fulczMZm+1AITEYN0=}
+    resolution: {integrity: sha512-YzQV+TZg4AxpKxaTHK3c3D+kRDCGVEE7LemdlQZoQXn0iennk10RsIoY6ikzAqJTc9Xjl9C1/waHom/J86ziAQ==}
     dev: true
 
   /trough/1.0.5:
