@@ -1,6 +1,6 @@
 {
 	"name": "@sg60/sam-svelte-components",
-	"version": "2.1.2",
+	"version": "2.1.3",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/sg60/sam-svelte-components.git"
