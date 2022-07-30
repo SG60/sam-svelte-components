@@ -17,7 +17,7 @@ permissions:
 
 # Allow one concurrent deployment
 concurrency:
-  group: "pages"
+  group: 'pages'
   cancel-in-progress: true
 
 # Default to bash
@@ -52,8 +52,8 @@ jobs:
           version: ${{ env.PNPM_VERSION }}
       - uses: actions/setup-node@v3
         with:
-          node-version: "16.x"
-          cache: "pnpm"
+          node-version: '16.x'
+          cache: 'pnpm'
           cache-dependency-path: ./pnpm-lock.yaml
 
       - name: Install and Build 🔧
@@ -72,7 +72,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
+    needs: build-pages
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
@@ -94,9 +94,9 @@ jobs:
           version: ${{ env.PNPM_VERSION }}
       - uses: actions/setup-node@v3
         with:
-          node-version: "16.x"
-          registry-url: "https://npm.pkg.github.com"
-          cache: "pnpm"
+          node-version: '16.x'
+          registry-url: 'https://npm.pkg.github.com'
+          cache: 'pnpm'
           cache-dependency-path: ./pnpm-lock.yaml
 
       - name: Install and Build 🔧
