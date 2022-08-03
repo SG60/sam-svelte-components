@@ -13,7 +13,7 @@ specifiers:
   '@storybook/node-logger': 6.5.9
   '@storybook/svelte': 6.5.9
   '@sveltejs/adapter-static': 1.0.0-next.38
-  '@sveltejs/kit': 1.0.0-next.401
+  '@sveltejs/kit': 1.0.0-next.402
   '@tailwindcss/forms': 0.5.2
   '@types/cookie': 0.5.1
   '@typescript-eslint/eslint-plugin': 5.32.0
@@ -52,7 +52,7 @@ devDependencies:
   '@storybook/node-logger': 6.5.9
   '@storybook/svelte': 6.5.9_p6oy3w5hqvq5cqzyveb73hmw6u
   '@sveltejs/adapter-static': 1.0.0-next.38
-  '@sveltejs/kit': 1.0.0-next.401_svelte@3.49.0+vite@3.0.4
+  '@sveltejs/kit': 1.0.0-next.402_svelte@3.49.0+vite@3.0.4
   '@tailwindcss/forms': 0.5.2_tailwindcss@3.1.7
   '@types/cookie': 0.5.1
   '@typescript-eslint/eslint-plugin': 5.32.0_iosr3hrei2tubxveewluhu5lhy
@@ -3084,8 +3084,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.401_svelte@3.49.0+vite@3.0.4:
-    resolution: {integrity: sha512-VrpFtSSu1ADRVWWDxLl218GKf9l+TA7tNCCAmVFAuJdj5zVxPgJflu4Dh1p5C4efKP+x1v6W5nvxmNkbZLPoag==}
+  /@sveltejs/kit/1.0.0-next.402_svelte@3.49.0+vite@3.0.4:
+    resolution: {integrity: sha512-F0Mm+bTGOnl+vWKab5uwXsY+5YypC/uveGE0wKyYSE9a/pFQD20WwrvRKePGhUCepiHc7S82jxVZRwjCsToaNQ==}
     engines: {node: '>=16.9'}
     hasBin: true
     requiresBuild: true
