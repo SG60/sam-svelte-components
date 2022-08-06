@@ -12,8 +12,8 @@ specifiers:
   '@storybook/core-common': 6.5.10
   '@storybook/node-logger': 6.5.10
   '@storybook/svelte': 6.5.10
-  '@sveltejs/adapter-static': 1.0.0-next.38
-  '@sveltejs/kit': 1.0.0-next.403
+  '@sveltejs/adapter-static': 1.0.0-next.39
+  '@sveltejs/kit': 1.0.0-next.405
   '@tailwindcss/forms': 0.5.2
   '@types/cookie': 0.5.1
   '@typescript-eslint/eslint-plugin': 5.32.0
@@ -51,8 +51,8 @@ devDependencies:
   '@storybook/core-common': 6.5.10_imjyt3tfzq72iphnqqkfoyenxy
   '@storybook/node-logger': 6.5.10
   '@storybook/svelte': 6.5.10_p6oy3w5hqvq5cqzyveb73hmw6u
-  '@sveltejs/adapter-static': 1.0.0-next.38
-  '@sveltejs/kit': 1.0.0-next.403_svelte@3.49.0+vite@3.0.4
+  '@sveltejs/adapter-static': 1.0.0-next.39
+  '@sveltejs/kit': 1.0.0-next.405_svelte@3.49.0+vite@3.0.4
   '@tailwindcss/forms': 0.5.2_tailwindcss@3.1.8
   '@types/cookie': 0.5.1
   '@typescript-eslint/eslint-plugin': 5.32.0_iosr3hrei2tubxveewluhu5lhy
@@ -3197,14 +3197,12 @@ packages:
       resolve-from: 5.0.0
     dev: true
 
-  /@sveltejs/adapter-static/1.0.0-next.38:
-    resolution: {integrity: sha512-O1b264K62E3OrUnsFxMjKn3CUJF50fxGcW0rWk8fa5kjzskPsSyTxS3jnWNryFaVJ3oSUtx57m4qFW43S1910Q==}
-    dependencies:
-      tiny-glob: 0.2.9
+  /@sveltejs/adapter-static/1.0.0-next.39:
+    resolution: {integrity: sha512-EeD39H6iEe0UEKnKxLFTZFZpi/FcX5xfbAvsMQ+B09aDZccpQmkJBSIo+4kq1JsQGSjwi/+J3aE9bR67R6CIyQ==}
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.403_svelte@3.49.0+vite@3.0.4:
-    resolution: {integrity: sha512-pKlmthl1SZkbx671Jp+LBoRne0vNzsjSgta9iRhqW/bt/0mx/IjlMd/NOeLuJGo30dAJdefrySoSamiaq47M/g==}
+  /@sveltejs/kit/1.0.0-next.405_svelte@3.49.0+vite@3.0.4:
+    resolution: {integrity: sha512-jHSa74F7k+hC+0fof75g/xm/+1M5sM66Qt6v8eLLMSgjkp36Lb5xOioBhbl6w0NYoE5xysLsBWuu+yHytfvCBA==}
     engines: {node: '>=16.9'}
     hasBin: true
     requiresBuild: true
@@ -3216,6 +3214,7 @@ packages:
       chokidar: 3.5.3
       sade: 1.8.1
       svelte: 3.49.0
+      tiny-glob: 0.2.9
       vite: 3.0.4
     transitivePeerDependencies:
       - diff-match-patch
