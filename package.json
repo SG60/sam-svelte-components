@@ -42,7 +42,7 @@
 		"babel-loader": "8.2.5",
 		"eslint": "8.21.0",
 		"eslint-config-prettier": "8.5.0",
-		"eslint-plugin-storybook": "0.6.3",
+		"eslint-plugin-storybook": "0.6.4",
 		"eslint-plugin-svelte3": "4.0.0",
 		"postcss": "8.4.16",
 		"prettier": "2.7.1",
