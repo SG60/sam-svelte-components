@@ -31,7 +31,7 @@
 		"@storybook/addon-essentials": "6.5.10",
 		"@storybook/addon-links": "6.5.10",
 		"@storybook/addon-storysource": "6.5.10",
-		"@storybook/addon-svelte-csf": "2.0.6",
+		"@storybook/addon-svelte-csf": "2.0.7",
 		"@storybook/builder-vite": "0.2.2",
 		"@storybook/core-common": "6.5.10",
 		"@storybook/node-logger": "6.5.10",
