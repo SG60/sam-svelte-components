@@ -1,7 +1,3 @@
-<script context="module" lang="ts">
-	export const prerender = true;
-</script>
-
 <script lang="ts">
 	// import { base } from '$app/paths';
 	import SvgIcon from '$lib/Icons/SvgIcon.svelte';
