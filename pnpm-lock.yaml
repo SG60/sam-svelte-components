@@ -29,10 +29,10 @@ specifiers:
   react: 16.14.0
   react-dom: 16.14.0
   svelte: 3.49.0
-  svelte-check: 2.8.1
+  svelte-check: 2.9.0
   svelte-loader: 3.1.3
   svelte-preprocess: 4.10.7
-  svelte2tsx: 0.5.14
+  svelte2tsx: 0.5.15
   tailwindcss: 3.1.8
   tslib: 2.4.0
   typescript: 4.8.2
@@ -68,10 +68,10 @@ devDependencies:
   react: 16.14.0
   react-dom: 16.14.0_react@16.14.0
   svelte: 3.49.0
-  svelte-check: 2.8.1_7ibelsq4ce7pwjsb6t3znabw4u
+  svelte-check: 2.9.0_7ibelsq4ce7pwjsb6t3znabw4u
   svelte-loader: 3.1.3_svelte@3.49.0
   svelte-preprocess: 4.10.7_22ivcgw2hbrz67wvkicq47aoty
-  svelte2tsx: 0.5.14_k5n4uipe6734vn7334tf7n5ml4
+  svelte2tsx: 0.5.15_k5n4uipe6734vn7334tf7n5ml4
   tailwindcss: 3.1.8_postcss@8.4.16
   tslib: 2.4.0
   typescript: 4.8.2
@@ -10894,8 +10894,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.8.1_7ibelsq4ce7pwjsb6t3znabw4u:
-    resolution: {integrity: sha512-cibyY1sgt3ONIDnQbSgV2X9AJFhwEslRHNo95lijrYfPzVEvTvbmL2ohsUyqB5L7j1GhLXtQbjCJ4lZZ/fwbeQ==}
+  /svelte-check/2.9.0_7ibelsq4ce7pwjsb6t3znabw4u:
+    resolution: {integrity: sha512-9AVrtP7WbfDgCdqTZNPdj5CCCy1OrYMxFVWAWzNw7fl93c9klFJFtqzVXa6fovfQ050CcpUyJE2dPFL9TFAREw==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
@@ -11004,8 +11004,8 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /svelte2tsx/0.5.14_k5n4uipe6734vn7334tf7n5ml4:
-    resolution: {integrity: sha512-/9hGkIUMVwZDJoERS6k1x+y6Ir+PpkxbL/UWQ2+RhK/PwUoIaDTCfw79/H1bgYNUTr/7ZaYanJGPuaWARNbbyQ==}
+  /svelte2tsx/0.5.15_k5n4uipe6734vn7334tf7n5ml4:
+    resolution: {integrity: sha512-/u5ZcpW2N4xBiYR1knQTSm4qVVpybSKCEyAjL0tAIRJWoCOdx44OwqpeVItzPaq5ngGbWCyC/QwOG4+9OW99sQ==}
     peerDependencies:
       svelte: ^3.24
       typescript: ^4.1.2
