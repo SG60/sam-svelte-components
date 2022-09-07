@@ -16,10 +16,7 @@ const config = {
 			base: dev ? '' : '/sam-svelte-components'
 		},
 
-		appDir: 'internal',
-		prerender: {
-			default: true
-		}
+		appDir: 'internal'
 	}
 };
 
