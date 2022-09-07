@@ -57,3 +57,5 @@ jobs:
         with:
           # 👇 Chromatic projectToken, refer to the manage page to obtain it.
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          # exit once uploaded, (use less github actions ci time)
+          exitOnceUploaded: true
