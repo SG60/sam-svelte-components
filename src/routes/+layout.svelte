@@ -8,10 +8,10 @@
 	<nav class="w-fit">
 		<ul class="flex flex-row">
 			<li class:active={$page.url.pathname === base + '/'}>
-				<a class="nav-link" sveltekit:prefetch href="{base}/">Home</a>
+				<a class="nav-link" data-sveltekit-prefetch href="{base}/">Home</a>
 			</li>
 			<li class:active={$page.url.pathname === base + '/about'}>
-				<a class="nav-link" sveltekit:prefetch href="{base}/about">About</a>
+				<a class="nav-link" data-sveltekit-prefetch href="{base}/about">About</a>
 			</li>
 		</ul>
 	</nav>
