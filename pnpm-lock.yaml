@@ -30,7 +30,7 @@ specifiers:
   svelte-check: 2.9.0
   svelte-loader: 3.1.3
   svelte-preprocess: 4.10.7
-  svelte2tsx: 0.5.16
+  svelte2tsx: 0.5.17
   tslib: 2.4.0
   typescript: 4.8.3
   vite: 3.1.0
@@ -66,7 +66,7 @@ devDependencies:
   svelte-check: 2.9.0_hbsbl6zsfrhx2ucdnssqnzroku
   svelte-loader: 3.1.3_svelte@3.50.1
   svelte-preprocess: 4.10.7_pxit6srwzbl77wg6vx5f65nyra
-  svelte2tsx: 0.5.16_iprco5tylfmvffqgrvqxc46njy
+  svelte2tsx: 0.5.17_iprco5tylfmvffqgrvqxc46njy
   tslib: 2.4.0
   typescript: 4.8.3
   vite: 3.1.0
@@ -3252,7 +3252,7 @@ packages:
       kleur: 4.1.5
       sade: 1.8.1
       svelte: 3.50.1
-      svelte2tsx: 0.5.16_iprco5tylfmvffqgrvqxc46njy
+      svelte2tsx: 0.5.17_iprco5tylfmvffqgrvqxc46njy
     transitivePeerDependencies:
       - typescript
     dev: true
@@ -10909,8 +10909,8 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /svelte2tsx/0.5.16_iprco5tylfmvffqgrvqxc46njy:
-    resolution: {integrity: sha512-MwgpeRHfzP8T7NkFNT1JPhe9pCF4Dml2oSdjL2zNqvSprjA2BFgQuCNUg4R5qSz7AxVDJsiL/2hciCtVbXAT3A==}
+  /svelte2tsx/0.5.17_iprco5tylfmvffqgrvqxc46njy:
+    resolution: {integrity: sha512-4NAWuDhNu8AfBqivnbc9YZlWiHjLqoIPX6Fz2TwzzXM8a2qs3t6brAYa+C+vc2Gm5hNltDNJMmF0sC9D01PoCA==}
     peerDependencies:
       svelte: ^3.24
       typescript: ^4.1.2
