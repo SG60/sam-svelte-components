@@ -16,6 +16,17 @@
 			"groupName": "SvelteKit monorepo"
 		},
 		{
+			"extends": "monorepo:storybook",
+			"matchUpdateTypes": [
+				"digest",
+				"patch",
+				"minor",
+				"major"
+			],
+			"groupName": "storybook monorepo",
+			"automerge": true
+		},
+		{
 			"matchPackageNames": ["svelte-check", "svelte2tsx"],
 			"groupName": "Svelte Lint",
 			"automerge": true
