@@ -22,7 +22,9 @@
 			"automerge": true
 		},
 		{
-			"extends": "group:babelMonorepo",
+			"extends": "monorepo:babel",
+			"matchUpdateTypes": ["digest", "patch", "minor", "major"],
+			"groupName": "babel monorepo",
 			"automerge": true
 		},
 		{
