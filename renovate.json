@@ -22,6 +22,10 @@
 			"automerge": true
 		},
 		{
+			"extends": "group:babelMonorepo",
+			"automerge": true
+		},
+		{
 			"matchPackageNames": ["svelte-check", "svelte2tsx"],
 			"groupName": "Svelte Lint",
 			"automerge": true
