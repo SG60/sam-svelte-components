@@ -36,7 +36,7 @@
 		"@storybook/node-logger": "6.5.12",
 		"@storybook/svelte": "6.5.12",
 		"@sveltejs/adapter-static": "1.0.0-next.43",
-		"@sveltejs/kit": "1.0.0-next.481",
+		"@sveltejs/kit": "1.0.0-next.482",
 		"@sveltejs/package": "1.0.0-next.3",
 		"@typescript-eslint/eslint-plugin": "5.37.0",
 		"@typescript-eslint/parser": "5.37.0",
