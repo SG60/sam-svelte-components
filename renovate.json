@@ -28,8 +28,15 @@
 			"automerge": true
 		},
 		{
-			"matchPackageNames": ["svelte-check", "svelte2tsx"],
-			"groupName": "Svelte Lint",
+			"matchPackageNames": [
+				"svelte-check",
+				"svelte2tsx",
+				"@playwright/test",
+				"typescript",
+				"autoprefixer",
+				"vite",
+				"pnpm"
+			],
 			"automerge": true
 		}
 	],
