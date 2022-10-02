@@ -12,8 +12,8 @@ specifiers:
   '@storybook/core-common': 6.5.12
   '@storybook/node-logger': 6.5.12
   '@storybook/svelte': 6.5.12
-  '@sveltejs/adapter-static': 1.0.0-next.43
-  '@sveltejs/kit': 1.0.0-next.505
+  '@sveltejs/adapter-static': 1.0.0-next.44
+  '@sveltejs/kit': 1.0.0-next.507
   '@sveltejs/package': 1.0.0-next.5
   '@typescript-eslint/eslint-plugin': 5.38.1
   '@typescript-eslint/parser': 5.38.1
@@ -48,8 +48,8 @@ devDependencies:
   '@storybook/core-common': 6.5.12_l6jh4cdgxltjyxo3xeeacd4zcm
   '@storybook/node-logger': 6.5.12
   '@storybook/svelte': 6.5.12_an5fvdjah54cono3jjcofakawe
-  '@sveltejs/adapter-static': 1.0.0-next.43
-  '@sveltejs/kit': 1.0.0-next.505_svelte@3.50.1+vite@3.1.4
+  '@sveltejs/adapter-static': 1.0.0-next.44
+  '@sveltejs/kit': 1.0.0-next.507_svelte@3.50.1+vite@3.1.4
   '@sveltejs/package': 1.0.0-next.5_qy6w2iv5hnh55blsjuu7uihyzm
   '@typescript-eslint/eslint-plugin': 5.38.1_c7qepppml3d4ahu5cnfwqe6ltq
   '@typescript-eslint/parser': 5.38.1_ypn2ylkkyfa5i233caldtndbqa
@@ -3105,12 +3105,12 @@ packages:
       resolve-from: 5.0.0
     dev: true
 
-  /@sveltejs/adapter-static/1.0.0-next.43:
-    resolution: {integrity: sha512-PAgSp1GA8HkYE4p30/sBvJme2nefhcTBJafqQdMNoUksWZF2WzuL8OEO8wa9ndE6cghcGk3j6Ve0Oskg/wtTOw==}
+  /@sveltejs/adapter-static/1.0.0-next.44:
+    resolution: {integrity: sha512-qBtkmIMYGiDv5r2F3AfSG0ABHZim2NC+1PL2YVCa+QYz8IVCm1E/wGQ0RW4KVrANZ3MZk8y52PPajx+8/fwmNw==}
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.505_svelte@3.50.1+vite@3.1.4:
-    resolution: {integrity: sha512-vg2WvWiUB7useJZOKbdM8WOXv10WD7SVDER74IXd1t/TWb/uXHzwMQ/ZAsXZFdxQsz1cDGFub3iC76PW+j58Pg==}
+  /@sveltejs/kit/1.0.0-next.507_svelte@3.50.1+vite@3.1.4:
+    resolution: {integrity: sha512-GAgFb1yLUVOYPWXIPxh8j0iEjUOVvN42Xgsqf6j6j1Sb2/f0m0bC1O7eVbc8NQjNZIvgGuN8yxai188iIYQt7w==}
     engines: {node: '>=16.14'}
     hasBin: true
     requiresBuild: true
