@@ -16,6 +16,7 @@ on:
 jobs:
   lint:
     runs-on: ubuntu-latest
+    if: ${{ !github.event.pull_request.draft }}
     steps:
       - uses: actions/checkout@v3
 
