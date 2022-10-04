@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@babel/core': 7.19.3
+  '@justinribeiro/lite-youtube': ^1.4.0
   '@storybook/addon-a11y': 6.5.12
   '@storybook/addon-actions': 6.5.12
   '@storybook/addon-essentials': 6.5.12
@@ -38,6 +39,7 @@ specifiers:
 
 devDependencies:
   '@babel/core': 7.19.3
+  '@justinribeiro/lite-youtube': 1.4.0
   '@storybook/addon-a11y': 6.5.12_wcqkhtmu7mswc6yz4uyexck3ty
   '@storybook/addon-actions': 6.5.12_wcqkhtmu7mswc6yz4uyexck3ty
   '@storybook/addon-essentials': 6.5.12_gk53zf3tnpqtqwlrw26whrcuoi
@@ -1676,6 +1678,10 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.0.6
       '@jridgewell/sourcemap-codec': 1.4.11
+    dev: true
+
+  /@justinribeiro/lite-youtube/1.4.0:
+    resolution: {integrity: sha512-gBuSAPla3oPLV9i2K02/x95KQWlV9rMp42Cy74s6m0WldORSAL/YvRcdK0phwwpPMJJVNsiHZvzZFa1I62LoGQ==}
     dev: true
 
   /@mdx-js/mdx/1.6.22:
