@@ -21,7 +21,8 @@
 		"build-storybook": "build-storybook"
 	},
 	"peerDependencies": {
-		"svelte": "^3.44.0"
+		"svelte": "^3.44.0",
+		"@justinribeiro/lite-youtube": "^1.4.0"
 	},
 	"devDependencies": {
 		"@babel/core": "7.19.3",
