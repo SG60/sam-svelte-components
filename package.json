@@ -14,7 +14,8 @@
 		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"format": "prettier --write --plugin-search-dir=. .",
 		"storybook": "pnpm run --filter storybook storybook",
-		"build-storybook": "pnpm run --filter storybook build-storybook"
+		"build-storybook": "pnpm run --filter storybook build-storybook",
+		"release": "changeset publish"
 	},
 	"devDependencies": {
 		"@changesets/cli": "^2.25.0",
