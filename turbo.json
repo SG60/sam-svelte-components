@@ -1,4 +1,47 @@
 {
 	"$schema": "https://turborepo.org/schema.json",
-	"pipeline": {}
+	"pipeline": {
+		"@samsveltecomponents/storybook#build-storybook": {
+			"dependsOn": ["^build"],
+			"inputs": ["src/**"],
+			"outputs": ["storybook-static"]
+		},
+		"build": {
+			// A package's `build` script depends on that package's
+			// dependencies and devDependencies
+			// `build` tasks  being completed first
+			// (the `^` symbol signifies `upstream`).
+			"dependsOn": ["^build"],
+			"inputs": ["src/**"],
+
+			// note: output globs are relative to each package's `package.json`
+			// (and not the monorepo root)
+			"outputs": [".svelte-kit/**"]
+		},
+		"check": {
+			"dependsOn": [],
+			"outputs": [],
+			// A package's `check` script should only be rerun when
+			// either a `.svelte` or `.ts` file has changed in `src` folders.
+			"inputs": ["src/**/*.svelte", "src/**/*.ts"],
+			"outputMode": "new-only"
+		},
+		"test": {
+			// A package's `test` script depends on that package's
+			// own `build` script being completed first.
+			"dependsOn": ["build"],
+			"outputs": [],
+			// A package's `test` script should only be rerun when
+			// either a `.svelte` or `.ts` file has changed in `src` or `test` folders.
+			"inputs": ["src/**/*.svelte", "src/**/*.ts", "test/**/*.ts", "test/**/*.svelte"],
+			"outputMode": "new-only"
+		},
+		"lint": {
+			// A package's `lint` script has no dependencies and
+			// can be run whenever. It also has no filesystem outputs.
+			"outputs": []
+		},
+		"format": { "cache": false, "outputs": [], "outputMode": "new-only" },
+		"dev": { "cache": false, "outputMode": "new-only" }
+	}
 }
