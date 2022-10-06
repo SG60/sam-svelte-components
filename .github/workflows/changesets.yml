@@ -16,8 +16,8 @@ jobs:
     needs: ci
     runs-on: ubuntu-latest
     permissions:
-      contents: read
-      packages: write
+      pull-requests: write
+      contents: write
 
     steps:
       - name: Checkout 🛎️
