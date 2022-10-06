@@ -4,7 +4,7 @@ const path = require('path');
 const { mergeConfig } = require('vite');
 
 module.exports = {
-	stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx|svelte)'],
+	stories: ['../**/*.stories.mdx', '../**/*.stories.@(js|jsx|ts|tsx|svelte)'],
 	addons: [
 		'@storybook/addon-links',
 		'@storybook/addon-essentials',
@@ -27,7 +27,9 @@ module.exports = {
 				alias: {
 					$lib: path.resolve('./src/lib'),
 					$app: path.resolve('node_modules/@sveltejs/kit/assets/app'),
-					$utils: path.resolve('./src/lib/utils')
+					$utils: path.resolve('./src/lib/utils'),
+					'@samsveltecomponents/core': path.resolve('../packages/core/src/lib'),
+					'@samsveltecomponents/youtube-lite': path.resolve('../packages/youtube-lite/src/lib')
 				}
 			}
 		});

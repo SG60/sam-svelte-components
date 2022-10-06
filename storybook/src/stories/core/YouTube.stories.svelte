@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
-	import SoundCloud from '$lib/SoundCloud.svelte';
-	import YouTube from '$lib/YouTube.svelte';
+	import SoundCloud from '@samsveltecomponents/core/SoundCloud.svelte';
+	import YouTube from '@samsveltecomponents/core/YouTube.svelte';
 </script>
 
 <Meta
