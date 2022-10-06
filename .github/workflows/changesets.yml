@@ -50,14 +50,6 @@ jobs:
       - name: Install
         run: pnpm install && pnpm build
 
-      - name: npmrc
-        run: |
-          cat << EOF > "$HOME/.npmrc"
-            //registry.npmjs.org/:_authToken=$NPM_TOKEN
-          EOF
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-
       - name: Create Release Pull Request or Publish to npm
         id: changesets
         uses: changesets/action@v1
