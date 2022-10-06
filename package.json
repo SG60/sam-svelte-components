@@ -15,7 +15,7 @@
 		"format": "prettier --write --plugin-search-dir=. .",
 		"storybook": "pnpm run --filter storybook storybook",
 		"build-storybook": "pnpm run --filter storybook build-storybook",
-		"release": "pnpm run build && changeset publish"
+		"release": "changeset publish"
 	},
 	"devDependencies": {
 		"@changesets/cli": "^2.25.0",
