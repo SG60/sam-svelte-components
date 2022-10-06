@@ -1,13 +1,12 @@
 {
-	"name": "@sg60/sam-svelte-components",
-	"version": "3.1.1",
+	"name": "sam-svelte-components",
+	"description": "monorepo for @samsveltecomponents",
+	"version": "1.0.0",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/sg60/sam-svelte-components.git"
 	},
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com"
-	},
+	"private": true,
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -19,10 +18,6 @@
 		"format": "prettier --write --plugin-search-dir=. .",
 		"storybook": "start-storybook -p 6006",
 		"build-storybook": "build-storybook"
-	},
-	"peerDependencies": {
-		"svelte": "^3.44.0",
-		"@justinribeiro/lite-youtube": "^1.4.0"
 	},
 	"devDependencies": {
 		"@babel/core": "7.19.3",
