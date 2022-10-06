@@ -1,5 +1,11 @@
 # @samsveltecomponents/youtube-lite
 
+## 0.1.2
+
+### Patch Changes
+
+- a15209b: Some CI improvements
+
 ## 0.1.1
 
 ### Patch Changes

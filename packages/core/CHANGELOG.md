@@ -1,5 +1,11 @@
 # @samsveltecomponents/core
 
+## 1.1.3
+
+### Patch Changes
+
+- a15209b: Some CI improvements
+
 ## 1.1.2
 
 ### Patch Changes
