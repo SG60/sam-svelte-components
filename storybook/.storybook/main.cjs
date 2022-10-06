@@ -28,8 +28,8 @@ module.exports = {
 					$lib: path.resolve('./src/lib'),
 					$app: path.resolve('node_modules/@sveltejs/kit/assets/app'),
 					$utils: path.resolve('./src/lib/utils'),
-					// '@samsveltecomponents/core': path.resolve('../packages/core/src/lib'),
-					// '@samsveltecomponents/youtube-lite': path.resolve('../packages/youtube-lite/src/lib')
+					'@samsveltecomponents/core': path.resolve('../packages/core/src/lib'),
+					'@samsveltecomponents/youtube-lite': path.resolve('../packages/youtube-lite/src/lib')
 				}
 			}
 		});
