@@ -49,7 +49,7 @@ jobs:
 
       - name: Install
         run: pnpm install
-      
+
       - run: npm whoami
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
