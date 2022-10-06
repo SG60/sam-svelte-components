@@ -35,7 +35,7 @@ importers:
   packages/core:
     specifiers:
       '@sveltejs/adapter-static': 1.0.0-next.44
-      '@sveltejs/kit': 1.0.0-next.510
+      '@sveltejs/kit': 1.0.0-next.511
       '@sveltejs/package': 1.0.0-next.5
       '@typescript-eslint/eslint-plugin': 5.39.0
       '@typescript-eslint/parser': 5.39.0
@@ -54,7 +54,7 @@ importers:
       vite: 3.1.6
     devDependencies:
       '@sveltejs/adapter-static': 1.0.0-next.44
-      '@sveltejs/kit': 1.0.0-next.510_svelte@3.50.1+vite@3.1.6
+      '@sveltejs/kit': 1.0.0-next.511_svelte@3.50.1+vite@3.1.6
       '@sveltejs/package': 1.0.0-next.5_qy6w2iv5hnh55blsjuu7uihyzm
       '@typescript-eslint/eslint-plugin': 5.39.0_xyciw6oqjoiiono4dhv3uhn5my
       '@typescript-eslint/parser': 5.39.0_ypn2ylkkyfa5i233caldtndbqa
@@ -127,7 +127,7 @@ importers:
       '@storybook/node-logger': 6.5.12
       '@storybook/svelte': 6.5.12
       '@sveltejs/adapter-static': 1.0.0-next.44
-      '@sveltejs/kit': 1.0.0-next.510
+      '@sveltejs/kit': 1.0.0-next.511
       '@sveltejs/package': 1.0.0-next.5
       '@typescript-eslint/eslint-plugin': 5.39.0
       '@typescript-eslint/parser': 5.39.0
@@ -165,7 +165,7 @@ importers:
       '@storybook/node-logger': 6.5.12
       '@storybook/svelte': 6.5.12_an5fvdjah54cono3jjcofakawe
       '@sveltejs/adapter-static': 1.0.0-next.44
-      '@sveltejs/kit': 1.0.0-next.510_svelte@3.50.1+vite@3.1.6
+      '@sveltejs/kit': 1.0.0-next.511_svelte@3.50.1+vite@3.1.6
       '@sveltejs/package': 1.0.0-next.5_qy6w2iv5hnh55blsjuu7uihyzm
       '@typescript-eslint/eslint-plugin': 5.39.0_xyciw6oqjoiiono4dhv3uhn5my
       '@typescript-eslint/parser': 5.39.0_ypn2ylkkyfa5i233caldtndbqa
@@ -3496,34 +3496,6 @@ packages:
       esbuild: 0.15.10
     transitivePeerDependencies:
       - encoding
-      - supports-color
-    dev: true
-
-  /@sveltejs/kit/1.0.0-next.510_svelte@3.50.1+vite@3.1.6:
-    resolution: {integrity: sha512-i96sRqEzNP1dOaQQ2aR38H6emdQJhc1qr5KqNyjqi3Wb0sDAG49cQxMRUOdydkVKZkG/o7PvC5qdyblVfalAdA==}
-    engines: {node: '>=16.14'}
-    hasBin: true
-    requiresBuild: true
-    peerDependencies:
-      svelte: ^3.44.0
-      vite: ^3.1.0
-    dependencies:
-      '@sveltejs/vite-plugin-svelte': 1.0.5_svelte@3.50.1+vite@3.1.6
-      '@types/cookie': 0.5.1
-      cookie: 0.5.0
-      devalue: 4.0.0
-      kleur: 4.1.5
-      magic-string: 0.26.3
-      mime: 3.0.0
-      sade: 1.8.1
-      set-cookie-parser: 2.5.1
-      sirv: 2.0.2
-      svelte: 3.50.1
-      tiny-glob: 0.2.9
-      undici: 5.11.0
-      vite: 3.1.6
-    transitivePeerDependencies:
-      - diff-match-patch
       - supports-color
     dev: true
 
