@@ -49,10 +49,10 @@ importers:
       svelte2tsx: 0.5.19
       tslib: 2.4.0
       typescript: 4.8.4
-      vite: 3.1.4
+      vite: 3.1.6
     devDependencies:
       '@sveltejs/adapter-static': 1.0.0-next.44
-      '@sveltejs/kit': 1.0.0-next.510_svelte@3.50.1+vite@3.1.4
+      '@sveltejs/kit': 1.0.0-next.510_svelte@3.50.1+vite@3.1.6
       '@sveltejs/package': 1.0.0-next.5_qy6w2iv5hnh55blsjuu7uihyzm
       '@typescript-eslint/eslint-plugin': 5.39.0_xyciw6oqjoiiono4dhv3uhn5my
       '@typescript-eslint/parser': 5.39.0_ypn2ylkkyfa5i233caldtndbqa
@@ -68,7 +68,7 @@ importers:
       svelte2tsx: 0.5.19_qy6w2iv5hnh55blsjuu7uihyzm
       tslib: 2.4.0
       typescript: 4.8.4
-      vite: 3.1.4
+      vite: 3.1.6
 
   packages/youtube-lite:
     specifiers:
@@ -145,7 +145,7 @@ importers:
       svelte2tsx: 0.5.19
       tslib: 2.4.0
       typescript: 4.8.4
-      vite: 3.1.4
+      vite: 3.1.6
       webpack: 5.74.0
     devDependencies:
       '@babel/core': 7.19.3
@@ -158,12 +158,12 @@ importers:
       '@storybook/addon-links': 6.5.12_wcqkhtmu7mswc6yz4uyexck3ty
       '@storybook/addon-storysource': 6.5.12_wcqkhtmu7mswc6yz4uyexck3ty
       '@storybook/addon-svelte-csf': 2.0.8_665yjx6hltexb6qm5w6ihyobdi
-      '@storybook/builder-vite': 0.2.3_gzgoasnvtxvqqobckqhw7fkieu
+      '@storybook/builder-vite': 0.2.3_i3pyg62bushqvy6wm5wi4pwaby
       '@storybook/core-common': 6.5.12_l6jh4cdgxltjyxo3xeeacd4zcm
       '@storybook/node-logger': 6.5.12
       '@storybook/svelte': 6.5.12_an5fvdjah54cono3jjcofakawe
       '@sveltejs/adapter-static': 1.0.0-next.44
-      '@sveltejs/kit': 1.0.0-next.510_svelte@3.50.1+vite@3.1.4
+      '@sveltejs/kit': 1.0.0-next.510_svelte@3.50.1+vite@3.1.6
       '@sveltejs/package': 1.0.0-next.5_qy6w2iv5hnh55blsjuu7uihyzm
       '@typescript-eslint/eslint-plugin': 5.39.0_xyciw6oqjoiiono4dhv3uhn5my
       '@typescript-eslint/parser': 5.39.0_ypn2ylkkyfa5i233caldtndbqa
@@ -183,7 +183,7 @@ importers:
       svelte2tsx: 0.5.19_qy6w2iv5hnh55blsjuu7uihyzm
       tslib: 2.4.0
       typescript: 4.8.4
-      vite: 3.1.4
+      vite: 3.1.6
       webpack: 5.74.0
 
 packages:
@@ -1943,7 +1943,7 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@joshwooding/vite-plugin-react-docgen-typescript/0.0.5_almlqgfwpyp2i4b7lhcrozmu7m:
+  /@joshwooding/vite-plugin-react-docgen-typescript/0.0.5_2qgi2qwv6eydpccu35h24komdm:
     resolution: {integrity: sha512-HwAEj/vAP1+hzBfIv9DTCyg+1O0/LG48Up7j1RmJ+pFwjb/wRxzUBco4LqKFKe7SZ0M6IyASNh1oKP3yHnJElA==}
     peerDependencies:
       typescript: '>= 4.3.x'
@@ -1955,7 +1955,7 @@ packages:
       magic-string: 0.26.3
       react-docgen-typescript: 2.2.2_typescript@4.8.4
       typescript: 4.8.4
-      vite: 3.1.4
+      vite: 3.1.6
     dev: true
 
   /@jridgewell/gen-mapping/0.1.1:
@@ -2621,7 +2621,7 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /@storybook/builder-vite/0.2.3_gzgoasnvtxvqqobckqhw7fkieu:
+  /@storybook/builder-vite/0.2.3_i3pyg62bushqvy6wm5wi4pwaby:
     resolution: {integrity: sha512-qoYLMscM8ih7rYS9vU6WER2ADW28dB/3/TPg/27Q/shJM3yy/++us62arWAa3TJoFx1cB2MhAqhJGYyNH09wuQ==}
     peerDependencies:
       '@storybook/mdx2-csf': ^0.0.3
@@ -2639,13 +2639,13 @@ packages:
       vue-docgen-api:
         optional: true
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.0.5_almlqgfwpyp2i4b7lhcrozmu7m
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.0.5_2qgi2qwv6eydpccu35h24komdm
       '@storybook/core-common': 6.5.12_l6jh4cdgxltjyxo3xeeacd4zcm
       '@storybook/mdx1-csf': 0.0.4_bnc6htrpbcghvf2oyziha63cd4
       '@storybook/node-logger': 6.5.12
       '@storybook/semver': 7.3.2
       '@storybook/source-loader': 6.5.12_wcqkhtmu7mswc6yz4uyexck3ty
-      '@vitejs/plugin-react': 2.0.0_vite@3.1.4
+      '@vitejs/plugin-react': 2.0.0_vite@3.1.6
       ast-types: 0.14.2
       es-module-lexer: 0.9.3
       glob: 7.2.0
@@ -2654,7 +2654,7 @@ packages:
       react-docgen: 6.0.0-alpha.2
       slash: 3.0.0
       sveltedoc-parser: 4.2.1
-      vite: 3.1.4
+      vite: 3.1.6
     transitivePeerDependencies:
       - '@babel/core'
       - eslint
@@ -3506,7 +3506,7 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.510_svelte@3.50.1+vite@3.1.4:
+  /@sveltejs/kit/1.0.0-next.510_svelte@3.50.1+vite@3.1.6:
     resolution: {integrity: sha512-i96sRqEzNP1dOaQQ2aR38H6emdQJhc1qr5KqNyjqi3Wb0sDAG49cQxMRUOdydkVKZkG/o7PvC5qdyblVfalAdA==}
     engines: {node: '>=16.14'}
     hasBin: true
@@ -3515,7 +3515,7 @@ packages:
       svelte: ^3.44.0
       vite: ^3.1.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 1.0.5_svelte@3.50.1+vite@3.1.4
+      '@sveltejs/vite-plugin-svelte': 1.0.5_svelte@3.50.1+vite@3.1.6
       '@types/cookie': 0.5.1
       cookie: 0.5.0
       devalue: 4.0.0
@@ -3528,7 +3528,7 @@ packages:
       svelte: 3.50.1
       tiny-glob: 0.2.9
       undici: 5.11.0
-      vite: 3.1.4
+      vite: 3.1.6
     transitivePeerDependencies:
       - diff-match-patch
       - supports-color
@@ -4060,7 +4060,7 @@ packages:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-react/2.0.0_vite@3.1.4:
+  /@vitejs/plugin-react/2.0.0_vite@3.1.6:
     resolution: {integrity: sha512-zHkRR+X4zqEPNBbKV2FvWSxK7Q6crjMBVIAYroSU8Nbb4M3E5x4qOiLoqJBHtXgr27kfednXjkwr3lr8jS6Wrw==}
     engines: {node: '>=14.18.0'}
     peerDependencies:
@@ -4073,7 +4073,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.18.6_@babel+core@7.19.3
       magic-string: 0.26.3
       react-refresh: 0.14.0
-      vite: 3.1.4
+      vite: 3.1.6
     transitivePeerDependencies:
       - supports-color
     dev: true
