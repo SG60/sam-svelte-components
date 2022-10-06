@@ -8,6 +8,10 @@ on:
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
+  # CI job
+  ci:
+    uses: sg60/sam-svelte-components/.github/workflows/ci.yml@main
+
   build-and-push-package:
     needs: ci
     runs-on: ubuntu-latest
