@@ -1,5 +1,11 @@
 # @samsveltecomponents/core
 
+## 1.1.5
+
+### Patch Changes
+
+- Disable automatic commits in changesets
+
 ## 1.1.4
 
 ### Patch Changes

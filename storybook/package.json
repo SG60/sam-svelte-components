@@ -1,7 +1,7 @@
 {
 	"name": "@samsveltecomponents/storybook",
 	"description": "storybook for @samsveltecomponents",
-	"version": "1.2.2",
+	"version": "1.2.3",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/sg60/sam-svelte-components.git",

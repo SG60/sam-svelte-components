@@ -1,5 +1,11 @@
 # @samsveltecomponents/youtube-lite
 
+## 0.1.4
+
+### Patch Changes
+
+- Disable automatic commits in changesets
+
 ## 0.1.3
 
 ### Patch Changes

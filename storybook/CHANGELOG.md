@@ -1,5 +1,11 @@
 # @samsveltecomponents/storybook
 
+## 1.2.3
+
+### Patch Changes
+
+- Disable automatic commits in changesets
+
 ## 1.2.2
 
 ### Patch Changes
