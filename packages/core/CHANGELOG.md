@@ -1,5 +1,11 @@
 # @samsveltecomponents/core
 
+## 1.1.2
+
+### Patch Changes
+
+- c05ae3d: A few bits
+
 ## 1.1.1
 
 ### Patch Changes
