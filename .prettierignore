@@ -1,12 +1,20 @@
 .DS_Store
 node_modules
+
+# generated files and output
 /build
-/.svelte-kit
-/package
+/packages/*/build/
+/packages/**/package/
+.svelte-kit/
+package/
+/storybook/storybook-static
+.vercel
+.output
+
+# Private
 .env
 .env.*
 !.env.example
-.vercel
-.output
+
 .vscode
 pnpm-lock.yaml
