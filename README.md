@@ -8,7 +8,7 @@
 
 ---
 
-A collection of Svelte components, published to a Storybook and to GitHub NPM registry.
+A collection of Svelte components, published to a Storybook and to NPM.
 
 ## Tech
 
@@ -22,3 +22,5 @@ Using [SvelteKit](https://kit.svelte.dev/).
 - [Chromatic](https://chromatic.com/library?appId=626adf4e901217004a2c4a77)
 
 ---
+
+CI: using `turbo` and changesets.
