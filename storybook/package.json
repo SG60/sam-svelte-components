@@ -1,22 +1,22 @@
 {
-	"name": "sam-svelte-components",
-	"description": "monorepo for @samsveltecomponents",
+	"name": "@samsveltecomponents/storybook",
+	"description": "storybook for @samsveltecomponents",
 	"version": "1.0.0",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/sg60/sam-svelte-components.git"
+		"url": "git://github.com/sg60/sam-svelte-components.git",
+		"directory": "storybook"
 	},
 	"private": true,
 	"scripts": {
-		"build": "pnpm run --parallel build",
-		"check": "pnpm run --parallel check",
-		"check:watch": "pnpm run -r --stream check:watch",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"format": "prettier --write --plugin-search-dir=. .",
-		"storybook": "pnpm run --filter storybook storybook",
-		"build-storybook": "pnpm run --filter storybook build-storybook"
+		"storybook": "start-storybook -p 6006",
+		"build-storybook": "build-storybook"
 	},
 	"devDependencies": {
+		"@samsveltecomponents/core": "workspace:*",
+		"@samsveltecomponents/youtube-lite": "workspace:*",
 		"@babel/core": "7.19.3",
 		"@justinribeiro/lite-youtube": "1.4.0",
 		"@storybook/addon-a11y": "6.5.12",

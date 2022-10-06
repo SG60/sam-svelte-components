@@ -1,10 +1,10 @@
 <script lang="ts">
 	import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
-	import YouTubeLite from '$lib/YouTubeLite.svelte';
+	import { YouTubeLite } from '@samsveltecomponents/youtube-lite';
 </script>
 
 <Meta
-	title="Embeds/YouTube Lite"
+	title="embeds/youtube-lite/YouTube Lite"
 	component={YouTubeLite}
 	argTypes={{
 		title: { control: 'text' },

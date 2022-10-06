@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
-	import SoundCloud from '$lib/SoundCloud.svelte';
+	import SoundCloud from '@samsveltecomponents/core/SoundCloud.svelte';
 </script>
 
 <Meta
