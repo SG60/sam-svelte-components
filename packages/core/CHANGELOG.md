@@ -1,5 +1,11 @@
 # @samsveltecomponents/core
 
+## 1.1.4
+
+### Patch Changes
+
+- 19b8aa4: random
+
 ## 1.1.3
 
 ### Patch Changes

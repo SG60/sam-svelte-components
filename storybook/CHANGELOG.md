@@ -1,5 +1,11 @@
 # @samsveltecomponents/storybook
 
+## 1.2.2
+
+### Patch Changes
+
+- 19b8aa4: random
+
 ## 1.2.1
 
 ### Patch Changes

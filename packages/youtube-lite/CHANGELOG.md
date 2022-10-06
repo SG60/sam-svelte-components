@@ -1,5 +1,11 @@
 # @samsveltecomponents/youtube-lite
 
+## 0.1.3
+
+### Patch Changes
+
+- 19b8aa4: random
+
 ## 0.1.2
 
 ### Patch Changes
