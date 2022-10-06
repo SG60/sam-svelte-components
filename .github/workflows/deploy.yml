@@ -25,6 +25,11 @@ defaults:
   run:
     shell: bash
 
+# To use Turborepo Remote Caching, set the following environment variables for the job.
+env:
+  TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+  TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
+
 jobs:
   # Build job
   build-pages:
