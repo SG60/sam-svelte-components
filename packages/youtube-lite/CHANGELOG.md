@@ -1,5 +1,11 @@
 # @samsveltecomponents/youtube-lite
 
+## 0.1.5
+
+### Patch Changes
+
+- 334a6e5: Use turbo
+
 ## 0.1.4
 
 ### Patch Changes

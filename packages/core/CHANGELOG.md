@@ -1,5 +1,11 @@
 # @samsveltecomponents/core
 
+## 1.1.6
+
+### Patch Changes
+
+- 334a6e5: Use turbo
+
 ## 1.1.5
 
 ### Patch Changes
