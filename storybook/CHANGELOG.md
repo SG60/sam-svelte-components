@@ -1,5 +1,11 @@
 # @samsveltecomponents/storybook
 
+## 1.2.4
+
+### Patch Changes
+
+- 334a6e5: Use turbo
+
 ## 1.2.3
 
 ### Patch Changes
