@@ -122,7 +122,7 @@ importers:
       '@storybook/addon-links': 6.5.12
       '@storybook/addon-storysource': 6.5.12
       '@storybook/addon-svelte-csf': 2.0.8
-      '@storybook/builder-vite': 0.2.3
+      '@storybook/builder-vite': 0.2.4
       '@storybook/core-common': 6.5.12
       '@storybook/node-logger': 6.5.12
       '@storybook/svelte': 6.5.12
@@ -160,7 +160,7 @@ importers:
       '@storybook/addon-links': 6.5.12_wcqkhtmu7mswc6yz4uyexck3ty
       '@storybook/addon-storysource': 6.5.12_wcqkhtmu7mswc6yz4uyexck3ty
       '@storybook/addon-svelte-csf': 2.0.8_665yjx6hltexb6qm5w6ihyobdi
-      '@storybook/builder-vite': 0.2.3_euqvun5ggf43swzfxaznz4jvuy
+      '@storybook/builder-vite': 0.2.4_euqvun5ggf43swzfxaznz4jvuy
       '@storybook/core-common': 6.5.12_eyfusnigyiutzgdcl5j2ywzvfi
       '@storybook/node-logger': 6.5.12
       '@storybook/svelte': 6.5.12_qcltvdgiwbzkipwnrxrhpcgzo4
@@ -2610,8 +2610,8 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /@storybook/builder-vite/0.2.3_euqvun5ggf43swzfxaznz4jvuy:
-    resolution: {integrity: sha512-qoYLMscM8ih7rYS9vU6WER2ADW28dB/3/TPg/27Q/shJM3yy/++us62arWAa3TJoFx1cB2MhAqhJGYyNH09wuQ==}
+  /@storybook/builder-vite/0.2.4_euqvun5ggf43swzfxaznz4jvuy:
+    resolution: {integrity: sha512-SYAIheTva4Dpqi7Xs+H6oqPOpVA3xu+1k+OnLPKfgR6sVEnLHvPKn80n3NOKdqXoXkO0ou9OVnZaS2A55vnx+A==}
     peerDependencies:
       '@storybook/mdx2-csf': ^0.0.3
       '@sveltejs/vite-plugin-svelte': ^1.0.0
