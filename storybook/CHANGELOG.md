@@ -1,5 +1,11 @@
 # @samsveltecomponents/storybook
 
+## 1.2.5
+
+### Patch Changes
+
+- Bump everything to force release
+
 ## 1.2.4
 
 ### Patch Changes

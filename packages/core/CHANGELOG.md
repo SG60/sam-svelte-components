@@ -1,5 +1,11 @@
 # @samsveltecomponents/core
 
+## 1.1.7
+
+### Patch Changes
+
+- Bump everything to force release
+
 ## 1.1.6
 
 ### Patch Changes
