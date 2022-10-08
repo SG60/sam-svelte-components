@@ -1,5 +1,12 @@
 # @samsveltecomponents/youtube-lite
 
+## 0.1.5
+
+### Patch Changes
+
+- 334a6e5: Use turbo
+- Fix a packaging issue, imports should work now
+
 ## 0.1.4
 
 ### Patch Changes

@@ -1,5 +1,12 @@
 # @samsveltecomponents/storybook
 
+## 1.2.4
+
+### Patch Changes
+
+- 334a6e5: Use turbo
+- Fix a packaging issue, imports should work now
+
 ## 1.2.3
 
 ### Patch Changes

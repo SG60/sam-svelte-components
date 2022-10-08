@@ -1,5 +1,12 @@
 # @samsveltecomponents/core
 
+## 1.1.6
+
+### Patch Changes
+
+- 334a6e5: Use turbo
+- Fix a packaging issue, imports should work now
+
 ## 1.1.5
 
 ### Patch Changes
