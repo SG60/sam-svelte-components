@@ -14,7 +14,7 @@ importers:
       prettier: 2.7.1
       prettier-plugin-svelte: 2.8.0
       svelte: 3.52.0
-      svelte-check: 2.9.1
+      svelte-check: 2.9.2
       turbo: 1.5.6
       typescript: 4.8.4
     devDependencies:
@@ -28,7 +28,7 @@ importers:
       prettier: 2.7.1
       prettier-plugin-svelte: 2.8.0_lrllcp5xtrkmmdzifit4hd52ze
       svelte: 3.52.0
-      svelte-check: 2.9.1_svelte@3.52.0
+      svelte-check: 2.9.2_svelte@3.52.0
       turbo: 1.5.6
       typescript: 4.8.4
 
@@ -45,7 +45,7 @@ importers:
       prettier: 2.7.1
       prettier-plugin-svelte: 2.8.0
       svelte: 3.52.0
-      svelte-check: 2.9.1
+      svelte-check: 2.9.2
       svelte-loader: 3.1.3
       svelte-preprocess: 4.10.7
       svelte2tsx: 0.5.20
@@ -64,7 +64,7 @@ importers:
       prettier: 2.7.1
       prettier-plugin-svelte: 2.8.0_lrllcp5xtrkmmdzifit4hd52ze
       svelte: 3.52.0
-      svelte-check: 2.9.1_svelte@3.52.0
+      svelte-check: 2.9.2_svelte@3.52.0
       svelte-loader: 3.1.3_svelte@3.52.0
       svelte-preprocess: 4.10.7_besnmoibwkhwtentvwuriss7pa
       svelte2tsx: 0.5.20_besnmoibwkhwtentvwuriss7pa
@@ -87,7 +87,7 @@ importers:
       prettier: 2.7.1
       prettier-plugin-svelte: 2.8.0
       svelte: 3.52.0
-      svelte-check: 2.9.1
+      svelte-check: 2.9.2
       svelte-preprocess: 4.10.7
       tslib: 2.4.0
       typescript: 4.8.4
@@ -105,7 +105,7 @@ importers:
       prettier: 2.7.1
       prettier-plugin-svelte: 2.8.0_lrllcp5xtrkmmdzifit4hd52ze
       svelte: 3.52.0
-      svelte-check: 2.9.1_svelte@3.52.0
+      svelte-check: 2.9.2_svelte@3.52.0
       svelte-preprocess: 4.10.7_besnmoibwkhwtentvwuriss7pa
       tslib: 2.4.0
       typescript: 4.8.4
@@ -143,7 +143,7 @@ importers:
       react: 16.14.0
       react-dom: 16.14.0
       svelte: 3.52.0
-      svelte-check: 2.9.1
+      svelte-check: 2.9.2
       svelte-loader: 3.1.3
       svelte-preprocess: 4.10.7
       svelte2tsx: 0.5.20
@@ -181,7 +181,7 @@ importers:
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
       svelte: 3.52.0
-      svelte-check: 2.9.1_s75pocr7fqik3fr2b457tkaduu
+      svelte-check: 2.9.2_s75pocr7fqik3fr2b457tkaduu
       svelte-loader: 3.1.3_svelte@3.52.0
       svelte-preprocess: 4.10.7_35r6kafowvjwobipm5byfbixpq
       svelte2tsx: 0.5.20_besnmoibwkhwtentvwuriss7pa
@@ -11521,8 +11521,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.9.1_s75pocr7fqik3fr2b457tkaduu:
-    resolution: {integrity: sha512-+BFPsj6irZ+t2pVSVo//2Ic1mI3A52xCwbkSTVhTqYZqgawcyZd9pYZoEac3fIWbEeTyCb5X82ORKI/gjn+P7A==}
+  /svelte-check/2.9.2_s75pocr7fqik3fr2b457tkaduu:
+    resolution: {integrity: sha512-DRi8HhnCiqiGR2YF9ervPGvtoYrheE09cXieCTEqeTPOTJzfoa54Py8rovIBv4bH4n5HgZYIyTQ3DDLHQLl2uQ==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
@@ -11549,8 +11549,8 @@ packages:
       - sugarss
     dev: true
 
-  /svelte-check/2.9.1_svelte@3.52.0:
-    resolution: {integrity: sha512-+BFPsj6irZ+t2pVSVo//2Ic1mI3A52xCwbkSTVhTqYZqgawcyZd9pYZoEac3fIWbEeTyCb5X82ORKI/gjn+P7A==}
+  /svelte-check/2.9.2_svelte@3.52.0:
+    resolution: {integrity: sha512-DRi8HhnCiqiGR2YF9ervPGvtoYrheE09cXieCTEqeTPOTJzfoa54Py8rovIBv4bH4n5HgZYIyTQ3DDLHQLl2uQ==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
