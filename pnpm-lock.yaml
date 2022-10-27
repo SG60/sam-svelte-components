@@ -123,7 +123,7 @@ importers:
       '@storybook/addon-essentials': 6.5.13
       '@storybook/addon-links': 6.5.13
       '@storybook/addon-storysource': 6.5.13
-      '@storybook/addon-svelte-csf': 2.0.8
+      '@storybook/addon-svelte-csf': 2.0.10
       '@storybook/builder-vite': 0.2.5
       '@storybook/core-common': 6.5.13
       '@storybook/node-logger': 6.5.13
@@ -161,7 +161,7 @@ importers:
       '@storybook/addon-essentials': 6.5.13_mnwe7zipcuwfa3zlj6zxrvtxwq
       '@storybook/addon-links': 6.5.13_wcqkhtmu7mswc6yz4uyexck3ty
       '@storybook/addon-storysource': 6.5.13_wcqkhtmu7mswc6yz4uyexck3ty
-      '@storybook/addon-svelte-csf': 2.0.8_ptiv7ze2mlw2flnp5echdqy2ra
+      '@storybook/addon-svelte-csf': 2.0.10_ptiv7ze2mlw2flnp5echdqy2ra
       '@storybook/builder-vite': 0.2.5_cvaum7chq7iiwgqpptnqh3gubi
       '@storybook/core-common': 6.5.13_hitzuu5lvjbgls57et6djsr2wa
       '@storybook/node-logger': 6.5.13
@@ -2520,8 +2520,8 @@ packages:
       regenerator-runtime: 0.13.10
     dev: true
 
-  /@storybook/addon-svelte-csf/2.0.8_ptiv7ze2mlw2flnp5echdqy2ra:
-    resolution: {integrity: sha512-C1D7DjFVlG0Cwf13AyZ+y6D4pVbgi87ffqigumPtcucnVA7Vdyfaen99pv7DIFYZSfGoeJXhLE6uJZ2RNYwmMA==}
+  /@storybook/addon-svelte-csf/2.0.10_ptiv7ze2mlw2flnp5echdqy2ra:
+    resolution: {integrity: sha512-0cmUBRuzyHUGOrgz/2eQNyRmWB262jFGyN1W7ZO1p7zUOJbtlNFK9LAuHzlsvcY0k6mzTXDSJuKl8e99jNQ6LA==}
     peerDependencies:
       '@storybook/svelte': '>=6.4.20'
       svelte: ^3.46.6
