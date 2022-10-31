@@ -28,6 +28,7 @@ jobs:
     env:
       TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
       TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
+    if: ${{ !startsWith(github.head_ref, 'changeset-release/') }}
     # Job steps
     steps:
       - uses: actions/checkout@v3
