@@ -1,5 +1,15 @@
 # @samsveltecomponents/storybook
 
+## 1.3.0
+
+### Minor Changes
+
+- 52248e0: Modal component
+
+### Patch Changes
+
+- 129aaf7: pnpm lock
+
 ## 1.2.6
 
 ### Patch Changes
