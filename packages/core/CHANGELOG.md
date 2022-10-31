@@ -1,5 +1,11 @@
 # @samsveltecomponents/core
 
+## 1.1.8
+
+### Patch Changes
+
+- 28df4f3: Dependency updates
+
 ## 1.1.7
 
 ### Patch Changes

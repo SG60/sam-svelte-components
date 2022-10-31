@@ -1,5 +1,11 @@
 # @samsveltecomponents/storybook
 
+## 1.2.6
+
+### Patch Changes
+
+- 28df4f3: Dependency updates
+
 ## 1.2.5
 
 ### Patch Changes

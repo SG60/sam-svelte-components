@@ -1,5 +1,11 @@
 # @samsveltecomponents/youtube-lite
 
+## 0.1.7
+
+### Patch Changes
+
+- 28df4f3: Dependency updates
+
 ## 0.1.6
 
 ### Patch Changes
