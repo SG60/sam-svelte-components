@@ -13,6 +13,10 @@ jobs:
   # CI job
   ci:
     uses: sg60/sam-svelte-components/.github/workflows/ci.yml@main
+    # Pass Turborepo secrets
+    secrets:
+      TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+      TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
 
   build-and-push-package:
     needs: ci
