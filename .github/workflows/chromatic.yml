@@ -18,6 +18,11 @@ on:
         description: The head branch associated with the pull request.
         required: true
 
+# Automatically cancel in-progress actions on the same branch
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request_target' && github.head_ref || github.ref }}
+  cancel-in-progress: true
+
 # List of jobs
 jobs:
   chromatic-deployment:
