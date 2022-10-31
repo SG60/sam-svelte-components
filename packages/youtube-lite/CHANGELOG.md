@@ -1,5 +1,11 @@
 # @samsveltecomponents/youtube-lite
 
+## 0.1.8
+
+### Patch Changes
+
+- 129aaf7: pnpm lock
+
 ## 0.1.7
 
 ### Patch Changes

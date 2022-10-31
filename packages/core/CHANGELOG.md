@@ -1,5 +1,15 @@
 # @samsveltecomponents/core
 
+## 1.2.0
+
+### Minor Changes
+
+- 52248e0: Modal component
+
+### Patch Changes
+
+- 129aaf7: pnpm lock
+
 ## 1.1.8
 
 ### Patch Changes
