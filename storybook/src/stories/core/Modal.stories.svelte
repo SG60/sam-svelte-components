@@ -2,7 +2,7 @@
 	import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
 	import Modal from '@samsveltecomponents/core/Modal.svelte';
 
-	let open: boolean = false;
+	let open = false;
 </script>
 
 <Meta
