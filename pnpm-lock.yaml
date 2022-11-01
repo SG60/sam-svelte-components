@@ -9,7 +9,7 @@ importers:
       '@typescript-eslint/parser': 5.42.0
       eslint: 8.26.0
       eslint-config-prettier: 8.5.0
-      eslint-plugin-storybook: 0.6.6
+      eslint-plugin-storybook: 0.6.7
       eslint-plugin-svelte3: 4.0.0
       prettier: 2.7.1
       prettier-plugin-svelte: 2.8.0
@@ -23,7 +23,7 @@ importers:
       '@typescript-eslint/parser': 5.42.0_wyqvi574yv7oiwfeinomdzmc3m
       eslint: 8.26.0
       eslint-config-prettier: 8.5.0_eslint@8.26.0
-      eslint-plugin-storybook: 0.6.6_wyqvi574yv7oiwfeinomdzmc3m
+      eslint-plugin-storybook: 0.6.7_wyqvi574yv7oiwfeinomdzmc3m
       eslint-plugin-svelte3: 4.0.0_l6ppk7eerpslmlsqymzic46t24
       prettier: 2.7.1
       prettier-plugin-svelte: 2.8.0_lrllcp5xtrkmmdzifit4hd52ze
@@ -136,7 +136,7 @@ importers:
       babel-loader: 9.0.1
       eslint: 8.26.0
       eslint-config-prettier: 8.5.0
-      eslint-plugin-storybook: 0.6.6
+      eslint-plugin-storybook: 0.6.7
       eslint-plugin-svelte3: 4.0.0
       prettier: 2.7.1
       prettier-plugin-svelte: 2.8.0
@@ -174,7 +174,7 @@ importers:
       babel-loader: 9.0.1_6zc4kxld457avlfyhj3lzsljlm
       eslint: 8.26.0
       eslint-config-prettier: 8.5.0_eslint@8.26.0
-      eslint-plugin-storybook: 0.6.6_wyqvi574yv7oiwfeinomdzmc3m
+      eslint-plugin-storybook: 0.6.7_wyqvi574yv7oiwfeinomdzmc3m
       eslint-plugin-svelte3: 4.0.0_l6ppk7eerpslmlsqymzic46t24
       prettier: 2.7.1
       prettier-plugin-svelte: 2.8.0_lrllcp5xtrkmmdzifit4hd52ze
@@ -6866,8 +6866,8 @@ packages:
       eslint: 8.26.0
     dev: true
 
-  /eslint-plugin-storybook/0.6.6_wyqvi574yv7oiwfeinomdzmc3m:
-    resolution: {integrity: sha512-nqYq802vJABpaV0n9cpIZl4Mlmy1yStxa8T3sPqvqbByOpXXtA9ZKRqVv2faSDp0DKVC0B3ItTNU7iMX3Et8VQ==}
+  /eslint-plugin-storybook/0.6.7_wyqvi574yv7oiwfeinomdzmc3m:
+    resolution: {integrity: sha512-lcUsB+3PesKWXwwEHGSTCijKWDXuQ4ITVbnsSDMXRCR/cjGtHZIEcy2pp/Eh7nfWA/GZrDPpK97DsTWEzyN6Bw==}
     engines: {node: 12.x || 14.x || >= 16}
     peerDependencies:
       eslint: '>=6'
