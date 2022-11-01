@@ -95,7 +95,7 @@ importers:
     devDependencies:
       '@justinribeiro/lite-youtube': 1.4.0
       '@sveltejs/adapter-auto': 1.0.0-next.86
-      '@sveltejs/kit': 1.0.0-next.529_svelte@3.52.0+vite@3.1.8
+      '@sveltejs/kit': 1.0.0-next.531_svelte@3.52.0+vite@3.1.8
       '@sveltejs/package': 1.0.0-next.1_besnmoibwkhwtentvwuriss7pa
       '@typescript-eslint/eslint-plugin': 5.41.0_huremdigmcnkianavgfk3x6iou
       '@typescript-eslint/parser': 5.41.0_wyqvi574yv7oiwfeinomdzmc3m
@@ -133,7 +133,7 @@ importers:
       '@sveltejs/package': 1.0.0-next.5
       '@typescript-eslint/eslint-plugin': 5.41.0
       '@typescript-eslint/parser': 5.41.0
-      babel-loader: 9.0.0
+      babel-loader: 9.0.1
       eslint: 8.26.0
       eslint-config-prettier: 8.5.0
       eslint-plugin-storybook: 0.6.6
@@ -171,7 +171,7 @@ importers:
       '@sveltejs/package': 1.0.0-next.5_besnmoibwkhwtentvwuriss7pa
       '@typescript-eslint/eslint-plugin': 5.41.0_huremdigmcnkianavgfk3x6iou
       '@typescript-eslint/parser': 5.41.0_wyqvi574yv7oiwfeinomdzmc3m
-      babel-loader: 9.0.0_6zc4kxld457avlfyhj3lzsljlm
+      babel-loader: 9.0.1_6zc4kxld457avlfyhj3lzsljlm
       eslint: 8.26.0
       eslint-config-prettier: 8.5.0_eslint@8.26.0
       eslint-plugin-storybook: 0.6.6_wyqvi574yv7oiwfeinomdzmc3m
@@ -3661,8 +3661,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.529_svelte@3.52.0+vite@3.1.8:
-    resolution: {integrity: sha512-wM9Y38m8GVNT2YDQo41XNNa55OwTiGE+4fEuuhQnQY4nOSihXGllPsdIulnVsrxcSw9jKLkzwJdFr+i2y2y+OQ==}
+  /@sveltejs/kit/1.0.0-next.531_svelte@3.52.0+vite@3.1.8:
+    resolution: {integrity: sha512-8uBJF5BweIFoyw+Kqv0jsDSfndNw2mTF222qi8rDuptOy7gjoWXYFy2F0kd8orNeZUnjFrHE+g/qDNHq7zzEJg==}
     engines: {node: '>=16.14'}
     hasBin: true
     requiresBuild: true
@@ -4888,8 +4888,8 @@ packages:
       webpack: 4.46.0
     dev: true
 
-  /babel-loader/9.0.0_6zc4kxld457avlfyhj3lzsljlm:
-    resolution: {integrity: sha512-qVGQb0PNw/B1sGhPf0/KKsHZAPfa2Bk+JbjkW7yGjAHZyvjAULXYq0et0+/+7DL/rGYU+y8UoGPzA32NP29pVQ==}
+  /babel-loader/9.0.1_6zc4kxld457avlfyhj3lzsljlm:
+    resolution: {integrity: sha512-szYjslOXFlj/po5KfrVmiuBAcI6GVHFuAgC96Qd6mMPHdwl4lmAJkYtvjQ1RxxPjgdkKjd3LQgXDE4jxEutNuw==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       '@babel/core': ^7.12.0
