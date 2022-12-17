@@ -4,7 +4,7 @@
 		"@samsveltecomponents/storybook#build-storybook": {
 			"dependsOn": ["^build"],
 			"inputs": ["src/**"],
-			"outputs": ["storybook-static"]
+			"outputs": ["storybook-static/**"]
 		},
 		"build": {
 			// A package's `build` script depends on that package's
