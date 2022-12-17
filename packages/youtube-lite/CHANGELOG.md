@@ -1,5 +1,11 @@
 # @samsveltecomponents/youtube-lite
 
+## 0.1.9
+
+### Patch Changes
+
+- fa38d42: internal tweaks (ci)
+
 ## 0.1.8
 
 ### Patch Changes

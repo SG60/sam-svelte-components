@@ -1,5 +1,11 @@
 # @samsveltecomponents/storybook
 
+## 2.0.1
+
+### Patch Changes
+
+- fa38d42: internal tweaks (ci)
+
 ## 2.0.0
 
 ### Major Changes
