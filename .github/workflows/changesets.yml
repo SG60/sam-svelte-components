@@ -12,7 +12,7 @@ concurrency:
 jobs:
   # CI job
   ci:
-    uses: sg60/sam-svelte-components/.github/workflows/ci.yml@main
+    uses: ./.github/workflows/ci.yml
     # Pass Turborepo secrets
     secrets:
       TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
@@ -73,7 +73,7 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   publish-gh-pages:
-    uses: sg60/sam-svelte-components/.github/workflows/gh-pages.yml
+    uses: ./.github/workflows/gh-pages.yml
     needs: build-and-push-package
     if: ${{ needs.build-and-push-package.outputs.published == 'true' }}
     # Pass Turborepo secrets
