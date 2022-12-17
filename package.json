@@ -13,8 +13,8 @@
 		"check:watch": "pnpm run -r --stream check:watch",
 		"lint": "turbo run lint",
 		"format": "turbo run format",
-		"storybook": "pnpm run --filter storybook storybook",
-		"build-storybook": "pnpm run --filter storybook build-storybook",
+		"storybook": "turbo run storybook --filter storybook",
+		"build-storybook": "turbo run build-storybook --filter storybook",
 		"release": "changeset publish"
 	},
 	"devDependencies": {
