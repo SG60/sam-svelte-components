@@ -15,7 +15,7 @@
 		"build-storybook": "storybook build"
 	},
 	"devDependencies": {
-		"@babel/core": "7.20.2",
+		"@babel/core": "7.20.5",
 		"@justinribeiro/lite-youtube": "1.4.0",
 		"@samsveltecomponents/core": "workspace:*",
 		"@samsveltecomponents/youtube-lite": "workspace:*",
