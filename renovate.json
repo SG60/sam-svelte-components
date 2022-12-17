@@ -31,14 +31,21 @@
 		},
 		{
 			"matchPackageNames": [
-				"svelte-check",
 				"svelte2tsx",
-				"@playwright/test",
 				"typescript",
 				"@storybook/builder-vite",
 				"autoprefixer",
 				"vite",
 				"pnpm"
+			],
+			"matchUpdateTypes": ["patch", "minor"],
+			"automerge": true
+		},
+		{
+			"matchPackageNames": [
+				"svelte-check",
+				"prettier",
+				"@playwright/test"
 			],
 			"automerge": true
 		}
