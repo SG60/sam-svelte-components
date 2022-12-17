@@ -23,7 +23,7 @@ importers:
       prettier: 2.7.1
       prettier-plugin-svelte: 2.8.0
       svelte: 3.55.0
-      svelte-check: 2.10.0
+      svelte-check: 2.10.2
       svelte-loader: 3.1.3
       svelte-preprocess: 4.10.7
       svelte2tsx: 0.5.20
@@ -42,7 +42,7 @@ importers:
       prettier: 2.7.1
       prettier-plugin-svelte: 2.8.0_uhw2lhpgcwcu2blwnxkrwkimce
       svelte: 3.55.0
-      svelte-check: 2.10.0_svelte@3.55.0
+      svelte-check: 2.10.2_svelte@3.55.0
       svelte-loader: 3.1.3_svelte@3.55.0
       svelte-preprocess: 4.10.7_ozwewin3tvouwvcwd5wmlkxtki
       svelte2tsx: 0.5.20_ozwewin3tvouwvcwd5wmlkxtki
@@ -65,7 +65,7 @@ importers:
       prettier: 2.7.1
       prettier-plugin-svelte: 2.8.0
       svelte: 3.55.0
-      svelte-check: 2.10.0
+      svelte-check: 2.10.2
       svelte-preprocess: 4.10.7
       tslib: 2.4.1
       typescript: 4.9.3
@@ -83,7 +83,7 @@ importers:
       prettier: 2.7.1
       prettier-plugin-svelte: 2.8.0_uhw2lhpgcwcu2blwnxkrwkimce
       svelte: 3.55.0
-      svelte-check: 2.10.0_svelte@3.55.0
+      svelte-check: 2.10.2_svelte@3.55.0
       svelte-preprocess: 4.10.7_ozwewin3tvouwvcwd5wmlkxtki
       tslib: 2.4.1
       typescript: 4.9.3
@@ -120,7 +120,7 @@ importers:
       react-dom: 16.14.0
       storybook: 7.0.0-beta.12
       svelte: 3.55.0
-      svelte-check: 2.10.0
+      svelte-check: 2.10.2
       svelte-loader: 3.1.3
       svelte-preprocess: 4.10.7
       svelte2tsx: 0.5.20
@@ -157,7 +157,7 @@ importers:
       react-dom: 16.14.0_react@16.14.0
       storybook: 7.0.0-beta.12
       svelte: 3.55.0
-      svelte-check: 2.10.0_rxdqstjrxayjafdavj5x7ack44
+      svelte-check: 2.10.2_rxdqstjrxayjafdavj5x7ack44
       svelte-loader: 3.1.3_svelte@3.55.0
       svelte-preprocess: 4.10.7_npijz3v4otsp6ubmwvrcmsfvwa
       svelte2tsx: 0.5.20_ozwewin3tvouwvcwd5wmlkxtki
@@ -173,7 +173,7 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       '@jridgewell/gen-mapping': 0.1.1
-      '@jridgewell/trace-mapping': 0.3.9
+      '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
   /@aw-web-design/x-default-browser/1.4.88:
@@ -1969,12 +1969,7 @@ packages:
     dependencies:
       '@jridgewell/set-array': 1.1.2
       '@jridgewell/sourcemap-codec': 1.4.14
-      '@jridgewell/trace-mapping': 0.3.9
-    dev: true
-
-  /@jridgewell/resolve-uri/3.0.6:
-    resolution: {integrity: sha512-R7xHtBSNm+9SyvpJkdQl+qrM3Hm2fea3Ef197M3mUug+v+yR+Rhfbs7PBtcBUVnIWJ4JcAdjvij+c8hXS9p5aw==}
-    engines: {node: '>=6.0.0'}
+      '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
   /@jridgewell/resolve-uri/3.1.0:
@@ -2002,13 +1997,6 @@ packages:
     resolution: {integrity: sha512-MCNzAp77qzKca9+W/+I0+sEpaUnZoeasnghNeVc41VZCEKaCH73Vq3BZZ/SzWIgrqE4H4ceI+p+b6C0mHf9T4g==}
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
-      '@jridgewell/sourcemap-codec': 1.4.14
-    dev: true
-
-  /@jridgewell/trace-mapping/0.3.9:
-    resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
-    dependencies:
-      '@jridgewell/resolve-uri': 3.0.6
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
@@ -8798,13 +8786,13 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.10.0_rxdqstjrxayjafdavj5x7ack44:
-    resolution: {integrity: sha512-5iLCoja/WsithyRkNtIeDQ0euJlgWj3Zzo2IA6iuHMuuX9D9OrRYZj2WlA5ACnAFQnN5L9mxWcwUW9VxDNEoGg==}
+  /svelte-check/2.10.2_rxdqstjrxayjafdavj5x7ack44:
+    resolution: {integrity: sha512-h1Tuiir0m8J5yqN+Vx6qgKKk1L871e6a9o7rMwVWfu8Qs6Wg7x2R+wcxS3SO3VpW5JCxCat90rxPsZMYgz+HaQ==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.9
+      '@jridgewell/trace-mapping': 0.3.17
       chokidar: 3.5.3
       fast-glob: 3.2.11
       import-fresh: 3.3.0
@@ -8826,13 +8814,13 @@ packages:
       - sugarss
     dev: true
 
-  /svelte-check/2.10.0_svelte@3.55.0:
-    resolution: {integrity: sha512-5iLCoja/WsithyRkNtIeDQ0euJlgWj3Zzo2IA6iuHMuuX9D9OrRYZj2WlA5ACnAFQnN5L9mxWcwUW9VxDNEoGg==}
+  /svelte-check/2.10.2_svelte@3.55.0:
+    resolution: {integrity: sha512-h1Tuiir0m8J5yqN+Vx6qgKKk1L871e6a9o7rMwVWfu8Qs6Wg7x2R+wcxS3SO3VpW5JCxCat90rxPsZMYgz+HaQ==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.9
+      '@jridgewell/trace-mapping': 0.3.17
       chokidar: 3.5.3
       fast-glob: 3.2.11
       import-fresh: 3.3.0
