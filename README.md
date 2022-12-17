@@ -4,6 +4,9 @@
 
 [![](https://img.shields.io/badge/Storybook-main-pink)](https://main--626adf4e901217004a2c4a77.chromatic.com) [![](https://img.shields.io/badge/Demo_Site-main-blue)](https://code.samgreening.com/sam-svelte-components)
 
+[![npm (scoped)](https://img.shields.io/npm/v/@samsveltecomponents/core?label=core&logo=npm)](https://www.npmjs.com/package/@samsveltecomponents/core)
+[![npm (scoped)](https://img.shields.io/npm/v/@samsveltecomponents/youtube-lite?label=youtube-lite&logo=npm)](https://www.npmjs.com/package/@samsveltecomponents/youtube-lite)
+
 </div>
 
 ---
