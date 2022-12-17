@@ -45,6 +45,7 @@
 			"matchPackageNames": [
 				"svelte-check",
 				"prettier",
+				"prettier-plugin-svelte",
 				"@playwright/test"
 			],
 			"automerge": true
