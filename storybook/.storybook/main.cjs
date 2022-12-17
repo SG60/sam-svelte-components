@@ -2,7 +2,6 @@ const preprocess = require('svelte-preprocess');
 const path = require('path');
 // use 'mergeConfig' to recursively merge Vite options
 const { mergeConfig } = require('vite');
-
 module.exports = {
 	stories: ['../**/*.stories.mdx', '../**/*.stories.@(js|jsx|ts|tsx|svelte)'],
 	addons: [
@@ -12,12 +11,9 @@ module.exports = {
 		'@storybook/addon-a11y',
 		'@storybook/addon-storysource'
 	],
-	framework: '@storybook/svelte',
-	core: {
-		builder: '@storybook/builder-vite'
-	},
-	svelteOptions: {
-		preprocess: preprocess()
+	framework: {
+		name: '@storybook/svelte-vite',
+		options: {}
 	},
 	async viteFinal(config, { configType }) {
 		// return the customized config
@@ -33,5 +29,8 @@ module.exports = {
 				}
 			}
 		});
+	},
+	docs: {
+		docsPage: 'automatic'
 	}
 };
