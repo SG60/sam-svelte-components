@@ -1,5 +1,11 @@
 # @samsveltecomponents/storybook
 
+## 2.0.0
+
+### Major Changes
+
+- 0ed4d4e: update sveltekit and storybook (v7)
+
 ## 1.3.0
 
 ### Minor Changes
