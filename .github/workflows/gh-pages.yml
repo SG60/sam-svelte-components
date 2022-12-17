@@ -1,5 +1,5 @@
 # Workflow for building and deploying a SvelteKit site to GitHub Pages
-name: Build and Deploy
+name: Deploy GitHub Pages
 
 on:
   # Runs on releases
