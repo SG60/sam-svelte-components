@@ -1,5 +1,11 @@
 # @samsveltecomponents/core
 
+## 1.2.2
+
+### Patch Changes
+
+- 06d79c0: ci change
+
 ## 1.2.1
 
 ### Patch Changes
