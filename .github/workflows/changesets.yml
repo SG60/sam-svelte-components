@@ -30,6 +30,10 @@ jobs:
       TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
       TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
 
+    # Map the job outputs to step outputs
+    outputs:
+      published: ${{ steps.changesets.outputs.published }}
+
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
@@ -67,3 +71,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  publish-gh-pages:
+    uses: sg60/sam-svelte-components/.github/workflows/ci.yml@main
+    needs: build-and-push-package
+    if: ${{ needs.build-and-push-package.outputs.published == 'true' }}
+    # Pass Turborepo secrets
+    secrets:
+      TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+      TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
