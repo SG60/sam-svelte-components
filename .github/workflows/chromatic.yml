@@ -58,7 +58,10 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: pnpm install && pnpm run build
+        run: pnpm install
+
+      - name: Build storybook
+        run: pnpm run build-storybook
 
         # 👇 Adds Chromatic as a step in the workflow
       - name: Publish to Chromatic
@@ -69,3 +72,5 @@ jobs:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           # exit once uploaded, (use less github actions ci time)
           exitOnceUploaded: true
+          # prebuilt build dir
+          storybookBuildDir: "storybook/storybook-static"
