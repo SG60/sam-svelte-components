@@ -8,6 +8,12 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+  workflow_call:
+    secrets:
+      TURBO_TEAM:
+        required: false
+      TURBO_TOKEN:
+        required: false
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
