@@ -26,7 +26,7 @@ importers:
       svelte-check: 2.10.2
       svelte-loader: 3.1.4
       svelte-preprocess: 4.10.7
-      svelte2tsx: 0.5.20
+      svelte2tsx: 0.5.22
       tslib: 2.4.1
       typescript: 4.9.3
       vite: 4.0.1
@@ -45,7 +45,7 @@ importers:
       svelte-check: 2.10.2_svelte@3.55.0
       svelte-loader: 3.1.4_svelte@3.55.0
       svelte-preprocess: 4.10.7_ozwewin3tvouwvcwd5wmlkxtki
-      svelte2tsx: 0.5.20_ozwewin3tvouwvcwd5wmlkxtki
+      svelte2tsx: 0.5.22_ozwewin3tvouwvcwd5wmlkxtki
       tslib: 2.4.1
       typescript: 4.9.3
       vite: 4.0.1
@@ -123,7 +123,7 @@ importers:
       svelte-check: 2.10.2
       svelte-loader: 3.1.4
       svelte-preprocess: 4.10.7
-      svelte2tsx: 0.5.20
+      svelte2tsx: 0.5.22
       tslib: 2.4.1
       typescript: 4.9.3
       vite: 4.0.1
@@ -160,7 +160,7 @@ importers:
       svelte-check: 2.10.2_djk754vgonnqrltlcpnt6yq5oy
       svelte-loader: 3.1.4_svelte@3.55.0
       svelte-preprocess: 4.10.7_p75bmkotgmnaxpfeqaxooqpkvm
-      svelte2tsx: 0.5.20_ozwewin3tvouwvcwd5wmlkxtki
+      svelte2tsx: 0.5.22_ozwewin3tvouwvcwd5wmlkxtki
       tslib: 2.4.1
       typescript: 4.9.3
       vite: 4.0.1
@@ -3072,7 +3072,7 @@ packages:
       kleur: 4.1.5
       sade: 1.8.1
       svelte: 3.55.0
-      svelte2tsx: 0.5.20_ozwewin3tvouwvcwd5wmlkxtki
+      svelte2tsx: 0.5.22_ozwewin3tvouwvcwd5wmlkxtki
     transitivePeerDependencies:
       - typescript
     dev: true
@@ -8987,8 +8987,8 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /svelte2tsx/0.5.20_ozwewin3tvouwvcwd5wmlkxtki:
-    resolution: {integrity: sha512-yNHmN/uoAnJ7d1XqVohiNA6TMFOxibHyEddUAHVt1PiLXtbwAJF3WaGYlg8QbOdoXzOVsVNCAlqRUIdULUm+OA==}
+  /svelte2tsx/0.5.22_ozwewin3tvouwvcwd5wmlkxtki:
+    resolution: {integrity: sha512-OytIql7Bv53oFuL0jjsnp/gNvR4ngAUdAjswgibmIQT2Lj2OIQYn2J3gKqRd+wSj/n3M/wrz4zJpudQRSfncZw==}
     peerDependencies:
       svelte: ^3.24
       typescript: ^4.1.2
