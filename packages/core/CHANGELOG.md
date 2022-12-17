@@ -1,5 +1,11 @@
 # @samsveltecomponents/core
 
+## 1.2.1
+
+### Patch Changes
+
+- fa38d42: internal tweaks (ci)
+
 ## 1.2.0
 
 ### Minor Changes
