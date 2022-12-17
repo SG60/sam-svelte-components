@@ -1,5 +1,11 @@
 # @samsveltecomponents/storybook
 
+## 2.0.2
+
+### Patch Changes
+
+- 06d79c0: ci change
+
 ## 2.0.1
 
 ### Patch Changes
