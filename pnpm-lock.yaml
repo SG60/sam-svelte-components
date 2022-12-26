@@ -23,7 +23,7 @@ importers:
       prettier: 2.8.1
       prettier-plugin-svelte: 2.9.0
       svelte: 3.55.0
-      svelte-check: 2.10.2
+      svelte-check: 2.10.3
       svelte-loader: 3.1.4
       svelte-preprocess: 4.10.7
       svelte2tsx: 0.5.22
@@ -42,7 +42,7 @@ importers:
       prettier: 2.8.1
       prettier-plugin-svelte: 2.9.0_ajxj753sv7dbwexjherrch25ta
       svelte: 3.55.0
-      svelte-check: 2.10.2_svelte@3.55.0
+      svelte-check: 2.10.3_svelte@3.55.0
       svelte-loader: 3.1.4_svelte@3.55.0
       svelte-preprocess: 4.10.7_niwyv7xychq2ag6arq5eqxbomm
       svelte2tsx: 0.5.22_niwyv7xychq2ag6arq5eqxbomm
@@ -65,7 +65,7 @@ importers:
       prettier: 2.8.1
       prettier-plugin-svelte: 2.9.0
       svelte: 3.55.0
-      svelte-check: 2.10.2
+      svelte-check: 2.10.3
       svelte-preprocess: 4.10.7
       tslib: 2.4.1
       typescript: 4.9.4
@@ -83,7 +83,7 @@ importers:
       prettier: 2.8.1
       prettier-plugin-svelte: 2.9.0_ajxj753sv7dbwexjherrch25ta
       svelte: 3.55.0
-      svelte-check: 2.10.2_svelte@3.55.0
+      svelte-check: 2.10.3_svelte@3.55.0
       svelte-preprocess: 4.10.7_niwyv7xychq2ag6arq5eqxbomm
       tslib: 2.4.1
       typescript: 4.9.4
@@ -120,7 +120,7 @@ importers:
       react-dom: 16.14.0
       storybook: 7.0.0-beta.12
       svelte: 3.55.0
-      svelte-check: 2.10.2
+      svelte-check: 2.10.3
       svelte-loader: 3.1.4
       svelte-preprocess: 4.10.7
       svelte2tsx: 0.5.22
@@ -157,7 +157,7 @@ importers:
       react-dom: 16.14.0_react@16.14.0
       storybook: 7.0.0-beta.12
       svelte: 3.55.0
-      svelte-check: 2.10.2_djk754vgonnqrltlcpnt6yq5oy
+      svelte-check: 2.10.3_djk754vgonnqrltlcpnt6yq5oy
       svelte-loader: 3.1.4_svelte@3.55.0
       svelte-preprocess: 4.10.7_ynpuwi5skcqauoyh2bt4qdoifa
       svelte2tsx: 0.5.22_niwyv7xychq2ag6arq5eqxbomm
@@ -8717,8 +8717,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check/2.10.2_djk754vgonnqrltlcpnt6yq5oy:
-    resolution: {integrity: sha512-h1Tuiir0m8J5yqN+Vx6qgKKk1L871e6a9o7rMwVWfu8Qs6Wg7x2R+wcxS3SO3VpW5JCxCat90rxPsZMYgz+HaQ==}
+  /svelte-check/2.10.3_djk754vgonnqrltlcpnt6yq5oy:
+    resolution: {integrity: sha512-Nt1aWHTOKFReBpmJ1vPug0aGysqPwJh2seM1OvICfM2oeyaA62mOiy5EvkXhltGfhCcIQcq2LoE0l1CwcWPjlw==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
@@ -8745,8 +8745,8 @@ packages:
       - sugarss
     dev: true
 
-  /svelte-check/2.10.2_svelte@3.55.0:
-    resolution: {integrity: sha512-h1Tuiir0m8J5yqN+Vx6qgKKk1L871e6a9o7rMwVWfu8Qs6Wg7x2R+wcxS3SO3VpW5JCxCat90rxPsZMYgz+HaQ==}
+  /svelte-check/2.10.3_svelte@3.55.0:
+    resolution: {integrity: sha512-Nt1aWHTOKFReBpmJ1vPug0aGysqPwJh2seM1OvICfM2oeyaA62mOiy5EvkXhltGfhCcIQcq2LoE0l1CwcWPjlw==}
     hasBin: true
     peerDependencies:
       svelte: ^3.24.0
