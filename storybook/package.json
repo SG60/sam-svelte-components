@@ -29,7 +29,7 @@
 		"@storybook/node-logger": "7.0.0-beta.17",
 		"@storybook/svelte": "7.0.0-beta.17",
 		"@storybook/svelte-vite": "7.0.0-beta.17",
-		"@sveltejs/adapter-static": "1.0.0",
+		"@sveltejs/adapter-static": "1.0.6",
 		"@typescript-eslint/eslint-plugin": "5.46.1",
 		"@typescript-eslint/parser": "5.46.1",
 		"babel-loader": "9.1.0",
