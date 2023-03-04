@@ -84,6 +84,7 @@ importers:
       tslib: 2.4.1
       typescript: 4.9.4
       vite: 4.0.4
+    publishDirectory: package
 
   packages/youtube-lite:
     specifiers:
@@ -172,12 +173,12 @@ importers:
       '@storybook/addon-essentials': 7.0.0-beta.17_wcqkhtmu7mswc6yz4uyexck3ty
       '@storybook/addon-links': 7.0.0-beta.17_wcqkhtmu7mswc6yz4uyexck3ty
       '@storybook/addon-storysource': 7.0.0-beta.17_wcqkhtmu7mswc6yz4uyexck3ty
-      '@storybook/addon-svelte-csf': 3.0.0-next.3_obalbj57uvm2edbrknut6rlztq
+      '@storybook/addon-svelte-csf': 3.0.0-next.3_5xys47z2ntptlhhhojw4pjxg3i
       '@storybook/core-common': 7.0.0-beta.17
       '@storybook/node-logger': 7.0.0-beta.17
       '@storybook/svelte': 7.0.0-beta.17_642hmfw3bv4zncxzqzauxxpfri
       '@storybook/svelte-vite': 7.0.0-beta.17_vw3to2l4hr75bcrsryvpmg3uri
-      '@sveltejs/adapter-static': 1.0.6
+      '@sveltejs/adapter-static': 1.0.6_@sveltejs+kit@1.9.3
       '@typescript-eslint/eslint-plugin': 5.46.1_vejjvbk25jnlxi7gckc37ncytq
       '@typescript-eslint/parser': 5.46.1_ycpbpc6yetojsgtrx3mwntkhsu
       babel-loader: 9.1.0_la66t7xldg4uecmyawueag5wkm
@@ -198,7 +199,7 @@ importers:
       tslib: 2.4.1
       typescript: 4.9.5
       vite: 4.1.4
-      webpack: 5.75.0
+      webpack: 5.75.0_esbuild@0.16.17
 
 packages:
 
@@ -2615,7 +2616,7 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/addon-svelte-csf/3.0.0-next.3_obalbj57uvm2edbrknut6rlztq:
+  /@storybook/addon-svelte-csf/3.0.0-next.3_5xys47z2ntptlhhhojw4pjxg3i:
     resolution: {integrity: sha512-0KvlvQBGJGWQeV7S78tnOYWP9ZkIwiaXuoZziQKUMv/Lhk0eGEvs/kT0ipOUKgfnvujsb/Hpz1MXcHOqcoC+2A==}
     peerDependencies:
       '@storybook/svelte': ^7.0.0-beta
@@ -2634,6 +2635,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.17.9
       '@storybook/svelte': 7.0.0-beta.17_642hmfw3bv4zncxzqzauxxpfri
+      '@storybook/theming': 7.0.0-beta.17_wcqkhtmu7mswc6yz4uyexck3ty
       magic-string: 0.26.7
       svelte: 3.55.0
       svelte-loader: 3.1.4_svelte@3.55.0
@@ -3314,12 +3316,6 @@ packages:
     dependencies:
       '@sveltejs/kit': 1.9.3_svelte@3.55.0+vite@4.0.4
       import-meta-resolve: 2.2.0
-    dev: true
-
-  /@sveltejs/adapter-static/1.0.6:
-    resolution: {integrity: sha512-gTus2jW6bEQAZoT1MdmPHWZZmcb6dfLWc0r6dFHnbzSDZ68kifqQ1E+dZDOMF7aXeRV91sgnPuAn2MtpinVdlA==}
-    peerDependencies:
-      '@sveltejs/kit': ^1.0.0
     dev: true
 
   /@sveltejs/adapter-static/1.0.6_@sveltejs+kit@1.9.3:
@@ -4193,8 +4189,10 @@ packages:
       indent-string: 4.0.0
     dev: true
 
-  /ajv-formats/2.1.1:
+  /ajv-formats/2.1.1_ajv@8.11.2:
     resolution: {integrity: sha512-Wx0Kx52hxE7C18hkMEggYlEifqWZtYaRgouJor+WMdPnQyEK13vgEWyVNup7SoeeoLMsr4kf5h6dOW11I15MUA==}
+    peerDependencies:
+      ajv: ^8.0.0
     peerDependenciesMeta:
       ajv:
         optional: true
@@ -4413,7 +4411,7 @@ packages:
       '@babel/core': 7.20.12
       find-cache-dir: 3.3.2
       schema-utils: 4.0.0
-      webpack: 5.75.0
+      webpack: 5.75.0_esbuild@0.16.17
     dev: true
 
   /babel-plugin-istanbul/6.1.1:
@@ -8578,7 +8576,7 @@ packages:
     dependencies:
       '@types/json-schema': 7.0.11
       ajv: 8.11.2
-      ajv-formats: 2.1.1
+      ajv-formats: 2.1.1_ajv@8.11.2
       ajv-keywords: 5.1.0_ajv@8.11.2
     dev: true
 
@@ -9411,7 +9409,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /terser-webpack-plugin/5.3.6_webpack@5.75.0:
+  /terser-webpack-plugin/5.3.6_htvmhiqynazf46fjrszipnqp7a:
     resolution: {integrity: sha512-kfLFk+PoLUQIbLmB1+PZDMRSZS99Mp+/MHqDNmMA6tOItzRt+Npe3E+fsMs5mfcM0wCtrrdU387UnV+vnSffXQ==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -9428,11 +9426,12 @@ packages:
         optional: true
     dependencies:
       '@jridgewell/trace-mapping': 0.3.17
+      esbuild: 0.16.17
       jest-worker: 27.5.1
       schema-utils: 3.1.1
       serialize-javascript: 6.0.0
       terser: 5.16.1
-      webpack: 5.75.0
+      webpack: 5.75.0_esbuild@0.16.17
     dev: true
 
   /terser/5.16.1:
@@ -10013,7 +10012,7 @@ packages:
     resolution: {integrity: sha512-5tyDlKLqPfMqjT3Q9TAqf2YqjwmnUleZwzJi1A5qXnlBCdj2AtOJ6wAWdglTIDOPgOiOrXeBeFcsQ8+aGQ6QbA==}
     dev: true
 
-  /webpack/5.75.0:
+  /webpack/5.75.0_esbuild@0.16.17:
     resolution: {integrity: sha512-piaIaoVJlqMsPtX/+3KTTO6jfvrSYgauFVdt8cr9LTHKmcq/AMd4mhzsiP7ZF/PGRNPGA8336jldh9l2Kt2ogQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
@@ -10044,7 +10043,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.1.1
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.6_webpack@5.75.0
+      terser-webpack-plugin: 5.3.6_htvmhiqynazf46fjrszipnqp7a
       watchpack: 2.4.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:
