@@ -162,7 +162,7 @@ importers:
       tslib: 2.4.1
       typescript: 4.9.5
       vite: 4.1.4
-      webpack: 5.75.0
+      webpack: 5.76.0
     devDependencies:
       '@babel/core': 7.20.12
       '@justinribeiro/lite-youtube': 1.4.0
@@ -181,7 +181,7 @@ importers:
       '@sveltejs/adapter-static': 1.0.6
       '@typescript-eslint/eslint-plugin': 5.46.1_vejjvbk25jnlxi7gckc37ncytq
       '@typescript-eslint/parser': 5.46.1_ycpbpc6yetojsgtrx3mwntkhsu
-      babel-loader: 9.1.0_la66t7xldg4uecmyawueag5wkm
+      babel-loader: 9.1.0_bmyf4qpcaymh7uuw2qsdsxq2oa
       eslint: 8.35.0
       eslint-config-prettier: 8.6.0_eslint@8.35.0
       eslint-plugin-storybook: 0.6.11_ycpbpc6yetojsgtrx3mwntkhsu
@@ -199,7 +199,7 @@ importers:
       tslib: 2.4.1
       typescript: 4.9.5
       vite: 4.1.4
-      webpack: 5.75.0
+      webpack: 5.76.0
 
 packages:
 
@@ -4404,7 +4404,7 @@ packages:
       '@babel/core': 7.20.12
     dev: true
 
-  /babel-loader/9.1.0_la66t7xldg4uecmyawueag5wkm:
+  /babel-loader/9.1.0_bmyf4qpcaymh7uuw2qsdsxq2oa:
     resolution: {integrity: sha512-Antt61KJPinUMwHwIIz9T5zfMgevnfZkEVWYDWlG888fgdvRRGD0JTuf/fFozQnfT+uq64sk1bmdHDy/mOEWnA==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
@@ -4414,7 +4414,7 @@ packages:
       '@babel/core': 7.20.12
       find-cache-dir: 3.3.2
       schema-utils: 4.0.0
-      webpack: 5.75.0
+      webpack: 5.76.0
     dev: true
 
   /babel-plugin-istanbul/6.1.1:
@@ -9459,7 +9459,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /terser-webpack-plugin/5.3.6_webpack@5.75.0:
+  /terser-webpack-plugin/5.3.6_webpack@5.76.0:
     resolution: {integrity: sha512-kfLFk+PoLUQIbLmB1+PZDMRSZS99Mp+/MHqDNmMA6tOItzRt+Npe3E+fsMs5mfcM0wCtrrdU387UnV+vnSffXQ==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -9480,7 +9480,7 @@ packages:
       schema-utils: 3.1.1
       serialize-javascript: 6.0.0
       terser: 5.16.1
-      webpack: 5.75.0
+      webpack: 5.76.0
     dev: true
 
   /terser/5.16.1:
@@ -10061,8 +10061,8 @@ packages:
     resolution: {integrity: sha512-5tyDlKLqPfMqjT3Q9TAqf2YqjwmnUleZwzJi1A5qXnlBCdj2AtOJ6wAWdglTIDOPgOiOrXeBeFcsQ8+aGQ6QbA==}
     dev: true
 
-  /webpack/5.75.0:
-    resolution: {integrity: sha512-piaIaoVJlqMsPtX/+3KTTO6jfvrSYgauFVdt8cr9LTHKmcq/AMd4mhzsiP7ZF/PGRNPGA8336jldh9l2Kt2ogQ==}
+  /webpack/5.76.0:
+    resolution: {integrity: sha512-l5sOdYBDunyf72HW8dF23rFtWq/7Zgvt/9ftMof71E/yUb1YLOBmTgA2K4vQthB3kotMrSj609txVE0dnr2fjA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -10092,7 +10092,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.1.1
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.6_webpack@5.75.0
+      terser-webpack-plugin: 5.3.6_webpack@5.76.0
       watchpack: 2.4.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:
