@@ -29,10 +29,10 @@ importers:
       svelte2tsx: 0.5.22
       tslib: 2.4.1
       typescript: 4.9.5
-      vite: 4.2.0
+      vite: 4.2.1
     devDependencies:
       '@sveltejs/adapter-static': 1.0.6_@sveltejs+kit@1.9.3
-      '@sveltejs/kit': 1.9.3_svelte@3.55.0+vite@4.2.0
+      '@sveltejs/kit': 1.9.3_svelte@3.55.0+vite@4.2.1
       '@sveltejs/package': 1.0.2_tuotfx7glloxurl4snpq7ztuqe
       '@typescript-eslint/eslint-plugin': 5.46.1_vejjvbk25jnlxi7gckc37ncytq
       '@typescript-eslint/parser': 5.46.1_ycpbpc6yetojsgtrx3mwntkhsu
@@ -48,7 +48,7 @@ importers:
       svelte2tsx: 0.5.22_tuotfx7glloxurl4snpq7ztuqe
       tslib: 2.4.1
       typescript: 4.9.5
-      vite: 4.2.0
+      vite: 4.2.1
     publishDirectory: package
 
   packages/sanity-tools:
@@ -104,11 +104,11 @@ importers:
       svelte-preprocess: 4.10.7
       tslib: 2.4.1
       typescript: 4.9.5
-      vite: 4.2.0
+      vite: 4.2.1
     devDependencies:
       '@justinribeiro/lite-youtube': 1.4.0
       '@sveltejs/adapter-auto': 1.0.0-next.91_@sveltejs+kit@1.9.3
-      '@sveltejs/kit': 1.9.3_svelte@3.55.0+vite@4.2.0
+      '@sveltejs/kit': 1.9.3_svelte@3.55.0+vite@4.2.1
       '@sveltejs/package': 1.0.2_tuotfx7glloxurl4snpq7ztuqe
       '@typescript-eslint/eslint-plugin': 5.46.1_vejjvbk25jnlxi7gckc37ncytq
       '@typescript-eslint/parser': 5.46.1_ycpbpc6yetojsgtrx3mwntkhsu
@@ -122,7 +122,7 @@ importers:
       svelte-preprocess: 4.10.7_tuotfx7glloxurl4snpq7ztuqe
       tslib: 2.4.1
       typescript: 4.9.5
-      vite: 4.2.0
+      vite: 4.2.1
     publishDirectory: package
 
   storybook:
@@ -161,7 +161,7 @@ importers:
       svelte2tsx: 0.5.22
       tslib: 2.4.1
       typescript: 4.9.5
-      vite: 4.2.0
+      vite: 4.2.1
       webpack: 5.76.0
     devDependencies:
       '@babel/core': 7.20.12
@@ -173,11 +173,11 @@ importers:
       '@storybook/addon-essentials': 7.0.0-beta.17_wcqkhtmu7mswc6yz4uyexck3ty
       '@storybook/addon-links': 7.0.0-beta.17_wcqkhtmu7mswc6yz4uyexck3ty
       '@storybook/addon-storysource': 7.0.0-beta.17_wcqkhtmu7mswc6yz4uyexck3ty
-      '@storybook/addon-svelte-csf': 3.0.0-next.3_nflx65kj3m3lnj43rvqtpzhltq
+      '@storybook/addon-svelte-csf': 3.0.0-next.3_37hcktzqjzt67ly745av6ei2je
       '@storybook/core-common': 7.0.0-beta.17
       '@storybook/node-logger': 7.0.0-beta.17
       '@storybook/svelte': 7.0.0-beta.17_642hmfw3bv4zncxzqzauxxpfri
-      '@storybook/svelte-vite': 7.0.0-beta.17_ph76wnwoqiv5eyb77gvhlxavcq
+      '@storybook/svelte-vite': 7.0.0-beta.17_aoqitnlt7i5goyxwmk5cikpjsy
       '@sveltejs/adapter-static': 1.0.6
       '@typescript-eslint/eslint-plugin': 5.46.1_vejjvbk25jnlxi7gckc37ncytq
       '@typescript-eslint/parser': 5.46.1_ycpbpc6yetojsgtrx3mwntkhsu
@@ -198,7 +198,7 @@ importers:
       svelte2tsx: 0.5.22_tuotfx7glloxurl4snpq7ztuqe
       tslib: 2.4.1
       typescript: 4.9.5
-      vite: 4.2.0
+      vite: 4.2.1
       webpack: 5.76.0
 
 packages:
@@ -2814,7 +2814,7 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/addon-svelte-csf/3.0.0-next.3_nflx65kj3m3lnj43rvqtpzhltq:
+  /@storybook/addon-svelte-csf/3.0.0-next.3_37hcktzqjzt67ly745av6ei2je:
     resolution: {integrity: sha512-0KvlvQBGJGWQeV7S78tnOYWP9ZkIwiaXuoZziQKUMv/Lhk0eGEvs/kT0ipOUKgfnvujsb/Hpz1MXcHOqcoC+2A==}
     peerDependencies:
       '@storybook/svelte': ^7.0.0-beta
@@ -2837,7 +2837,7 @@ packages:
       svelte: 3.55.0
       svelte-loader: 3.1.4_svelte@3.55.0
       ts-dedent: 2.2.0
-      vite: 4.2.0
+      vite: 4.2.1
     dev: true
 
   /@storybook/addon-toolbars/7.0.0-beta.17_wcqkhtmu7mswc6yz4uyexck3ty:
@@ -2945,7 +2945,7 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/builder-vite/7.0.0-beta.17_x534c44v6qaxnnsdb2qkizduie:
+  /@storybook/builder-vite/7.0.0-beta.17_27d6rnnqnnz33bvg4pqy2xno6y:
     resolution: {integrity: sha512-KgOBxuWhhlRUK8K2jC7LZ3Q7D1KwkE/tVsTq25aouXfebBISycCCDEEn+EfcRzwcMqCizVfb8tXIHUooHaLdew==}
     peerDependencies:
       '@preact/preset-vite': '*'
@@ -2979,7 +2979,7 @@ packages:
       rollup-plugin-external-globals: 0.7.1_rollup@3.19.1
       slash: 3.0.0
       typescript: 4.9.5
-      vite: 4.2.0
+      vite: 4.2.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3392,7 +3392,7 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/svelte-vite/7.0.0-beta.17_ph76wnwoqiv5eyb77gvhlxavcq:
+  /@storybook/svelte-vite/7.0.0-beta.17_aoqitnlt7i5goyxwmk5cikpjsy:
     resolution: {integrity: sha512-0fXf1EFMGLzdDiZyj6Xxj5t1tpA3f3QaxBcANOP4rGJAom9y4xNxF8smoKEgFpdisFMyeeOxg1+P1/GZft9PPQ==}
     engines: {node: ^14.18 || >=16}
     peerDependencies:
@@ -3400,17 +3400,17 @@ packages:
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
       vite: ^3.0.0 || ^4.0.0
     dependencies:
-      '@storybook/builder-vite': 7.0.0-beta.17_x534c44v6qaxnnsdb2qkizduie
+      '@storybook/builder-vite': 7.0.0-beta.17_27d6rnnqnnz33bvg4pqy2xno6y
       '@storybook/node-logger': 7.0.0-beta.17
       '@storybook/svelte': 7.0.0-beta.17_642hmfw3bv4zncxzqzauxxpfri
-      '@sveltejs/vite-plugin-svelte': 2.0.2_svelte@3.55.0+vite@4.2.0
+      '@sveltejs/vite-plugin-svelte': 2.0.2_svelte@3.55.0+vite@4.2.1
       magic-string: 0.26.7
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
       svelte: 3.55.0
       sveltedoc-parser: 4.2.1
       ts-dedent: 2.2.0
-      vite: 4.2.0
+      vite: 4.2.1
     transitivePeerDependencies:
       - '@babel/core'
       - '@preact/preset-vite'
@@ -3502,7 +3502,7 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^1.0.0-next.587
     dependencies:
-      '@sveltejs/kit': 1.9.3_svelte@3.55.0+vite@4.2.0
+      '@sveltejs/kit': 1.9.3_svelte@3.55.0+vite@4.2.1
       import-meta-resolve: 2.2.0
     dev: true
 
@@ -3526,7 +3526,7 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^1.0.0
     dependencies:
-      '@sveltejs/kit': 1.9.3_svelte@3.55.0+vite@4.2.0
+      '@sveltejs/kit': 1.9.3_svelte@3.55.0+vite@4.2.1
     dev: true
 
   /@sveltejs/kit/1.9.3_svelte@3.55.0+vite@4.0.4:
@@ -3557,7 +3557,7 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit/1.9.3_svelte@3.55.0+vite@4.2.0:
+  /@sveltejs/kit/1.9.3_svelte@3.55.0+vite@4.2.1:
     resolution: {integrity: sha512-rh9FbGfS8w328JZSZmG/ahabBbE50TisHvfz4sVNU3IM3AOhgUAv3EhAJ2dij9R8uARbDHRTY8jOQbIPjcKBZQ==}
     engines: {node: ^16.14 || >=18}
     hasBin: true
@@ -3566,7 +3566,7 @@ packages:
       svelte: ^3.54.0
       vite: ^4.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 2.0.2_svelte@3.55.0+vite@4.2.0
+      '@sveltejs/vite-plugin-svelte': 2.0.2_svelte@3.55.0+vite@4.2.1
       '@types/cookie': 0.5.1
       cookie: 0.5.0
       devalue: 4.3.0
@@ -3580,7 +3580,7 @@ packages:
       svelte: 3.55.0
       tiny-glob: 0.2.9
       undici: 5.20.0
-      vite: 4.2.0
+      vite: 4.2.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3636,7 +3636,7 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/2.0.2_svelte@3.55.0+vite@4.2.0:
+  /@sveltejs/vite-plugin-svelte/2.0.2_svelte@3.55.0+vite@4.2.1:
     resolution: {integrity: sha512-xCEan0/NNpQuL0l5aS42FjwQ6wwskdxC3pW1OeFtEKNZwRg7Evro9lac9HesGP6TdFsTv2xMes5ASQVKbCacxg==}
     engines: {node: ^14.18.0 || >= 16}
     peerDependencies:
@@ -3649,8 +3649,8 @@ packages:
       magic-string: 0.27.0
       svelte: 3.55.0
       svelte-hmr: 0.15.1_svelte@3.55.0
-      vite: 4.2.0
-      vitefu: 0.2.4_vite@4.2.0
+      vite: 4.2.1
+      vitefu: 0.2.4_vite@4.2.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -10201,8 +10201,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/4.2.0:
-    resolution: {integrity: sha512-AbDTyzzwuKoRtMIRLGNxhLRuv1FpRgdIw+1y6AQG73Q5+vtecmvzKo/yk8X/vrHDpETRTx01ABijqUHIzBXi0g==}
+  /vite/4.2.1:
+    resolution: {integrity: sha512-7MKhqdy0ISo4wnvwtqZkjke6XN4taqQ2TBaTccLIpOKv7Vp2h4Y+NpmWCnGDeSvvn45KxvWgGyb0MkHvY1vgbg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -10245,7 +10245,7 @@ packages:
       vite: 4.0.4
     dev: true
 
-  /vitefu/0.2.4_vite@4.2.0:
+  /vitefu/0.2.4_vite@4.2.1:
     resolution: {integrity: sha512-fanAXjSaf9xXtOOeno8wZXIhgia+CZury481LsDaV++lSvcU2R9Ch2bPh3PYFyoHW+w9LqAeYRISVQjUIew14g==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
@@ -10253,7 +10253,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.2.0
+      vite: 4.2.1
     dev: true
 
   /walker/1.0.8:
