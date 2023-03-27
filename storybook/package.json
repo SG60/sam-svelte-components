@@ -52,6 +52,6 @@
 		"vite": "4.2.0",
 		"webpack": "5.76.0"
 	},
-	"packageManager": "pnpm@7.29.1",
+	"packageManager": "pnpm@7.30.3",
 	"type": "module"
 }
