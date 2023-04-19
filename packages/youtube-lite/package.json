@@ -12,7 +12,7 @@
 	"devDependencies": {
 		"@justinribeiro/lite-youtube": "1.4.0",
 		"@sveltejs/adapter-auto": "next",
-		"@sveltejs/kit": "1.9.3",
+		"@sveltejs/kit": "1.15.2",
 		"@sveltejs/package": "1.0.2",
 		"@typescript-eslint/eslint-plugin": "5.46.1",
 		"@typescript-eslint/parser": "5.46.1",
