@@ -70,7 +70,14 @@ importers:
     publishDirectory: package
 
   packages/sanity-tools:
+    dependencies:
+      '@samsveltecomponents/youtube-lite':
+        specifier: workspace:*
+        version: link:../youtube-lite/package
     devDependencies:
+      '@portabletext/svelte':
+        specifier: ^2.0.0
+        version: 2.0.0(svelte@3.55.0)
       '@sanity/ui':
         specifier: ^1.3.2
         version: 1.3.2(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@5.3.10)
@@ -2799,8 +2806,24 @@ packages:
       react: 18.2.0
     dev: true
 
+  /@portabletext/svelte@2.0.0(svelte@3.55.0):
+    resolution: {integrity: sha512-fyA2BFC4c/16PJxu1QpI8PC1W32TJjEPHRh69aW19OFYv5m4+7Gd4J4+Oq9C1FTKycNfcUTNaEik07KqhrLPfQ==}
+    peerDependencies:
+      svelte: ^3.47.0
+    dependencies:
+      '@portabletext/toolkit': 2.0.1
+      svelte: 3.55.0
+    dev: true
+
   /@portabletext/toolkit@1.0.8:
     resolution: {integrity: sha512-SNO8at5crqySCeYa19/mdcZoZvGCINGc/eAX4FwYt02cEzb48hf013BuA9LbEQuTOgpMKxnyeRGpEzxmowmEug==}
+    engines: {node: ^14.13.1 || >=16.0.0}
+    dependencies:
+      '@portabletext/types': 2.0.2
+    dev: true
+
+  /@portabletext/toolkit@2.0.1:
+    resolution: {integrity: sha512-vr2SeDFUFV+VmRIyYsHBMimZLiiN0S7qIridt/YLJs3Wm1dI4jsfUam82AQwheSMjvWdBiBZ+Wsjq5HZBG4htw==}
     engines: {node: ^14.13.1 || >=16.0.0}
     dependencies:
       '@portabletext/types': 2.0.2
