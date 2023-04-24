@@ -73,4 +73,4 @@ jobs:
           # exit once uploaded, (use less github actions ci time)
           exitOnceUploaded: true
           # prebuilt build dir
-          storybookBuildDir: "storybook/storybook-static"
+          storybookBuildDir: "docs/storybook-static"
