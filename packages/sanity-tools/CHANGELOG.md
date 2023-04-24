@@ -1,5 +1,11 @@
 # @samgreening/sanity-tools
 
+## 0.1.3
+
+### Patch Changes
+
+- dbb4a0f: fix eslint problem
+
 ## 0.1.2
 
 ### Patch Changes
