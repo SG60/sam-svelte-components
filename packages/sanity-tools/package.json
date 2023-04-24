@@ -30,11 +30,14 @@
 		"!dist/**/*.spec.*"
 	],
 	"peerDependencies": {
+		"@portabletext/svelte": "^2.0.0",
 		"@sanity/ui": "^1.3.2",
 		"sanity": "^3.9.0",
-		"svelte": "^3.54.0"
+		"svelte": "^3.54.0",
+    "@samsveltecomponents/youtube-lite": "workspace:*"
 	},
 	"devDependencies": {
+		"@portabletext/svelte": "^2.0.0",
 		"@sanity/ui": "^1.3.2",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.5.0",
