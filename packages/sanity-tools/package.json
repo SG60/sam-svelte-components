@@ -34,7 +34,7 @@
 		"@sanity/ui": "^1.3.2",
 		"sanity": "^3.9.0",
 		"svelte": "^3.54.0",
-    "@samsveltecomponents/youtube-lite": "workspace:*"
+		"@samsveltecomponents/youtube-lite": "workspace:*"
 	},
 	"devDependencies": {
 		"@portabletext/svelte": "^2.0.0",
