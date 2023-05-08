@@ -92,8 +92,8 @@ importers:
         specifier: 3.55.0
         version: 3.55.0
       svelte-check:
-        specifier: 3.2.0
-        version: 3.2.0(@babel/core@7.21.4)(postcss@8.4.23)(svelte@3.55.0)
+        specifier: 3.3.1
+        version: 3.3.1(@babel/core@7.21.4)(postcss@8.4.23)(svelte@3.55.0)
       tailwindcss:
         specifier: 3.3.2
         version: 3.3.2
@@ -140,8 +140,8 @@ importers:
         specifier: 3.55.0
         version: 3.55.0
       svelte-check:
-        specifier: 3.2.0
-        version: 3.2.0(@babel/core@7.21.4)(postcss@8.4.23)(svelte@3.55.0)
+        specifier: 3.3.1
+        version: 3.3.1(@babel/core@7.21.4)(postcss@8.4.23)(svelte@3.55.0)
       svelte-loader:
         specifier: 3.1.4
         version: 3.1.4(svelte@3.55.0)
@@ -214,8 +214,8 @@ importers:
         specifier: 3.55.0
         version: 3.55.0
       svelte-check:
-        specifier: 3.2.0
-        version: 3.2.0(@babel/core@7.21.4)(postcss@8.4.23)(svelte@3.55.0)
+        specifier: 3.3.1
+        version: 3.3.1(@babel/core@7.21.4)(postcss@8.4.23)(svelte@3.55.0)
       tslib:
         specifier: 2.4.1
         version: 2.4.1
@@ -268,8 +268,8 @@ importers:
         specifier: 3.55.0
         version: 3.55.0
       svelte-check:
-        specifier: 3.2.0
-        version: 3.2.0(@babel/core@7.21.4)(postcss@8.4.23)(svelte@3.55.0)
+        specifier: 3.3.1
+        version: 3.3.1(@babel/core@7.21.4)(postcss@8.4.23)(svelte@3.55.0)
       svelte-preprocess:
         specifier: 4.10.7
         version: 4.10.7(svelte@3.55.0)(typescript@4.9.5)
@@ -10747,8 +10747,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check@3.2.0(@babel/core@7.21.4)(postcss@8.4.23)(svelte@3.55.0):
-    resolution: {integrity: sha512-6ZnscN8dHEN5Eq5LgIzjj07W9nc9myyBH+diXsUAuiY/3rt0l65/LCIQYlIuoFEjp2F1NhXqZiJwV9omPj9tMw==}
+  /svelte-check@3.3.1(@babel/core@7.21.4)(postcss@8.4.23)(svelte@3.55.0):
+    resolution: {integrity: sha512-+Yb1F50M76JRPdZlxB8/blg75GiqKH/8QJTNtC3cKvxCbrRK7zpgmOg2oxem9n4eDAIllesm74guR3AnlAtNVg==}
     hasBin: true
     peerDependencies:
       svelte: ^3.55.0
