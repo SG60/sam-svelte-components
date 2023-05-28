@@ -1,104 +1,81 @@
-import React, { useCallback } from 'react';
-import { Container, Stack, Text, TextInput, ThemeProvider, ThemeColorProvider } from '@sanity/ui';
-import {
-	DateTimeInput,
-	StringInput,
-	StringInputProps,
-	definePlugin,
-	defineType,
-	set,
-	unset
-} from 'sanity';
-// import {DateTimePicker} from '@mantine/dates'
-import {
-	DateField,
-	DatePicker as SpectrumDatePicker,
-	defaultTheme,
-	Provider
-} from '@adobe/react-spectrum';
-import {
-	Button,
-	Calendar,
-	CalendarCell,
-	CalendarGrid,
-	DateInput,
-	DatePicker,
-	DateSegment,
-	Dialog,
-	Group,
-	Heading,
-	Label,
-	Popover
-} from 'react-aria-components';
+import React, { useCallback, useState } from 'react';
+import { Stack, Text, ThemeProvider, Select, Autocomplete, Card } from '@sanity/ui';
+import { StringInputProps, definePlugin, defineType, set, unset } from 'sanity';
 import {
 	parseZonedDateTime,
 	ZonedDateTime,
-	toZoned,
 	now,
-	getLocalTimeZone
+	getLocalTimeZone,
+	toCalendarDateTime,
+	toZoned
 } from '@internationalized/date';
-import styled from 'styled-components';
+import DateTimePicker from './dateTimePicker';
 
-const StyledDialog = styled(Dialog)`
-	--card-bg-color: ${(props) => {
-		console.log(props);
-		return 'blue';
-	}};
-`;
-
-function LocalDateInputComponent(props: StringInputProps) {
-	const value = props.value;
-
-	const value2 = value ? new Date(value) : undefined;
-
-	const inputProps = { ...props };
-
+function LocalDateInputComponent({ value, ...props }: StringInputProps) {
 	// @ts-expect-error
-	console.log(Intl.supportedValuesOf('timeZone'));
-	const timezone = getLocalTimeZone();
+	const timezonesList = Intl.supportedValuesOf('timeZone') as string[];
+	let valueZonedDT: ZonedDateTime;
+	const nowLocal = now(getLocalTimeZone());
 
-	console.log(`${value} - ${value2}`);
-
-	const parsed = value ? new Date(`${value}Z`) : undefined;
-
-	let formattedOptions: string[] | undefined;
-	if (parsed) {
-		try {
-			console.log(parsed);
-			formattedOptions = [parsed.toISOString()];
-		} catch (e) {}
+	try {
+		valueZonedDT = value ? parseZonedDateTime(value) : nowLocal;
+	} catch {
+		console.error('parse error');
+		valueZonedDT = nowLocal;
 	}
+
+	const [dateState, setDateState] = useState(valueZonedDT);
+	const currentTimezone = dateState.timeZone;
+
+	console.log('valueZonedDatetime:', valueZonedDT);
+	console.log('dateState:', dateState);
+
+	const handleTimezoneChange = useCallback(
+		(timezone: string) => {
+			const plainDateTime = toCalendarDateTime(dateState);
+			const newDate = toZoned(plainDateTime, timezone);
+			setDateState(newDate);
+
+			console.log('handling change', newDate);
+			const nextValue = newDate.toString();
+			console.log('nextValue', nextValue);
+			props.onChange(nextValue ? set(nextValue) : unset());
+		},
+		[props.onChange, dateState]
+	);
 
 	const handleChange = useCallback(
 		(newDate: ZonedDateTime) => {
-			console.log('handling change');
+			console.log('handling change', newDate);
+
 			const nextValue = newDate.toString();
-			console.log(nextValue);
-			props.onChange(nextValue ? set(nextValue) : unset());
+
+			try {
+				// check that the date is valid
+				const check = parseZonedDateTime(nextValue);
+				console.log(check);
+
+				console.log('nextValue', nextValue);
+				props.onChange(nextValue ? set(nextValue) : unset());
+			} catch {}
+
+			setDateState(newDate);
 		},
 		[props.onChange]
 	);
 
-	let value3: ZonedDateTime | undefined;
-
-	try {
-		value3 = props.value ? parseZonedDateTime(props.value) : undefined;
-	} catch {}
-
 	return (
 		<ThemeProvider>
-			<Stack space={4}>
-				<Provider theme={defaultTheme}>
-					<SpectrumDatePicker
-						onChange={handleChange}
-						value={value3}
-						granularity="minute"
-						showFormatHelpText
-						maxVisibleMonths={2}
-						isQuiet
-						width="100%"
-					/>
-				</Provider>
+			<Stack space={2}>
+				<DateTimePicker value={dateState} onChange={handleChange} />
+				<Autocomplete
+					id="timezone-autocomplete"
+					onSelect={handleTimezoneChange}
+					openButton
+					placeholder={currentTimezone.replace('_', ' ')}
+					renderOption={(option) => <Card as="button">{option.value.replace('_', ' ')}</Card>}
+					options={timezonesList.map((value) => ({ value }))}
+				/>
 				<Text>value: {value}</Text>
 			</Stack>
 		</ThemeProvider>
