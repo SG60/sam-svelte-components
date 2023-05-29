@@ -1,5 +1,11 @@
 # @samsveltecomponents/core
 
+## 1.2.3
+
+### Patch Changes
+
+- 79516ea: Small dep bump
+
 ## 1.2.2
 
 ### Patch Changes
