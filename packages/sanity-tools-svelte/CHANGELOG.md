@@ -1,5 +1,13 @@
 # @samgreening/sanity-tools
 
+## 0.1.4
+
+### Patch Changes
+
+- 79516ea: Small dep bump
+- Updated dependencies [79516ea]
+  - @samsveltecomponents/youtube-lite@0.1.11
+
 ## 0.1.3
 
 ### Patch Changes

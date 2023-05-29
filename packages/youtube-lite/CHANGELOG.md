@@ -1,5 +1,11 @@
 # @samsveltecomponents/youtube-lite
 
+## 0.1.11
+
+### Patch Changes
+
+- 79516ea: Small dep bump
+
 ## 0.1.10
 
 ### Patch Changes

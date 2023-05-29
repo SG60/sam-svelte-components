@@ -1,5 +1,11 @@
 # docs
 
+## 0.1.1
+
+### Patch Changes
+
+- 79516ea: Small dep bump
+
 ## 0.1.0
 
 ### Minor Changes
