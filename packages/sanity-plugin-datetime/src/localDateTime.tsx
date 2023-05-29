@@ -1,6 +1,16 @@
 import React, { useCallback, useState } from 'react';
 import { Stack, Text, ThemeProvider, Autocomplete, Card } from '@sanity/ui';
-import { definePlugin, defineType, set, unset, ObjectInputProps } from 'sanity';
+import {
+	definePlugin,
+	defineType,
+	set,
+	unset,
+	ObjectInputProps,
+	DiffFromTo,
+	DiffComponent,
+	ObjectDiff,
+	FieldPreviewComponent
+} from 'sanity';
 import {
 	parseZonedDateTime,
 	ZonedDateTime,
@@ -95,9 +105,14 @@ function LocalDateInputComponent({ value, ...props }: ObjectInputProps<Fields>) 
 				<Text>
 					{dateState?.toDate().toLocaleString(undefined, {
 						timeZone: dateState.timeZone,
-						dateStyle: 'full',
-						timeStyle: 'short',
-						hour12: true
+						hour12: true,
+						weekday: 'long',
+						year: 'numeric',
+						month: 'short',
+						day: 'numeric',
+						hour: '2-digit',
+						minute: 'numeric',
+						timeZoneName: 'short'
 					})}
 				</Text>
 			</Stack>
@@ -105,10 +120,46 @@ function LocalDateInputComponent({ value, ...props }: ObjectInputProps<Fields>) 
 	);
 }
 
-type Fields = {
+const CustomDiffComponent: DiffComponent<ObjectDiff<Fields>> = ({ diff, schemaType }) => {
+	return (
+		<DiffFromTo
+			diff={diff}
+			schemaType={schemaType}
+			previewComponent={CustomPreviewComponent}
+			layout="grid"
+		/>
+	);
+};
+
+const CustomPreviewComponent: FieldPreviewComponent<Fields> = ({ value }) => {
+	let valueZonedDT: ZonedDateTime | null;
+	try {
+		valueZonedDT = value.datetimeZoned ? parseZonedDateTime(value.datetimeZoned) : null;
+	} catch {
+		console.error('parse error');
+		valueZonedDT = null;
+	}
+
+	return (
+		<Text>
+			{valueZonedDT?.toDate().toLocaleString(undefined, {
+				timeZone: valueZonedDT.timeZone,
+				year: 'numeric',
+				month: 'short',
+				day: 'numeric',
+				hour: '2-digit',
+				minute: 'numeric',
+				hour12: false,
+				timeZoneName: 'short'
+			})}
+		</Text>
+	);
+};
+
+interface Fields {
 	datetimeZoned: string;
 	datetimeUTC: string;
-};
+}
 
 const localDateTimeType = defineType({
 	name: 'local-datetime',
@@ -117,7 +168,7 @@ const localDateTimeType = defineType({
 		{ name: 'datetimeZoned', type: 'string' },
 		{ name: 'datetimeUTC', type: 'datetime' }
 	],
-	components: { input: LocalDateInputComponent }
+	components: { input: LocalDateInputComponent, diff: CustomDiffComponent }
 });
 
 interface MyPluginConfig {
