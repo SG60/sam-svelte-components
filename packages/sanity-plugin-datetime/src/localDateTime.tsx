@@ -26,22 +26,23 @@ function LocalDateInputComponent({ value, ...props }: ObjectInputProps<Fields>) 
 	const nowLocal = now(localTimezone);
 	const datetime = value?.datetimeZoned;
 
-	let valueZonedDT: ZonedDateTime;
+	let valueZonedDT: ZonedDateTime | null;
 	try {
-		valueZonedDT = datetime ? parseZonedDateTime(datetime) : nowLocal;
+		valueZonedDT = datetime ? parseZonedDateTime(datetime) : null;
 	} catch {
 		console.error('parse error');
-		valueZonedDT = nowLocal;
+		valueZonedDT = null;
 	}
 
 	const [dateState, setDateState] = useState(valueZonedDT);
-	const currentTimezone = dateState.timeZone;
+	const [currentTimezone, setCurrentTimezone] = useState(dateState?.timeZone ?? localTimezone);
 
 	const handleTimezoneChange = useCallback(
 		(timezone: string) => {
-			const plainDateTime = toCalendarDateTime(dateState);
+			const plainDateTime = toCalendarDateTime(dateState ?? nowLocal);
 			const newDate = toZoned(plainDateTime, timezone);
 			setDateState(newDate);
+			setCurrentTimezone(timezone);
 
 			console.log('handling change', newDate);
 			const nextValue = createLocalDatetimeObject(newDate);
@@ -74,7 +75,15 @@ function LocalDateInputComponent({ value, ...props }: ObjectInputProps<Fields>) 
 	return (
 		<ThemeProvider>
 			<Stack space={2}>
-				<DateTimePicker value={dateState} onChange={handleChange} />
+				<DateTimePicker
+					value={dateState}
+					placeholderValue={now(currentTimezone)}
+					onChange={handleChange}
+					clearValue={() => {
+						setDateState(null);
+						props.onChange(unset());
+					}}
+				/>
 				<Autocomplete
 					id="timezone-autocomplete"
 					onSelect={handleTimezoneChange}
@@ -84,7 +93,7 @@ function LocalDateInputComponent({ value, ...props }: ObjectInputProps<Fields>) 
 					options={timezonesList.map((value) => ({ value }))}
 				/>
 				<Text>
-					{dateState.toDate().toLocaleString(undefined, {
+					{dateState?.toDate().toLocaleString(undefined, {
 						timeZone: dateState.timeZone,
 						dateStyle: 'full',
 						timeStyle: 'short',

@@ -1,5 +1,5 @@
 import React from 'react';
-import type { DatePickerProps, DateValue } from 'react-aria-components';
+import { DatePickerProps, DateValue } from 'react-aria-components';
 import {
 	DatePicker,
 	Group,
@@ -15,13 +15,15 @@ import {
 	Label,
 	DateSegment
 } from 'react-aria-components';
-import { Card, studioTheme } from '@sanity/ui';
+import { Box, Card, Flex, Button as SanityButton, studioTheme } from '@sanity/ui';
 import styled, { ThemeProvider } from 'styled-components';
+import { CalendarIcon, CloseIcon } from '@sanity/icons';
 
 export interface DateTimePickerProps<T extends DateValue> extends DatePickerProps<T> {
 	label?: string;
 	description?: string;
 	errorMessage?: string;
+	clearValue: () => void;
 }
 
 const ThemeVarsStyled = styled.div`
@@ -49,6 +51,7 @@ function DateTimePicker<T extends DateValue>({
 	description,
 	errorMessage,
 	granularity = 'minute',
+	clearValue,
 	...props
 }: DateTimePickerProps<T>) {
 	return (
@@ -59,7 +62,25 @@ function DateTimePicker<T extends DateValue>({
 					<Group>
 						<DateInput>{(segment) => <DateSegment segment={segment} />}</DateInput>
 						<Card border>
-						<Button>▼</Button>
+							<Flex>
+								<Box padding={1}>
+									<SanityButton
+										aria-label="Clear"
+										data-qa="clear-button"
+										fontSize={2}
+										icon={CloseIcon}
+										mode="bleed"
+										padding={2}
+										onClick={() => {
+											clearValue();
+										}}
+										// onMouseDown={handleClearMouseDown}
+									/>
+								</Box>
+								<Button>
+									<CalendarIcon />
+								</Button>
+							</Flex>
 						</Card>
 					</Group>
 					{description && <Text slot="description">{description}</Text>}
