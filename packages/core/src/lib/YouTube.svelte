@@ -1,4 +1,4 @@
-<script type="ts">
+<script lang="ts">
 	export let id: string;
 	export let title = 'YouTube Video';
 	const ytHost = 'https://www.youtube.com';
