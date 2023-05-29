@@ -40,10 +40,10 @@
 		"react-dom": "18.2.0",
 		"storybook": "7.0.7",
 		"svelte": "3.55.0",
-		"svelte-check": "3.3.2",
+		"svelte-check": "3.4.3",
 		"tailwindcss": "3.3.2",
 		"typescript": "5.0.4",
-		"vite": "4.3.5"
+		"vite": "4.3.9"
 	},
 	"type": "module"
 }
