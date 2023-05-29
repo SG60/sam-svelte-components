@@ -15,7 +15,7 @@ import {
 	Label,
 	DateSegment
 } from 'react-aria-components';
-import { studioTheme } from '@sanity/ui';
+import { Card, studioTheme } from '@sanity/ui';
 import styled, { ThemeProvider } from 'styled-components';
 
 export interface DateTimePickerProps<T extends DateValue> extends DatePickerProps<T> {
@@ -24,7 +24,7 @@ export interface DateTimePickerProps<T extends DateValue> extends DatePickerProp
 	errorMessage?: string;
 }
 
-const StyledPopover = styled(Popover)`
+const ThemeVarsStyled = styled.div`
 	${(props) => {
 		let theme = props.theme as typeof studioTheme;
 
@@ -53,28 +53,32 @@ function DateTimePicker<T extends DateValue>({
 }: DateTimePickerProps<T>) {
 	return (
 		<ThemeProvider theme={studioTheme}>
-			<DatePicker granularity={granularity} {...props}>
-				<Label>{label}</Label>
-				<Group>
-					<DateInput>{(segment) => <DateSegment segment={segment} />}</DateInput>
-					<Button>▼</Button>
-				</Group>
-				{description && <Text slot="description">{description}</Text>}
-				{errorMessage && <Text slot="errorMessage">{errorMessage}</Text>}
-				<StyledPopover className="react-aria-Popover">
-					<Dialog>
-						<Calendar>
-							<header>
-								<Button slot="previous">◀</Button>
-								<Heading />
-								<Button slot="next">▶</Button>
-							</header>
-							<CalendarGrid>{(date) => <CalendarCell date={date} />}</CalendarGrid>
-							{errorMessage && <Text slot="errorMessage">{errorMessage}</Text>}
-						</Calendar>
-					</Dialog>
-				</StyledPopover>
-			</DatePicker>
+			<ThemeVarsStyled>
+				<DatePicker granularity={granularity} {...props}>
+					<Label>{label}</Label>
+					<Group>
+						<DateInput>{(segment) => <DateSegment segment={segment} />}</DateInput>
+						<Card border>
+						<Button>▼</Button>
+						</Card>
+					</Group>
+					{description && <Text slot="description">{description}</Text>}
+					{errorMessage && <Text slot="errorMessage">{errorMessage}</Text>}
+					<ThemeVarsStyled as={Popover} className="react-aria-Popover">
+						<Dialog>
+							<Calendar>
+								<header>
+									<Button slot="previous">◀</Button>
+									<Heading />
+									<Button slot="next">▶</Button>
+								</header>
+								<CalendarGrid>{(date) => <CalendarCell date={date} />}</CalendarGrid>
+								{errorMessage && <Text slot="errorMessage">{errorMessage}</Text>}
+							</Calendar>
+						</Dialog>
+					</ThemeVarsStyled>
+				</DatePicker>
+			</ThemeVarsStyled>
 		</ThemeProvider>
 	);
 }

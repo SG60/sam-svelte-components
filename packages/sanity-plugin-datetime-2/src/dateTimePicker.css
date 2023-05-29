@@ -3,25 +3,25 @@
 
   .react-aria-Group {
     display: flex;
-    width: fit-content;
-    align-items: center;
+    width: 100%;
   }
 
   .react-aria-Button {
-    background: slateblue;
+    background: none;
     color: white;
-    border-radius: 4px;
     border: none;
     appearance: none;
-    margin-left: -1.929rem;
-    width: 1.429rem;
-    height: 1.429rem;
-    padding: 0;
+    /* width: 2.3rem; */
+    /* height: 100%; */
+    aspect-ratio: 1/1;
+    margin: 0.2rem;
     vertical-align: middle;
-    font-size: 0.857rem;
+    font-size: 1rem;
     outline: none;
-    box-sizing: content-box;
-    border: 2px solid var(--page-background);
+
+    &:hover {
+      background: slateblue;
+    }
 
     &[data-focus-visible] {
       box-shadow: 0 0 0 2px slateblue;
@@ -48,14 +48,15 @@
   --highlight-foreground: white;
   --highlight-background-invalid: var(--card-accent-fg-color);
 
+  flex: 1;
   display: flex;
-  padding: 4px 2.5rem 4px 8px;
+  padding: 0.4375rem 2.5rem 0.4375rem 8px;
   border: 1px solid var(--field-border);
-  border-radius: 6px;
+  border-radius: 6px 0px 0px 6px;
   background: var(--field-background);
-  width: fit-content;
   min-width: 150px;
   white-space: nowrap;
+  box-sizing: border-box;
 
   &:focus-within {
     border-color: var(--highlight-background);

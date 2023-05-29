@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react';
-import { Stack, Text, ThemeProvider, Select, Autocomplete, Card } from '@sanity/ui';
-import { StringInputProps, definePlugin, defineType, set, unset } from 'sanity';
+import { Stack, Text, ThemeProvider, Autocomplete, Card } from '@sanity/ui';
+import { definePlugin, defineType, set, unset, ObjectInputProps } from 'sanity';
 import {
 	parseZonedDateTime,
 	ZonedDateTime,
@@ -11,14 +11,24 @@ import {
 } from '@internationalized/date';
 import DateTimePicker from './dateTimePicker';
 
-function LocalDateInputComponent({ value, ...props }: StringInputProps) {
+function createLocalDatetimeObject(datetime: ZonedDateTime) {
+	return {
+		datetimeZoned: datetime.toString(),
+		datetimeUTC: datetime.toAbsoluteString()
+	};
+}
+
+function LocalDateInputComponent({ value, ...props }: ObjectInputProps<Fields>) {
 	// @ts-expect-error
 	const timezonesList = Intl.supportedValuesOf('timeZone') as string[];
-	let valueZonedDT: ZonedDateTime;
-	const nowLocal = now(getLocalTimeZone());
 
+	const localTimezone = getLocalTimeZone();
+	const nowLocal = now(localTimezone);
+	const datetime = value?.datetimeZoned;
+
+	let valueZonedDT: ZonedDateTime;
 	try {
-		valueZonedDT = value ? parseZonedDateTime(value) : nowLocal;
+		valueZonedDT = datetime ? parseZonedDateTime(datetime) : nowLocal;
 	} catch {
 		console.error('parse error');
 		valueZonedDT = nowLocal;
@@ -27,9 +37,6 @@ function LocalDateInputComponent({ value, ...props }: StringInputProps) {
 	const [dateState, setDateState] = useState(valueZonedDT);
 	const currentTimezone = dateState.timeZone;
 
-	console.log('valueZonedDatetime:', valueZonedDT);
-	console.log('dateState:', dateState);
-
 	const handleTimezoneChange = useCallback(
 		(timezone: string) => {
 			const plainDateTime = toCalendarDateTime(dateState);
@@ -37,7 +44,7 @@ function LocalDateInputComponent({ value, ...props }: StringInputProps) {
 			setDateState(newDate);
 
 			console.log('handling change', newDate);
-			const nextValue = newDate.toString();
+			const nextValue = createLocalDatetimeObject(newDate);
 			console.log('nextValue', nextValue);
 			props.onChange(nextValue ? set(nextValue) : unset());
 		},
@@ -48,11 +55,11 @@ function LocalDateInputComponent({ value, ...props }: StringInputProps) {
 		(newDate: ZonedDateTime) => {
 			console.log('handling change', newDate);
 
-			const nextValue = newDate.toString();
+			const nextValue = createLocalDatetimeObject(newDate);
 
 			try {
 				// check that the date is valid
-				const check = parseZonedDateTime(nextValue);
+				const check = parseZonedDateTime(nextValue.datetimeZoned);
 				console.log(check);
 
 				console.log('nextValue', nextValue);
@@ -76,15 +83,31 @@ function LocalDateInputComponent({ value, ...props }: StringInputProps) {
 					renderOption={(option) => <Card as="button">{option.value.replace('_', ' ')}</Card>}
 					options={timezonesList.map((value) => ({ value }))}
 				/>
-				<Text>value: {value}</Text>
+				<Text>
+					{dateState.toDate().toLocaleString(undefined, {
+						timeZone: dateState.timeZone,
+						dateStyle: 'full',
+						timeStyle: 'short',
+						hour12: true
+					})}
+				</Text>
 			</Stack>
 		</ThemeProvider>
 	);
 }
 
+type Fields = {
+	datetimeZoned: string;
+	datetimeUTC: string;
+};
+
 const localDateTimeType = defineType({
 	name: 'local-datetime',
-	type: 'string',
+	type: 'object',
+	fields: [
+		{ name: 'datetimeZoned', type: 'string' },
+		{ name: 'datetimeUTC', type: 'datetime' }
+	],
 	components: { input: LocalDateInputComponent }
 });
 
