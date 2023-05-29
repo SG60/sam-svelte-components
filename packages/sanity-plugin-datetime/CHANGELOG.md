@@ -1,5 +1,12 @@
 # @samgreening/sanity-plugin-datetime
 
+## 0.2.0
+
+### Minor Changes
+
+- 7a13f0a: Clear button for local datetime input, and better placeholder handling.
+- 67e5b94: A better diff preview
+
 ## 0.1.2
 
 ### Patch Changes
