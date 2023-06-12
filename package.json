@@ -21,6 +21,6 @@
 		"@changesets/cli": "2.25.2",
 		"turbo": "1.9.3"
 	},
-	"packageManager": "pnpm@8.6.0",
+	"packageManager": "pnpm@8.6.2",
 	"type": "module"
 }
