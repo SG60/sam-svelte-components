@@ -1,5 +1,11 @@
 # docs
 
+## 1.0.0
+
+### Major Changes
+
+- 153bca2: Fixes for new youtube-lite package
+
 ## 0.1.1
 
 ### Patch Changes

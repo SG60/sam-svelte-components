@@ -1,6 +1,6 @@
 {
 	"name": "@samsveltecomponents/youtube-lite",
-	"version": "0.1.11",
+	"version": "1.0.0",
 	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev",
