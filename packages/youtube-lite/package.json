@@ -30,7 +30,7 @@
 		"vite": "4.5.1"
 	},
 	"peerDependencies": {
-		"svelte": "^3.55.0 || ^4"
+		"svelte": "^4"
 	},
 	"type": "module",
 	"exports": {
