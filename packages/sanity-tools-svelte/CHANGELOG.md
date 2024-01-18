@@ -1,5 +1,16 @@
 # @samgreening/sanity-tools
 
+## 2.0.0
+
+### Major Changes
+
+- 423eb21: raise svelte peerdependency requirement
+
+### Patch Changes
+
+- Updated dependencies [423eb21]
+  - @samsveltecomponents/youtube-lite@2.0.0
+
 ## 1.0.0
 
 ### Major Changes
