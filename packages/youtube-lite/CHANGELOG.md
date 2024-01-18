@@ -1,5 +1,12 @@
 # @samsveltecomponents/youtube-lite
 
+## 1.0.0
+
+### Major Changes
+
+- 153bca2: Fixes for new youtube-lite package
+- 12d5887: Update svelte-package to v2
+
 ## 0.1.11
 
 ### Patch Changes
