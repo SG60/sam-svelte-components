@@ -4,7 +4,8 @@ node_modules
 # generated files and output
 /build
 /packages/*/build/
-/packages/**/package/
+/packages/*/dist/
+/packages/*/package/
 .svelte-kit/
 package/
 /storybook/storybook-static

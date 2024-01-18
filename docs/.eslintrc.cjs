@@ -1,6 +1,6 @@
 module.exports = {
 	root: true,
-	extends: ['eslint:recommended', 'prettier', 'plugin:storybook/recommended'],
+	extends: ['eslint:recommended', 'prettier'],
 	plugins: ['svelte3'],
 	overrides: [
 		{

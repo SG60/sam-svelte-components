@@ -25,7 +25,11 @@
 			"outputs": [".svelte-kit/**", "package/**"]
 		},
 		"check": {
-			"dependsOn": [],
+			// A package's `build` script depends on that package's
+			// dependencies and devDependencies
+			// `build` tasks  being completed first
+			// (the `^` symbol signifies `upstream`).
+			"dependsOn": ["^build"],
 			"outputs": [],
 			// A package's `check` script should only be rerun when
 			// either a `.svelte` or `.ts` file has changed in `src` folders.
