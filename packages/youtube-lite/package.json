@@ -10,8 +10,10 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write ."
 	},
+	"dependencies": {
+		"@justinribeiro/lite-youtube": "^1.4.0"
+	},
 	"devDependencies": {
-		"@justinribeiro/lite-youtube": "1.4.0",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "1.15.9",
 		"@sveltejs/package": "^2.0.0",
