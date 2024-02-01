@@ -1,6 +1,6 @@
 {
 	"name": "@samgreening/sanity-tools-svelte",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/sg60/sam-svelte-components.git",
