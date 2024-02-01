@@ -1,5 +1,11 @@
 # @samsveltecomponents/youtube-lite
 
+## 2.0.1
+
+### Patch Changes
+
+- a2b5454: Add @justinribeiro/lite-youtube as a runtime dep
+
 ## 2.0.0
 
 ### Major Changes

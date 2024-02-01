@@ -1,5 +1,12 @@
 # @samgreening/sanity-tools
 
+## 2.0.2
+
+### Patch Changes
+
+- Updated dependencies [a2b5454]
+  - @samsveltecomponents/youtube-lite@2.0.1
+
 ## 2.0.1
 
 ### Patch Changes
