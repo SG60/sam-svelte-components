@@ -1,5 +1,15 @@
 # @samsveltecomponents/core
 
+## 1.4.0
+
+### Minor Changes
+
+- 040e3f6: fixed @samsveltecomponents/core packaging (svelte entries in the exports map)
+
+### Patch Changes
+
+- a2b9053: fix some turbo lint errors
+
 ## 1.2.3
 
 ### Patch Changes
