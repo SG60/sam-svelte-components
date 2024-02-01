@@ -220,14 +220,13 @@ importers:
         version: 5.1.6
 
   packages/sanity-tools-svelte:
-    dependencies:
-      '@samsveltecomponents/youtube-lite':
-        specifier: workspace:*
-        version: link:../youtube-lite
     devDependencies:
       '@portabletext/svelte':
         specifier: 2.0.0
         version: 2.0.0(svelte@3.55.0)
+      '@samsveltecomponents/youtube-lite':
+        specifier: workspace:*
+        version: link:../youtube-lite
       '@sanity/ui':
         specifier: 1.3.2
         version: 1.3.2(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)(styled-components@5.3.10)
