@@ -18,13 +18,13 @@
 			"groupName": "SvelteKit monorepo"
 		},
 		{
-			"extends": "monorepo:storybook",
+			"extends": ["monorepo:storybook"],
 			"matchUpdateTypes": ["digest", "patch", "minor", "major"],
 			"groupName": "storybook monorepo",
 			"automerge": true
 		},
 		{
-			"extends": "monorepo:babel",
+			"extends": ["monorepo:babel"],
 			"matchUpdateTypes": ["digest", "patch", "minor", "major"],
 			"groupName": "babel monorepo",
 			"automerge": true
