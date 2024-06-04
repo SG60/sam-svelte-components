@@ -38,7 +38,7 @@
 	},
 	"devDependencies": {
 		"@samsveltecomponents/youtube-lite": "workspace:*",
-		"@portabletext/svelte": "2.0.0",
+		"@portabletext/svelte": "2.1.11",
 		"@sanity/ui": "1.9.3",
 		"@sveltejs/adapter-auto": "2.1.1",
 		"@sveltejs/kit": "1.30.4",
