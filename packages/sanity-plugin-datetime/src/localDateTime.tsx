@@ -28,7 +28,7 @@ function createLocalDatetimeObject(datetime: ZonedDateTime) {
 	};
 }
 
-function LocalDateInputComponent({ value, ...props }: ObjectInputProps<Fields>) {
+const LocalDateInputComponent: React.ComponentType<ObjectInputProps> = ({ value, ...props }) => {
 	// @ts-expect-error
 	const timezonesList = Intl.supportedValuesOf('timeZone') as string[];
 
@@ -118,7 +118,7 @@ function LocalDateInputComponent({ value, ...props }: ObjectInputProps<Fields>) 
 			</Stack>
 		</ThemeProvider>
 	);
-}
+};
 
 const CustomDiffComponent: DiffComponent<ObjectDiff<Fields>> = ({ diff, schemaType }) => {
 	return (
