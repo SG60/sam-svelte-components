@@ -1,5 +1,11 @@
 # @samgreening/sanity-plugin-datetime
 
+## 1.0.0
+
+### Major Changes
+
+- 484b46a: Updates to work with newer Sanity Studio
+
 ## 0.2.0
 
 ### Minor Changes
