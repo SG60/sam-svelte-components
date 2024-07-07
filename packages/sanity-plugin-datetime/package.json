@@ -7,7 +7,10 @@
 	"author": "",
 	"exports": {
 		".": {
-			"import": "./src/index.ts"
+			"default": {
+				"types": "./dist/index.d.ts",
+				"default": "./dist/index.js"
+			}
 		},
 		"./src/*": {
 			"import": "./src/*"
@@ -17,14 +20,18 @@
 			"import": "./src/*.css"
 		}
 	},
-	"main": "src/index.ts",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
 	"files": [
 		"src",
 		"!src/**/*.test.*",
-		"!src/**/*.spec.*"
+		"!src/**/*.spec.*",
+		"dist/**"
 	],
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "rm -r dist && tsc",
+		"watch": "tsc --watch"
 	},
 	"dependencies": {
 		"@adobe/react-spectrum": "^3.35.1",
