@@ -1,5 +1,11 @@
 # @samgreening/sanity-plugin-datetime
 
+## 1.1.1
+
+### Patch Changes
+
+- 50a230e: chore: packaging improvement (use react-jsx in tsconfig)
+
 ## 1.1.0
 
 ### Minor Changes
