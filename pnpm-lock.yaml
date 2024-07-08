@@ -150,8 +150,8 @@ importers:
         specifier: 3.8.4
         version: 3.8.4(@babel/core@7.24.7)(postcss@8.4.41)(svelte@3.55.0)
       svelte-loader:
-        specifier: 3.2.0
-        version: 3.2.0(svelte@3.55.0)
+        specifier: 3.2.3
+        version: 3.2.3(svelte@3.55.0)
       svelte-preprocess:
         specifier: 5.0.4
         version: 5.0.4(svelte@3.55.0)(typescript@5.5.4)
@@ -18918,8 +18918,8 @@ packages:
       svelte: 3.55.0
     dev: true
 
-  /svelte-loader@3.2.0(svelte@3.55.0):
-    resolution: {integrity: sha512-pxsNMC/1JHdQ63M0Zw5cS8dN299nvMiU2ze8yWPLlov/xBNXElEEM22so2q/vJDUyP0ZCrCVMV1d/tlWwxMRLA==}
+  /svelte-loader@3.2.3(svelte@3.55.0):
+    resolution: {integrity: sha512-ntitVuO0EneIlw5Zsn/GNnxu8+KkqbfrsjEGvk7qrd67IA24OBVqY9p0NjUGlpewPxGL3iD4z/8VA+hM9AsZxA==}
     peerDependencies:
       svelte: ^3.0.0 || ^4.0.0-next.0 || ^5.0.0-next.1
     dependencies:
