@@ -1,5 +1,11 @@
 # @samgreening/sanity-plugin-datetime
 
+## 1.1.0
+
+### Minor Changes
+
+- 94964d5: Improve Typescript packaging and build setup of sanity-plugin-datetime
+
 ## 1.0.0
 
 ### Major Changes
