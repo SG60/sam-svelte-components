@@ -14,8 +14,8 @@
 	"rangeStrategy": "auto",
 	"packageRules": [
 		{
-			"matchPackagePatterns": ["^@sveltejs/"],
-			"groupName": "SvelteKit monorepo"
+			"groupName": "SvelteKit monorepo",
+			"matchPackageNames": ["/^@sveltejs//"]
 		},
 		{
 			"extends": ["monorepo:storybook"],
