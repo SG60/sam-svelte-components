@@ -65,7 +65,7 @@ jobs:
 
         # 👇 Adds Chromatic as a step in the workflow
       - name: Publish to Chromatic
-        uses: chromaui/action@fdbe7756d4dbf493e2fbb822df73be7accd07e1c # v11
+        uses: chromaui/action@e90c5a5e3bc2eb3b8e110d606f56a0f44fa47700 # v11
         # Chromatic GitHub Action options
         with:
           # 👇 Chromatic projectToken, refer to the manage page to obtain it.
