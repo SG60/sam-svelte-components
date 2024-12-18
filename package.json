@@ -18,7 +18,7 @@
 		"release": "changeset publish"
 	},
 	"devDependencies": {
-		"@changesets/cli": "2.27.7",
+		"@changesets/cli": "2.27.11",
 		"turbo": "1.9.3"
 	},
 	"packageManager": "pnpm@8.10.0",
