@@ -41,7 +41,7 @@
 		"@portabletext/svelte": "2.1.11",
 		"@sanity/ui": "1.9.3",
 		"@sveltejs/adapter-auto": "2.1.1",
-		"@sveltejs/kit": "1.30.4",
+		"@sveltejs/kit": "2.8.3",
 		"@sveltejs/package": "2.3.1",
 		"@typescript-eslint/eslint-plugin": "5.46.1",
 		"@typescript-eslint/parser": "5.46.1",
