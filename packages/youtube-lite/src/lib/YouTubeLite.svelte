@@ -1,7 +1,7 @@
 <script>
 	import { BROWSER } from 'esm-env';
 
-	/** @type {{ id: string, title: string }} */
+	/** @type {{ id: string, title: string | undefined }} */
 	let { id, title = 'YouTube Video' } = $props();
 
 	if (BROWSER) {
