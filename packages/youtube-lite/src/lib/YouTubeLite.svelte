@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { browser } from '$app/environment';
+	import { BROWSER } from 'esm-env';
 	export let id: string;
 	export let title = 'YouTube Video';
 
-	if (browser) {
+	if (BROWSER) {
 		// This custom element import only works in the browser
 		import('@justinribeiro/lite-youtube');
 	}
