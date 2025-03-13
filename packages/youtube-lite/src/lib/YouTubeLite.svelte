@@ -1,7 +1,8 @@
-<script lang="ts">
+<script>
 	import { BROWSER } from 'esm-env';
-	export let id: string;
-	export let title = 'YouTube Video';
+
+	/** @type {{ id: string, title: string }} */
+	let { id, title = 'YouTube Video' } = $props();
 
 	if (BROWSER) {
 		// This custom element import only works in the browser
